@@ -1,0 +1,25 @@
+<?xml version='1.0' standalone='yes'?>
+<config>
+    <form1>
+        <batch>
+            <position>0</position>
+            <length>10</length>
+        </batch>
+        <dd>
+            <position>13</position>
+            <length>2</length>
+        </dd>
+        <mm>
+            <position>15</position>
+            <length>2</length>
+        </mm>
+        <yy>
+            <position>17</position>
+            <length>2</length>
+        </yy>
+        <uid>
+            <position>20</position>
+            <length>3</length>
+        </uid>
+    </form1>
+</config>

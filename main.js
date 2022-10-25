@@ -216,4 +216,6 @@ const validate_alphanum =(evt)=>{
     }
 }
 
-
+const matrix =(table)=>{
+    console.log(table);
+}

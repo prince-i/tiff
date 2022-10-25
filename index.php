@@ -77,8 +77,6 @@
 	<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
 	<script type="text/javascript" src="node_modules/tiff.js/tiff.min.js"></script>
 	<script src="main.js"></script>
-	<script type="text/javascript">
 	
-	</script>
 </body>
 </html>

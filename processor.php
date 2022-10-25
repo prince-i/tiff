@@ -38,12 +38,14 @@ if($method == 'fetch_form'){
                 $DISABLE = 'disabled';
             }
 
+            $AK_FUNC = $row['AKEY'];
+
             ## IF NUMERIC
             if($TYPE == 'N'){
                 $TYPE = 'text';
                 echo '<div class="input-field col s12">';
                 echo '<span class="fieldID" style="display:none;">'.$FIELD_ID.'</span>';
-                echo '<input type="'.$TYPE.'" class="keyedData" pattern="[A-Za-z0-9]" value="" id="'.$FIELD_ID.'" maxlength="'.$FIELD_LENGTH.'" name="'.$FIELD_ID.'" '.$DISABLE.' onkeypress="validate_numeric(event)"/>';
+                echo '<input type="'.$TYPE.'" class="keyedData" pattern="[A-Za-z0-9]" value="" id="'.$FIELD_ID.'" maxlength="'.$FIELD_LENGTH.'" name="'.$FIELD_ID.'" '.$DISABLE.' onkeypress="validate_numeric(event)" onclick="'.$AK_FUNC.'"/>';
                 echo  '<label class="fieldName">'.$FIELD_NAME.'</label>';
                 echo '</div>';
             }
@@ -53,7 +55,7 @@ if($method == 'fetch_form'){
                 $TYPE = 'text';
                 echo '<div class="input-field col s12">';
                 echo '<span class="fieldID" style="display:none;">'.$FIELD_ID.'</span>';
-                echo '<input type="'.$TYPE.'" class="keyedData" pattern="[A-Za-z0-9]" value="" id="'.$FIELD_ID.'" maxlength="'.$FIELD_LENGTH.'" name="'.$FIELD_ID.'" '.$DISABLE.' onkeypress="validate_alpha(event)"/>';
+                echo '<input type="'.$TYPE.'" class="keyedData" pattern="[A-Za-z0-9]" value="" id="'.$FIELD_ID.'" maxlength="'.$FIELD_LENGTH.'" name="'.$FIELD_ID.'" '.$DISABLE.' onkeypress="validate_alpha(event)" onclick="'.$AK_FUNC.'"/>';
                 echo  '<label class="fieldName">'.$FIELD_NAME.'</label>';
                 echo '</div>';
             }
@@ -63,7 +65,7 @@ if($method == 'fetch_form'){
                 $TYPE = 'text';
                 echo '<div class="input-field col s12">';
                 echo '<span class="fieldID" style="display:none;">'.$FIELD_ID.'</span>';
-                echo '<input type="'.$TYPE.'" class="keyedData" pattern="[A-Za-z0-9]" value="" id="'.$FIELD_ID.'" maxlength="'.$FIELD_LENGTH.'" name="'.$FIELD_ID.'" '.$DISABLE.' onkeypress="validate_alphanum(event)"/>';
+                echo '<input type="'.$TYPE.'" class="keyedData" pattern="[A-Za-z0-9]" value="" id="'.$FIELD_ID.'" maxlength="'.$FIELD_LENGTH.'" name="'.$FIELD_ID.'" '.$DISABLE.' onkeypress="validate_alphanum(event)" onclick="'.$AK_FUNC.'"/>';
                 echo  '<label class="fieldName">'.$FIELD_NAME.'</label>';
                 echo '</div>';
             }
@@ -71,7 +73,7 @@ if($method == 'fetch_form'){
                 $TYPE = 'text';
                 echo '<div class="input-field col s12">';
                 echo '<span class="fieldID" style="display:none;">'.$FIELD_ID.'</span>';
-                echo '<input type="'.$TYPE.'" class="keyedData" pattern="[A-Za-z0-9]" value="" id="'.$FIELD_ID.'" maxlength="'.$FIELD_LENGTH.'" name="'.$FIELD_ID.'" '.$DISABLE.'/>';
+                echo '<input type="'.$TYPE.'" class="keyedData" pattern="[A-Za-z0-9]" value="" id="'.$FIELD_ID.'" maxlength="'.$FIELD_LENGTH.'" name="'.$FIELD_ID.'" '.$DISABLE.' onclick="'.$AK_FUNC.'"/>';
                 echo  '<label class="fieldName">'.$FIELD_NAME.'</label>';
                 echo '</div>';
             }

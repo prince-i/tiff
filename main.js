@@ -217,5 +217,18 @@ const validate_alphanum =(evt)=>{
 }
 
 const matrix =(table)=>{
-    console.log(table);
+
+    $.ajax({
+        url:'datatable.php',
+        type: 'POST',
+        cache:false,
+        data:{
+            method:'fetch_matrix',
+            table:table
+        },success:function(response){
+            console.log(response);
+            
+            $('datalist#matrix').append(response);
+        }
+    })
 }

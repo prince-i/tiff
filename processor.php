@@ -39,43 +39,118 @@ if($method == 'fetch_form'){
             }
 
             $AK_FUNC = $row['AKEY'];
+            
+            ## DATALIST ID ASSIGNMENT
+            if(strpos($AK_FUNC,"matrix") !== false){
+                $DATALISTID = "matrix";
+            }
+            
+            else if(strpos($AK_FUN,"grantee") !==false){
+                $DATALISTID = "grantee";
+            }
+
+            else if(strpos($AK_FUN,"grantor") !==false){
+                $DATALISTID = "grantor";
+            }
+            else if(strpos($AK_FUN,"subd") !==false){
+                $DATALISTID = "subd";
+            }
+
+            else if(strpos($AK_FUN,"str") !==false){
+                $DATALISTID = "str";
+            }
+
+            else if(strpos($AK_FUN,"locates") !==false){
+                $DATALISTID = "locates";
+            }
+
 
             ## IF NUMERIC
             if($TYPE == 'N'){
                 $TYPE = 'text';
-                echo '<div class="input-field col s12">';
-                echo '<span class="fieldID" style="display:none;">'.$FIELD_ID.'</span>';
-                echo '<input type="'.$TYPE.'" class="keyedData" pattern="[A-Za-z0-9]" value="" id="'.$FIELD_ID.'" maxlength="'.$FIELD_LENGTH.'" name="'.$FIELD_ID.'" '.$DISABLE.' onkeypress="validate_numeric(event)" onclick="'.$AK_FUNC.'"/>';
-                echo  '<label class="fieldName">'.$FIELD_NAME.'</label>';
-                echo '</div>';
+
+                if(!empty($AK_FUNC)){
+                    echo '<div class="input-field col s12">';
+                    echo '<span class="fieldID" style="display:none;">'.$FIELD_ID.'</span>';
+                    echo '<input list="'.$DATALISTID.'" type="'.$TYPE.'" class="keyedData" pattern="[A-Za-z0-9]" value="" id="'.$FIELD_ID.'" maxlength="'.$FIELD_LENGTH.'" name="'.$FIELD_ID.'" '.$DISABLE.' onkeypress="validate_numeric(event)" onclick="'.$AK_FUNC.'"/>';
+                    echo  '<label class="fieldName">'.$FIELD_NAME.'</label>';
+                    echo '<datalist id="'.$DATALISTID.'">';
+                    echo '</datalist>';
+                    echo '</div>';
+
+                    echo '</div>';
+                }else{
+                    echo '<div class="input-field col s12">';
+                    echo '<span class="fieldID" style="display:none;">'.$FIELD_ID.'</span>';
+                    echo '<input type="'.$TYPE.'" class="keyedData" pattern="[A-Za-z0-9]" value="" id="'.$FIELD_ID.'" maxlength="'.$FIELD_LENGTH.'" name="'.$FIELD_ID.'" '.$DISABLE.' onkeypress="validate_numeric(event)" onclick="'.$AK_FUNC.'"/>';
+                    echo  '<label class="fieldName">'.$FIELD_NAME.'</label>';
+                    echo '</div>';
+                }
             }
             
             ## IF ALPHA ONLY
             elseif($TYPE == 'A'){
                 $TYPE = 'text';
-                echo '<div class="input-field col s12">';
-                echo '<span class="fieldID" style="display:none;">'.$FIELD_ID.'</span>';
-                echo '<input type="'.$TYPE.'" class="keyedData" pattern="[A-Za-z0-9]" value="" id="'.$FIELD_ID.'" maxlength="'.$FIELD_LENGTH.'" name="'.$FIELD_ID.'" '.$DISABLE.' onkeypress="validate_alpha(event)" onclick="'.$AK_FUNC.'"/>';
-                echo  '<label class="fieldName">'.$FIELD_NAME.'</label>';
-                echo '</div>';
+               
+                if(!empty($AK_FUNC)){
+                    echo '<div class="input-field col s12">';
+                    echo '<span class="fieldID" style="display:none;">'.$FIELD_ID.'</span>';
+                    echo '<input list="'.$DATALISTID.'" type="'.$TYPE.'" class="keyedData" pattern="[A-Za-z0-9]" value="" id="'.$FIELD_ID.'" maxlength="'.$FIELD_LENGTH.'" name="'.$FIELD_ID.'" '.$DISABLE.' onkeypress="validate_alpha(event)" onclick="'.$AK_FUNC.'"/>';
+                    echo  '<label class="fieldName">'.$FIELD_NAME.'</label>';
+                    echo '<datalist id="'.$DATALISTID.'">';
+                    echo '</datalist>';
+                    echo '</div>';
+                }else{
+                    echo '<div class="input-field col s12">';
+                    echo '<span class="fieldID" style="display:none;">'.$FIELD_ID.'</span>';
+                    echo '<input type="'.$TYPE.'" class="keyedData" pattern="[A-Za-z0-9]" value="" id="'.$FIELD_ID.'" maxlength="'.$FIELD_LENGTH.'" name="'.$FIELD_ID.'" '.$DISABLE.' onkeypress="validate_alpha(event)" onclick="'.$AK_FUNC.'"/>';
+                    echo  '<label class="fieldName">'.$FIELD_NAME.'</label>';
+                    
+                    echo '</div>';
+                }
+
             }
             
             ## IF ALPHA NUMERIC ONLY
             elseif($TYPE == 'AN'){
                 $TYPE = 'text';
-                echo '<div class="input-field col s12">';
-                echo '<span class="fieldID" style="display:none;">'.$FIELD_ID.'</span>';
-                echo '<input type="'.$TYPE.'" class="keyedData" pattern="[A-Za-z0-9]" value="" id="'.$FIELD_ID.'" maxlength="'.$FIELD_LENGTH.'" name="'.$FIELD_ID.'" '.$DISABLE.' onkeypress="validate_alphanum(event)" onclick="'.$AK_FUNC.'"/>';
-                echo  '<label class="fieldName">'.$FIELD_NAME.'</label>';
-                echo '</div>';
+
+                 if(!empty($AK_FUNC)){
+                    echo '<div class="input-field col s12">';
+                    echo '<span class="fieldID" style="display:none;">'.$FIELD_ID.'</span>';
+                    echo '<input list="'.$DATALISTID.'" type="'.$TYPE.'" class="keyedData" pattern="[A-Za-z0-9]" value="" id="'.$FIELD_ID.'" maxlength="'.$FIELD_LENGTH.'" name="'.$FIELD_ID.'" '.$DISABLE.' onkeypress="validate_alphanum(event)" onclick="'.$AK_FUNC.'"/>';
+                    echo  '<label class="fieldName">'.$FIELD_NAME.'</label>';
+                    echo '<datalist id="'.$DATALISTID.'">';
+                    echo '</datalist>';
+                    echo '</div>';
+                }else{
+                    echo '<div class="input-field col s12">';
+                    echo '<span class="fieldID" style="display:none;">'.$FIELD_ID.'</span>';
+                    echo '<input type="'.$TYPE.'" class="keyedData" pattern="[A-Za-z0-9]" value="" id="'.$FIELD_ID.'" maxlength="'.$FIELD_LENGTH.'" name="'.$FIELD_ID.'" '.$DISABLE.' onkeypress="validate_alphanum(event)" />';
+                    echo  '<label class="fieldName">'.$FIELD_NAME.'</label>';
+                    echo '</div>';
+                }
+
+                
             }
             else{
                 $TYPE = 'text';
-                echo '<div class="input-field col s12">';
-                echo '<span class="fieldID" style="display:none;">'.$FIELD_ID.'</span>';
-                echo '<input type="'.$TYPE.'" class="keyedData" pattern="[A-Za-z0-9]" value="" id="'.$FIELD_ID.'" maxlength="'.$FIELD_LENGTH.'" name="'.$FIELD_ID.'" '.$DISABLE.' onclick="'.$AK_FUNC.'"/>';
-                echo  '<label class="fieldName">'.$FIELD_NAME.'</label>';
-                echo '</div>';
+                if(!empty($AK_FUNC)){
+                    echo '<div class="input-field col s12">';
+                    echo '<span class="fieldID" style="display:none;">'.$FIELD_ID.'</span>';
+                    echo '<input list="'.$DATALISTID.'" type="'.$TYPE.'" class="keyedData" pattern="[A-Za-z0-9]" value="" id="'.$FIELD_ID.'" maxlength="'.$FIELD_LENGTH.'" name="'.$FIELD_ID.'" '.$DISABLE.' onclick="'.$AK_FUNC.'"/>';
+                    echo  '<label class="fieldName">'.$FIELD_NAME.'</label>';
+                    echo '<datalist id="'.$DATALISTID.'">';
+                    echo '</datalist>';
+                    echo '</div>';
+                }else{
+                    echo '<div class="input-field col s12">';
+                    echo '<span class="fieldID" style="display:none;">'.$FIELD_ID.'</span>';
+                    echo '<input type="'.$TYPE.'" class="keyedData" pattern="[A-Za-z0-9]" value="" id="'.$FIELD_ID.'" maxlength="'.$FIELD_LENGTH.'" name="'.$FIELD_ID.'" '.$DISABLE.' onclick="'.$AK_FUNC.'"/>';
+                    echo  '<label class="fieldName">'.$FIELD_NAME.'</label>';
+                    echo '</div>';
+                }
+                
             }
 
             ## FORM FIELDS 

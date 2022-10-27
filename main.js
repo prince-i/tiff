@@ -1,3 +1,4 @@
+
 filename = 'AB002309525.tif';
 
 $(function () {
@@ -19,7 +20,6 @@ $(function () {
     fetchForm();
   });
 
- 
   
   // EVENTLISTINER FOR KEY STROKE COMBINATION
 
@@ -226,9 +226,14 @@ const matrix =(table)=>{
             method:'fetch_matrix',
             table:table
         },success:function(response){
-            console.log(response);
+            // console.log(response);
             
-            $('datalist#matrix').append(response);
+            $('datalist#matrix').html(response);
         }
     })
+}
+
+
+const dt_select =(param)=>{
+    console.log(param); 
 }

@@ -45,22 +45,22 @@ if($method == 'fetch_form'){
                 $DATALISTID = "matrix";
             }
             
-            else if(strpos($AK_FUN,"grantee") !==false){
+            else if(strpos($AK_FUNC,"grantee") !==false){
                 $DATALISTID = "grantee";
             }
 
-            else if(strpos($AK_FUN,"grantor") !==false){
+            else if(strpos($AK_FUNC,"grantor") !==false){
                 $DATALISTID = "grantor";
             }
-            else if(strpos($AK_FUN,"subd") !==false){
+            else if(strpos($AK_FUNC,"subd") !==false){
                 $DATALISTID = "subd";
             }
 
-            else if(strpos($AK_FUN,"str") !==false){
+            else if(strpos($AK_FUNC,"str") !==false){
                 $DATALISTID = "str";
             }
 
-            else if(strpos($AK_FUN,"locates") !==false){
+            else if(strpos($AK_FUNC,"locates") !==false){
                 $DATALISTID = "locates";
             }
 
@@ -120,7 +120,7 @@ if($method == 'fetch_form'){
                     echo '<span class="fieldID" style="display:none;">'.$FIELD_ID.'</span>';
                     echo '<input list="'.$DATALISTID.'" type="'.$TYPE.'" class="keyedData" pattern="[A-Za-z0-9]" value="" id="'.$FIELD_ID.'" maxlength="'.$FIELD_LENGTH.'" name="'.$FIELD_ID.'" '.$DISABLE.' onkeypress="validate_alphanum(event)" onclick="'.$AK_FUNC.'"/>';
                     echo  '<label class="fieldName">'.$FIELD_NAME.'</label>';
-                    echo '<datalist id="'.$DATALISTID.'">';
+                    echo '<datalist id="'.$DATALISTID.'")">';
                     echo '</datalist>';
                     echo '</div>';
                 }else{

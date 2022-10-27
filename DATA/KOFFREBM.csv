@@ -1,0 +1,1495 @@
+DOC CODE,DOC DESCRIPTION,PROP,FIRST PARTY,SECOND PARTY,AMOUNT,COMMENTS
+CD,CORRECTION OF DEED,O,borrower (sig.),"lender (beneficiary, payable to order of)",N,
+CODT,CORRECTION OF DEED OF TRUST,O,borrower (sig.),"lender (beneficiary, payable to order of)",N,
+CD,CORRECTION OF DEED (THIS CAN BE ANY TYPE OF DEED),O,borrower (sig.),"lender (beneficiary, payable to order of)",N,
+BI,BOND TO INDEMNIFY,O,principal & surety (being bonded & guaranteeing bond),bound unto,N,
+AB,ABANDONMENT  ,O,party abandoning (sig.),"abandoned to, if given, otherwise ""PUBLIC""",N,
+WAN,ABANDONMENT OF ASSUMED NAME (Or WITHDRAWAL OF),O,signatory party ,Business name withdrawn from,N,
+ABC,ABANDONMENT OF CONDOMINIUM,O,party abandoning (sig.) & Condominium ,"abandoned to, if given, otherwise ""PUBLIC""",N,
+REW,ABANDONMENT OF EASEMENT,O,signatory party ,released to,N,
+AOA,ABSTRACT OF ASSESSMENT,O,party assessing (usually the STATE),assessed upon employer/party,N,
+AJ,ABSTRACT OF JUDGMENT,O,"party recovering Judgment, IF there is a Transferred to Party, they would also be keyed",recovered Against,O,
+AC,ACCEPTANCE,O,party accepting (sig.),"accepted from, if given, otherwise ""PUBLIC""",N,
+AK,ACKNOWLEDGEMENT,O,"party acknowledging (sig,.)","acknowledged unto, if given, otherwise ""PUBLIC""",N,
+LS,ACKNOWLEDGMENT OF EXERCISED OPTION TO EXTEND LEASE,O,signatory party (lessor),Current lessee,N,"IF Lessor does not sign, change Type to = AK Grantor-signature        Grantee- other party"
+OGL ,"ACKNOWLEDGMENT OF EXERCISED OPTION TO EXTEND OIL, GAS (MINERAL) LEASE.",O,signatory party (lessor),Current lessee,N,"IF Lessor does not sign, change Type to = AK Grantor-signature        Grantee- other party"
+LS,"ACKNOWLEDGMENT OF PAYMENT, EXTENSION OF TERM & RATIFICATION OF LEASE.",O,signatory party (lessor),Current lessee,N,"IF Lessor does not sign, change Type to = AK Grantor-signature        Grantee- other party"
+OGL ,"ACKNOWLEDGMENT OF PAYMENT, EXTENSION OF TERM & RATIFICATION OF OIL, GAS (MINERAL) LEASE.",O,signatory party (lessor),Current lessee,N,"IF Lessor does not sign, change Type to = AK Grantor-signature        Grantee- other party"
+ADDT,ADDENDUM TO DEED OF TRUST,O,borrower (sig.),"lender (beneficiary, payable to order of)",O,
+ADML,ADDENDUM TO MECHANICS LIEN CONTRACT,O,owner,contractor ,N,"IF Owner, Contractors & Lender sign
+Grantor- owner & Old contractor
+Grantee- lender & New contractor 
+If No New Contractor Signing
+Grantor- owner
+Grantee- lender & contractor"
+ADD,ADDENDUM/ADDITION (General/combined),O,all signatures,"""PUBLIC""",N, Use ADD code only when you cannot identify doc. being amended or multiple docs are combined.
+ADL,ADMINISTRATIVE LIEN,O,party claiming lien (usually State),claimed against,N,
+AG,ADOPTION AGREEMENT (filed in land records),O,signature (party adopting),"party adopting from , if given, otherwise ""PUBLIC""",N,
+PET,ADOPTION PETITION TO COURT BY AN ADULT,O,party petitioning to be allowed to be adopted,"""PUBLIC""",N,
+AF,AFFIDAVIT,O,"signature & who sig. represents, if any","""PUBLIC""",N,"If document concerns action by and between sig. & other parties, 
+sig. does Not need to be repeated as a grantee.
+*may need reference depending on content.
+*If doc is giving Heirship information – keep title as AF, use deceased party as the grantee."
+WAS,AFFIDAVIT  -  CERTIFICATION OF OSSF REQUIRING MAINTENANCE,O,"signatory party (usually owner) index all parties named in document, even  if not signing","""PUBLIC""",N,
+AF,AFFIDAVIT   (DEALING WITH FORECLOSURE),O,"signature (if it states at sig. or in body, that party is officer of Company, key Company Name Only), (if states at sig. or in body, that party is or has been acting as Trustee, key as  Trustee)","""PUBLIC""",N,
+AF,AFFIDAVIT -- DEALING WITH CORRECTING A PREVIOUSLY FILED DOCUMENT OR TO FILE FOR RECORD A LOST OR MISPLACED DOCUMENT.,O,signatory party,"""PUBLIC""",N,"THE DOCUMENT BEING CORRECTED IS ATTACHED IN ITS   ENTIRETY,  YOU WOULD INDEX THE ATTACHED DOCUMENT .  ***IF NO DOC. IS ATTACHED INDEX AS THE ‘AF”.  INSTEAD OF THE AFFIDAVIT."
+AG,AFFIDAVIT AND AGREEMENT,O,signature (borrower),"lender, if given, otherwise ""PUBLIC""",N,
+AF,AFFIDAVIT OF “NOT THE SAME PERSON AS”,O,signatory party,"""PUBLIC""",N,
+AF,AFFIDAVIT OF “SAME PERSON AS”,O,signatory party,"""PUBLIC""",N,
+AF,AFFIDAVIT OF ADVERSE POSSESSION ,O,"signature & who sig. represents, if any","""PUBLIC""",N,
+AF,AFFIDAVIT OF AFFIXATION,O,"signature(s), owner, contractor, &/or noteholder, whichever sign","""PUBLIC""",N,
+AF,AFFIDAVIT OF COMMENCEMENT,O,"signature(s), owner, contractor, &/or noteholder, whichever sign","""PUBLIC""",N,
+AF,AFFIDAVIT OF COMPLETION ,O,"signature(s), owner, contractor, &/or noteholder, whichever sign","""PUBLIC""",N,
+AF,AFFIDAVIT OF COMPLIANCE ,O,"signature(s), owner, contractor, &/or noteholder, whichever sign","""PUBLIC""",N,
+CORA,AFFIDAVIT of CORRECTION -- DEALING WITH CORRECTING A PREVIOUSLY FILED  DOCUMENT OR TO FILE FOR RECORD A LOST OR MISPLACED DOCUMENT.,O,Grantors of original document & Signature & Who Signature represents,Grantee of original document,N,USE FOR WISE COUNTY ONLY
+AF,AFFIDAVIT OF EXTENSION OF OIL AND GAS LEASE,O,signature (this would be the Lessee),"""PUBLIC""",N,"*The Option to Extend has already been exercised, this is just Aff. to that fact"
+AH,AFFIDAVIT OF HEIRSHIP,O,Deceased,"""PUBLIC""",N,"*If doc is Titled just Affidavit, keep title as is and use these instruction for AH. We would not need to key ESTATE as a name designator parties on this document. Accounted for based on doc type."
+AHC,AFFIDAVIT OF HEIRSHIP AND CONVEYANCE,O,"signature   (be sure to look for sig. among the notaries, as supporting affidavits)",Primary Deceased Party (show Deceased after name) & party conveyed to if type AHC ,N,"*If doc is Titled just Affidavit, keep title as is and use these instruction for AH. We would not need to key ESTATE as a name designator parties on this document. Accounted for based on doc type."
+LC,AFFIDAVIT OF LIEN,O,party claiming lien (sig.),"claimed against   (possibly contractor, owner, sub-contractor, supplier) ",N,
+AF,AFFIDAVIT OF NAME CHANGE ,O,"signatory party, if about self,  index both old & new name","""PUBLIC""",N,*If about other than party signing – Grantor- signatory party  Grantee- both old & new name
+WAS,AFFIDAVIT OF NEED TO JOIN PROPERTIES ,O,"signatory party (usually owner) index all parties named in document, even  if not signing","""PUBLIC""",N,
+AF,AFFIDAVIT OF NON-PRODUCTION or PRODUCTION,O,signature,"""PUBLIC""",N,
+AF,AFFIDAVIT OF NOTICE GIVEN (Dealing With Forfeiture of Contract that has Already Happened),O,signatory party & sellers                                                  ,"""PUBLIC""",N,
+AF,AFFIDAVIT OF NOTICE OF TRUSTEE’S SALE,O,"signature (if it states at sig. or in body, that party is officer of Company, key Company Name Only), (if states at sig. or in body, that party is or has been acting as Trustee, key as  Trustee)","""PUBLIC""",N,
+RME,AGAINST THE ESTATE,O,signatory party,claimed against party being released,N,
+AG,AGREEMENT,O,signature,other party,N,"*If all sign & no definition made, index all as grantor/grantee"
+CV,AGREEMENT & CONVEYANCE,O,"signature  (if involves an estate, include primary deceased )",conveyed unto,N,
+AG,AGREEMENT & EASEMENT FOR UNDERGROUND SERVICE LATERAL,O,Property owner,other party ,N,"*If dealing with contractor, Grantee = Contractor"
+AG,AGREEMENT & STIPULATION,O,signature,other party,N,"*If all sign & no definition made, index all as grantor/grantee"
+AG,AGREEMENT BETWEEN CONTRACTOR AND OWNER,O,Property owner,other party ,N,"*If dealing with contractor, Grantee = Contractor"
+AG,AGREEMENT DEFINING AREA EMBRACED WITHIN AN EASEMENT,O,signature,other party,N,"*If all sign & no definition made, index all as grantor/grantee"
+ADML,AGREEMENT FOR ADDITIONAL WORK UNDER BUILDER’S & MECHANIC’S LIEN CONTRACT,O,signature (owner),contractor,N,
+AAG,AGREEMENT FOR/OF SUBSTITUTION OF LIABILITY,O,"purchaser, (sig.) & borrower, lender usually signs also, do not index lender as grantor",lender (take from signature area) ,N,
+AG,AGREEMENT NOT TO PROBATE WILL,O,signature & primary deceased party,signature,N,"Do not need to included ""deceased"" designation if given on document for party name(s)"
+CV,AGREEMENT NOT TO PROBATE WILL AND CONVEYANCE,O,signatures & primary deceased party,party conveyed to,N,"Do not need to included ""deceased"" designation if given on document for party name(s)"
+MOD,AGREEMENT READJUSTING PAYMENTS,O,borrower,(take from sig. area only),N,*If signing parties are borrower and lender *Otherwise --Grantor-signatory party  Grantee-other party
+UA,AGREEMENT TO BECOME A PARTY TO A POOLED UNIT,O,"signature- usually property owner, mineral owner, or royalty owner.
+IF Lessee or Operator also sign, index as additional Grantees not Grantors  
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME*** 
+Grantor- Lessee","Unit name  OR if no Unit Name index LESSEE (Current Lessee) 
+(IF Title shows  Lease Being Ratified, Index both Unit Name & Current Lessee, if both given.
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME***
+ Grantee- ""PUBLIC""",N,UNIT NAME INFORMATION
+UA,AGREEMENT TO BECOME PARTY TO A UNIT AGREEMENT /DECLAR./DESIG.,O,"signature- usually property owner, mineral owner, or royalty owner.
+IF Lessee or Operator also sign, index as additional Grantees not Grantors  
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME*** 
+Grantor- Lessee","Unit name  OR if no Unit Name index LESSEE (Current Lessee) 
+(IF Title shows  Lease Being Ratified, Index both Unit Name & Current Lessee, if both given.
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME***
+ Grantee- ""PUBLIC""",N,UNIT NAME INFORMATION
+LS,AGREEMENT TO EXTEND PRIMARY TERM OF LEASE,O,"signature (granting extension, lessor)  ",current lessee,N,"**IF Lessor does not sign, change Type to =  AG  Grantor- signature  Grantee- other party"
+OGL,"AGREEMENT TO EXTEND PRIMARY TERM OF OIL, GAS AND MINERAL LEASE",O,"signature (granting extension, lessor)  ",current lessee,N,"**IF Lessor does not sign, change Type to =  AG  Grantor- signature  Grantee- other party"
+CS,AGREEMENT TO SELL REAL ESTATE,O,seller (sig.),purchaser,N,IF only purchaser signs Grantor- signature (purchaser)  Grantee- other party (seller)
+AG,"AGREEMENT, REGULATORY",O,signature (Borrower),Lender,N,
+SI,"AGREEMENT, STIPULATION OF INTEREST & CROSS-CONVEYANCE",O,signatory party ,"party stipulated to have interest  Or  ""PUBLIC""",N,
+MOD,ALLONGE,O,borrower  (sig.),lender,N,
+AM,AMENDMENT    (Use AM code only when you cannot identify doc. being amended.),O,all signatures,"""PUBLIC""",N,"**Except for following listings all amendments will use instructions below  Determine what type doc. is being changed and use type code & instructions for original doc.  If type cannot be determined or multiple docs. combined, use the following"
+AMC,AMENDMENT TO DECLARATION OF CONDOMINIUM   ,O,signatory party (owner) ,Condominium name,N,
+AMD,AMENDMENT TO DEED OF TRUST,O,borrower (sig.),"lender (beneficiary, payable to order of)",N,
+LS,AMENDMENT TO LEASE,O,lessor (sig.)    ,Current lessee,N,"**IF Lessor does not sign, change Type to =  AM  Grantor- signature  Grantee- other party"
+URA,AMENDMENT TO LEASE & RATIFICATION OF UNIT,O,"signature - usually property owner, mineral owner, or royalty owner.  ",Unit name and  LESSEE (Current Lessee) ,N," IF Lessee or Operator also sign, index as additional Grantees not Grantors."
+AMM,AMENDMENT TO MECHANICS LIEN CONTRACT,O,owner,contractor,N,"IF Owner, Contractors & Lender sign  Grantor- owner & Old contractor  Grantee- lender & New contractor.     If No New Contractor Signing  Grantor- owner  Grantee- lender & contractor"
+AMG,AMENDMENT TO MORTGAGE,O,borrower (sig.) (mortgagor),lender  (mortgagee),N,
+AMD,"AMENDMENT TO MORTGAGE, DEED OF TRUST, FINANCING STATEMENT, Etc.",O,,,N,"If 3 party document, Borrower, Trustee and Lender  =See Amendment to Deed of Trust"
+AMG,"AMENDMENT TO MORTGAGE, DEED OF TRUST, FINANCING STATEMENT, Etc.",O,,,N,"If 2 party document, Borrower and Lender = See Amendment to Mortgage"
+OGL,AMENDMENT TO OIL & GAS LEASE,O,lessor (sig.)    ,Current lessee,N,"**IF Lessor does not sign, change Type to =  AM  Grantor- signature  Grantee- other party"
+OGL,"AMENDMENT TO OIL, GAS & MINERAL LEASE",O,lessor (sig.)    ,Current lessee,N,"**IF Lessor does not sign, change Type to =  AM  Grantor- signature  Grantee- other party"
+AMP,AMENDMENT TO PLAT,O,"sig., usually the Surveyor (show title) & Property Owner (if given) and property name","sig., usually the Surveyor (show title) & Property Owner (if given) and property name",N,
+ANX,ANNEXATION,O,party doing annexing (sig.),"being annexed, you should expect this usually to be a property name, town name,  School district, etc.",N,
+RS,ANNEXATION TO RESTRICTIVE COVENANTS,O,"party doing annexing (sig.) & Subdivision being annexed into, if applies","Subdivision being annexed, if given, otherwise ""PUBLIC""",N,
+APL,APPLICATION                                                         ,O,"applicant & whom they represent, if any        ",applied to,N, *If dealing with Probate/Suit key Type Code & parties according to instructions for such
+ROD,APPLICATION FOR REMOVAL OF DISABILITIES    ,O,person for whom Disabilities are to be removed,"""PUBLIC""",N,
+APL,APPLICATION TO CONDITION ABANDONED WELL FOR FRESH WATER PRODUCTION,O,"applicant & whom they represent, if any","applied to, usually the TEXAS RAILROAD COMMISSION",N,
+APP,APPOINTMENT,O,"party doing appointing (sig.) & whom they represent, if any","being appointed (if deals with Receiver, does not need word ‘receiver’ used after name",N,
+APP,APPOINTMENT OF RECEIVER,O,"party doing appointing (sig.) & whom they represent, if any","being appointed (if deals with Receiver, does not need word ‘receiver’ used after name",N,
+AT,APPOINTMENT OF SUBSTITUTE TRUSTEE,O,"party doing appointing (sig.) & whom they represent & Borrowers, if any",being appointed (word ‘trustee’ not needed after name) ,N,
+AT,APPOINTMENT OF SUCCESSOR TRUSTEE,O,"party doing appointing (sig.) & whom they represent & Borrowers, if any",being appointed (word ‘trustee’ not needed after name) ,N,
+AT,APPOINTMENT OF TRUSTEE,O,"party doing appointing (sig.) & whom they represent & Borrowers, if any",being appointed (word ‘trustee’ not needed after name) ,N,
+AA,ARTICLES OF ASSOCIATION,O,Business names,"""PUBLIC""",N,
+CI,ARTICLES OF INCORPORATION,O,Business names,"""PUBLIC""",N,
+CI,ARTICLES OF INCORPORATION  (CERTIFICATE OF),O,Business names,"""PUBLIC""",N,
+LC,ASSESSMENT LIEN BY A CITY (if for paving see P’s for Paving Lien),O,party claiming lien (sig.)   ,"party claimed against, ",N,
+ALN,ASSESSMENT LIEN BY HOMEOWNERS ASSOCIATION,O,party claiming lien (sig.)   ,"party claimed against, if no name given, use UNKNOWN",N,
+ALD,ASSESSMENT LIEN DEED,O,"sig., party sig. represents (if other than self) & party assessed against (owner)",purchaser,N,
+ALD,ASSESSMENT LIEN SUBSTITUTE TRUSTEE’S DEED,O,"sig., party sig. represents (if other than self) & party assessed against (owner)",purchaser,N,
+AS,ASSIGNMENT,O,"party assigning (sig.) & borrower, if applicable",assigned to,N,"*If multiple assignments with more than 8 borrowers, do not index any borrowers"
+ABS,ASSIGNMENT & BILL OF SALE,O,"party assigning (sig.) & borrower, if any",assigned to,N,"*If multiple assignments with more than 8 borrowers, do not index any borrowers"
+AS,ASSIGNMENT & CONVEYANCE,O,"party assigning (sig.) & borrower, if applicable",assigned to,N,"*If multiple assignments with more than 8 borrowers, do not index any borrowers"
+AS,ASSIGNMENT & TRANSFER,O,"party assigning (sig.) & borrower, if applicable",assigned to,N,"*If multiple assignments with more than 8 borrowers, do not index any borrowers"
+AL,ASSIGNMENT & TRANSFER OF LIEN,O,party assigning (sig.) & borrower  ,assigned to,N,"*If multiple assignments with more than 8 borrowers, do not index any borrowers"
+AS,ASSIGNMENT (&CONVEYANCE) OF OIL & GAS INTEREST,O,party assigning (sig.),assigned to,N,
+ASJ,ASSIGNMENT OF ABSTRACT OF JUDGMENT,O,party assigning (sig.) & debtor (recovered against),assigned to,N,
+AL,ASSIGNMENT OF ANY OF THE “LC” LIEN AFFIDAVIT/CLAIM/NOTICE DOC’S,O,signatory party & party claimed against,assigned to,N,"*If multiple assignments/more than 8 claimed against parties, do not index any"
+AOC,ASSIGNMENT OF CONTRACT,O,party assigning (sig.),assigned to,N,
+AOC,ASSIGNMENT OF CONTRACT FOR DEED,O,party assigning (sig.),assigned to,N,
+AOC,ASSIGNMENT OF CONTRACT OF SALE,O,party assigning (sig.),assigned to,N,
+AL,ASSIGNMENT OF DEED OF TRUST,O,party assigning (sig.) & borrower,assigned to,N,"*If multiple assignments with more than 8 borrowers, do not index any borrowers"
+ASJ,ASSIGNMENT OF JUDGMENT,O,party assigning (sig.) & debtor (recovered against),assigned to,N,
+ASL,ASSIGNMENT OF LEASE,O,party assigning (sig.),assigned to,N,
+ASL,ASSIGNMENT OF LEASE & RENTS,O,party assigning (sig.),assigned to,N,
+ASL,ASSIGNMENT OF LEASE INTEREST,O,party assigning (sig.),assigned to,N,
+AL,ASSIGNMENT OF LIEN,O,party assigning (sig.) & borrower  ,assigned to,N,"*If multiple assignments with more than 8 borrowers, do not index any borrowers"
+AL,ASSIGNMENT OF MECHANICS LIEN CONTRACT,O,party assigning (sig.) & borrower  ,assigned to,N,"*If multiple assignments with more than 8 borrowers, do not index any borrowers"
+ASM,ASSIGNMENT OF MINERAL ETC. & BILL OF SALE,O,party assigning (sig.),assigned to,N,
+ASM,ASSIGNMENT OF MINERAL INTEREST OR / MINERAL & ROYALTY INTEREST,O,party assigning (sig.),assigned to,N,
+AL,ASSIGNMENT OF MORTGAGE,O,party assigning (sig.) & borrower,assigned to,N,"*If multiple assignments with more than 8 borrowers, do not index any borrowers"
+AS,ASSIGNMENT OF NET PROFITS ,O,party assigning (sig.),assigned to,N,
+ASL,ASSIGNMENT OF OIL & GAS LEASE,O,party assigning (sig.),assigned to,N,
+ASL,ASSIGNMENT OF OIL & GAS LEASE,O,party assigning (sig.),assigned to,N,
+ABS,ASSIGNMENT OF OIL & GAS LEASE AND BILL OF SALE,O,party assigning (sig.),assigned to,N,
+ABS,ASSIGNMENT OF OIL & GAS LEASE AND BILL OF SALE,O,party assigning (sig.),assigned to,N,
+ASR,ASSIGNMENT OF OIL & GAS ROYALTY A PERPETUAL DEEDED ROYALTY,O,party assigning (sig.),assigned to,N,
+AS,ASSIGNMENT OF OPTION,O,party assigning (sig.),assigned to,N,
+ASR,ASSIGNMENT OF OVERRIDING ROYALTY (ROYALTIES),O,party assigning (sig.),assigned to,N,
+AL,ASSIGNMENT OF PAVING ASSESSMENT CERTIFICATES ,O,signatory party & party claimed against,assigned to,N,"*If multiple assignments/more than 8 claimed against parties, do not index any"
+AS,ASSIGNMENT OF PRODUCTION PAYMENT,O,party assigning (sig.),assigned to,N,
+AS,ASSIGNMENT OF RENTALS,O,party assigning (sig.),assigned to,N,
+ASL,ASSIGNMENT OF RENTALS AND LEASES / OIL&GAS LEASES,O,party assigning (sig.),assigned to,N,
+ASR,ASSIGNMENT OF ROYALTY & BILL OF SALE,O,party assigning (sig.),assigned to,N,
+ASM,ASSIGNMENT OF ROYALTY AND MINERAL INTEREST,O,party assigning (sig.),assigned to,N,
+ASR,ASSIGNMENT OF ROYALTY INTEREST,O,party assigning (sig.),assigned to,N,
+ASR,ASSIGNMENT OF ROYALTY INTEREST OVERRIDING,O,party assigning (sig.),assigned to,N,
+AOC,ASSIGNMENT OF TAX LIEN CONTRACT ,O,party assigning (sig.)/Taxpayer,assigned to,N,**IF keying this Title- add Taxpayer to the Grantor
+AOC,ASSIGNMENT OF TAX LIEN TRANSFER  ,O,party assigning (sig.)/Taxpayer,assigned to,N,**IF keying this Title- add Taxpayer to the Grantor
+ASL,ASSIGNMENT OF WORKING INTEREST,O,party assigning (sig.),assigned to,N,
+AL,"ASSIGNMENT, ASSUMPTION & MODIFICATION OF DEED OF TRUST (AND   FIXTURE FILING & SECURITY AGREEMENT & ASSIGNMENT OF LEASES)",O,"signature (assignor, borrower and assumptor (new borrower)",party assigned to,N,
+ABS,"ASSIGNMENT, CONVEYANCE & BILL OF SALE",O,"party assigning (sig.) & borrower, if any",assigned to,N,"*If multiple assignments with more than 8 borrowers, do not index any borrowers"
+MD,"ASSIGNMENT, CONVEYANCE & MINERAL DEED",O,signatory party ,"conveyed, sold to",N,
+AN,ASSUMED NAME,O,party who will be using new name,"New Name  (Do not abbreviate, spell out all words in new name)",N,"*IF grantor is individuals you will need to key even those shown with titles not usually indexed (president, etc.).  Do not key the title, just the person.  Also, do not key titles such as partner or joint venturer, just key the person.
+*IF the new name starts with “The” you will need to key 2 times. 
+ Example:  The Learning Tree Nursery  -key as shown and again as: Learning Tree Nursery
+*IF the new name involves a Human Name you will need to key 2 times.
+Example:  Sarah K. Riley’s Swap Shop  -key following usual rules
+RILEYS SARAH K SWAP SHOW AND again as: SARAH K RILEYS SWAP SHOP   (straight-forward)"
+WAN,ASSUMED NAME WITHDRAWAL or ABANDONMENT,O,signatory party ,Business name withdrawn from,N,*(Follow same *IF instructions shown above for Assumed Name Document)
+AAG,ASSUMPTION & RELEASE AGREEMENT,O,"purchaser, (sig.) & borrower, lender usually signs also, do not index lender as grantor",lender (take from signature area) ,N,
+AAG,ASSUMPTION AGREEMENT,O,"purchaser, (sig.) & borrower, lender usually signs also, do not index lender as grantor",lender (take from signature area) ,N,
+DE,ASSUMPTION DEED,O,"seller (sig.), and Lender if they sign the document add lender to grantor",purchaser,N,
+WD,ASSUMPTION GENERAL WARRANTY DEED,O,"seller (sig.), and Lender if they sign the document add lender to grantor",purchaser,N,
+WD,ASSUMPTION SPECIAL WARRANTY DEED,O,"seller (sig.), and Lender if they sign the document add lender to grantor",purchaser,N,
+WD,ASSUMPTION WARRANTY DEED,O,"seller (sig.), and Lender if they sign the document add lender to grantor",purchaser,N,
+AU,AUTHORIZATION,O,party giving authority (sig.),authority given to,N,
+ RTP,AUTHORIZATION FOR TAX PAYMENT,O,signature & Taxpayer,party requested to pay,N,
+TTL,AUTHORIZATION FOR TAX PAYMENT & TRANSFER OF TAX LIEN,O,signatures & Taxpayer,transferred to,N,*usually a two part document
+LAW,AWARD LETTER,O,signatory party,recipient,N,
+NO,"AWARD OF BID, NOTICE OF",O,party doing award,party awarded the bid,N,
+BR,BANKRUPTCY PROCEEDINGS  (CERTIFIED COPY OF),O,bankrupt party     ,"""PUBLIC""",N,*Use certified copy date for i/date
+BS,BILL OF SALE,O,seller (sig.),purchaser,N,
+ABS,BILL OF SALE & ASSIGNMENT,O,"party assigning (sig.) & borrower, if any",assigned to,N,"*If multiple assignments with more than 8 borrowers, do not index any borrowers"
+MC,BILL OF SALE OF MINERAL INTERESTS,O,seller (sig.),purchaser,N,
+ROC,BILL OF SALE OF ROYALTY INTEREST,O,seller (sig.),purchaser,N,
+BC,BIRTH CERTIFICATE  (CERTIFIED COPY OF),O,party issued for,"""PUBLIC""",N,*Use certified copy date for i/date
+BO,BOND,O,principal & surety (being bonded & guaranteeing bond),bound unto,N,
+BF,BOND FORFEITURE,O,party forfeiting,forfeited to,N,
+BO,BOND OF PUBLIC OFFICIAL,O,principal & surety (being bonded & guaranteeing bond),bound unto,N,
+BO,BOND TO PAY LIEN CLAIM,O,principal & surety (being bonded & guaranteeing bond),bound unto,N,
+BA,BOUNDARY AGREEMENT,O,all signatures,all signatures,N,*If all do not sign use non-signatory owner as Grantee
+ML,BUILDERS & MECHANICS LIEN CONTRACT,O,signature  (owner),"contractor & assigned to party, if any",N,
+ML,BUILDERS & MECHANICS LIEN CONTRACT WITH ASSIGNMENT,O,signature  (owner),"contractor & assigned to party, if any",N,
+ML,BUILDERS & RESIDENTIAL CONSTRUCTION LIEN CONTRACT,O,signature  (owner),"contractor & assigned to party, if any",N,
+AK,BUILDERS WARRANTY,O,signatory party (purchaser),"seller, contractor, if given, otherwise ""PUBLIC""",N,
+M,BY-LAWS,O,Business,"""PUBLIC""",N,
+DEC,BY-LAWS OF ARCHTECTURAL CONTROL COMMITTEE; COMMUNITY ASSOCIATION; HOMEOWNERS ASSOCIATION AND OTHER LIKE SUBDIVISION ASSOCIATIONS,O,signatory party,"association, etc, name (ex. Architectural Control Committee of Restful Shores; Homeowners Association of Willow Bend, or Willow Bend Homeowners Association)",N,
+CC,"BY-LAWS, CERTIFIED COPY OF",O,Business,"""PUBLIC""",N,
+CAN,CANCELLATION,O,party canceling (sig.),"party whose rights are canceled  Or ""PUBLIC""",N,"*If all sign & no definition made, index all as grantor/grantee"
+RLP,CANCELLATION  OF LIS PENDENS,O,signatory party (usually Plaintiff),released (usually Defendant),N,
+CAN,CANCELLATION AGREEMENT,O,party canceling (sig.),"party whose rights are canceled  Or ""PUBLIC""",N,"*If all sign & no definition made, index all as grantor/grantee"
+CAN,CANCELLATION OF CONTRACT,O,party canceling (sig.),"party whose rights are canceled  Or ""PUBLIC""",N,"*If all sign & no definition made, index all as grantor/grantee"
+CAL,CANCELLATION OF LEASE,O,party canceling (sig.),"party whose rights are canceled  Or ""PUBLIC""",N,"*If all sign & no definition made, index all as grantor/grantee"
+AG,CATHODIC PROTECTION UNIT AGREEMENT,O,signatory party,party rights granted unto,N,
+MB,CATTLE BRAND (MARKS AND BRANDS),O,Owners and  Business (if given),"""PUBLIC""",N,
+CEM,CEMETERY DEED,O,seller (sig.),purchaser,N,"*if doc has cemetery property but is titled other than above, go with the Title.  *If doc has Nothing  to do with Cemetery see CT instructions below for Type  and grantor/grantee"
+CT,CERTIFICATE    (Not used for CT of Resolution RL),O,party giving certificate (sig.),"receiving certificate  Or ""PUBLIC""",N,
+CT,"CERTIFICATE – If  the Title of  the Certificate you are indexing is not shown below,",O,,,N,please Consider what the Certificate is about before using code CT.  Examples: Certificate of Child Support Lien = CSL (not CT) and Certificate of Lis Pendens = LP (not CT)
+JUD,CERTIFICATE OF ADJUDICATION,O,plaintiff,defendant,N,
+AU,CERTIFICATE OF AUTHORIZATION,O,party giving authority (sig.),authority given to,N,
+RFT,CERTIFICATE OF DISCHARGE OF PROPERTY FROM FEDERAL TAX LIEN,O,"Government Body  (""U S A INTERNAL REVENUE SERVICE"")",Taxpayer,N,
+DIS,CERTIFICATE OF DISSOLUTION OF A BUSINESS (Certificate filed with the State),O,Business being dissolved,"""PUBLIC""",N,
+UA,CERTIFICATE OF EFFECTIVENESS OF UNIT ENLARGEMENT (CHANGE),O,signature ,Unit Name,N,
+UA,CERTIFICATE OF EFFECTIVENESS OF UNIT ENLARGEMENT (CHANGE),O,"signature- usually property owner, mineral owner, or royalty owner.
+IF Lessee or Operator also sign, index as additional Grantees not Grantors  
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME*** 
+Grantor- Lessee","Unit name  OR if no Unit Name index LESSEE (Current Lessee) 
+(IF Title shows  Lease Being Ratified, Index both Unit Name & Current Lessee, if both given.
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME***
+ Grantee- ""PUBLIC""",N,UNIT NAME INFORMATION
+DEC,CERTIFICATE OF FORMATION etc. OF ARCHTECTURAL CONTROL COMMITTEE;    COMMUNITY ASSOCIATION; HOMEOWNERS ASSOCIATION AND OTHER LIKE   SUBDIVISION ASSOCIATIONS,O,signatory party,"association, etc, name (ex. Architectural Control Committee of Restful Shores; Homeowners Association of Willow Bend, or Willow Bend Homeowners Association)",N,
+CI,CERTIFICATE OF INCORPORATION,O,Business names,"""PUBLIC""",N,
+MER,CERTIFICATE OF MERGER     (MERGER),O,All business names,surviving business name,N,
+CT,CERTIFICATE OF NO TAX DUE,O,issuer of certificate (usually government body) ,issued to (taxpayer),N,*If dealing with Inheritance Tax – see in I under Inheritance Tax   
+CT,CERTIFICATE OF NONATTACHMENT OF FEDERAL TAX LIEN,O,"government agency    ""U S A INTERNAL REVENUE SERVICE"" (IRS\)",party said to be not affected by the lien,N,
+CEM,CERTIFICATE OF OWNERSHIP,O,issuer of certificate (sig.),issued to,N,
+CEM,CERTIFICATE OF OWNERSHIP,O,seller (sig.),purchaser,N,"*if doc has cemetery property but is titled other than above, go with the Title.  *If doc has Nothing  to do with Cemetery see CT instructions below for Type  and grantor/grantee"
+CT,CERTIFICATE OF PERPETUAL CARE,O,issuer of certificate (sig.),issued to,N,
+CT,CERTIFICATE OF PERPETUAL CARE,O,seller (sig.),purchaser,N,"*if doc has cemetery property but is titled other than above, go with the Title.  *If doc has Nothing  to do with Cemetery see CT instructions below for Type  and grantor/grantee"
+RED,CERTIFICATE OF REDEMPTION,O,party redeeming,redeemed from,N,
+RLF,CERTIFICATE OF RELEASE OF LIEN IMPOSED UNDER THE ANTI-TERRORISM ACT,O,U S A ,Defendant (party being released),N,
+CTS,CERTIFICATE OF SALE OF SEIZED PROPERTY,O,issuer of certificate (sig.) & seized from,purchaser,N,
+REA,CERTIFICATE OF TERMINATION OF ASSIGNMENT OF CHILD SUPPORT LIEN,O,signature (usually the State) & party claimed against (Obligor),party support payable to (Obligee) (Not the child),N,
+TRM,CERTIFICATE OF TERMINATION OF DEVELOPMENT UNIT AGREEMENT (NOT A TERMINATION OF UNIT AGREEMENT),O,signatory party,all original parties who executed the Development Unit Agreement,N,
+CT,CERTIFICATE OF TRUST,O,"signatory party and Trust Name, if given","""PUBLIC""",N,
+WAS,CERTIFICATION OF OSSF REQUIRING MAINTENANCE,O,"signatory party (usually owner) index all owners named in document, even if not signing ","""PUBLIC""",N,
+CT,CERTIFICATION OF TRUST,O,"signatory party and Trust Name, if given","""PUBLIC""",N,
+CC,CERTIFIED COPY         (Use CC code only when you cannot identify doc. being certified),O,all signatures,"""PUBLIC""",N,"(Use CC code only when you cannot identify doc. being certified)
+There are a few types that will show C C in front of type when keyed.  
+Otherwise, Determine what type of document is being certified and use type code & 
+instructions for original document. 
+If type cannot be determined or multiple docs. combined, use the following
+*use certified copy date for i/date
+"
+TTL,CERTIFIED STATEMENT OF TRANSFER OF TAX LIEN,O,"signatory party & Taxpayer  & taxing authorities, if signing (check for taxing entities signatures among notaries)  (index taxing entities as who is represented: EX. Tax Collector for the City of Greenville OR Betty Sue Smith, Tax Collector for the City of Greenville.  KEY:  Greenville City Of",transferred to,N,
+CHD,CHANGE OF DEPOSITORY,O,signature,current lessee & new depository,N,
+CN,CHANGE OF NAME,O,Old name,New name,N,*Usually no real estate shown.  *If the doc. is dealing with Articles of Asn. or Certificate of Inc.  use Code and   Instructions for those documents.
+OD,"CHANGE OF NAME, COURT ORDERED or APPROVED (this would be a person not a business)",O,Old name,New name,N,*Usually no real estate shown.  *If the doc. is dealing with Articles of Asn. or Certificate of Inc.  use Code and   Instructions for those documents.
+M,CHARTER,O,signature (granting charter),granted to,N,*usually no property
+CC,"CHARTER, CERTIFIED COPY OF",O,signature (granting charter),granted to,N,*usually no property
+FS,CHATTEL MORTGAGE,O,"Debtor (sig., borrower)",Secured party (lender),N,
+CSL,CHILD SUPPORT LIEN ,O,signature (usually the State) & party support payable to (Obligee) (not the child),claimed against   (Obligor),N,*Usually no real estate shown  /  Both Obligor & Obligee are always used regardless Of assignment/transfer language used in document.
+REA,CHILD SUPPORT LIEN CERTIFICATE OR NOTICE OF TERMINATION OF ASSIGNMENT ,O,signature (usually the State) & party claimed against (Obligor),party support payable to (Obligee) (Not the child),N,
+CC,CLASSIFICATION OF SCHOOL LAND,O,signature (the State),Survey Name and parties labeled as Purchasers,N,
+MED,CLINIC LIEN,O,signatory party ,claimed against  (injured party),N,
+MD,COAL DEED,O,seller,purchaser,N,
+OGL,COAL LEASE,O,lessor,lessee,N,
+WIL,CODICIL,O,signature (person making codicil),"""PUBLIC""",N,*If combined with other documents go to PROBATE for instructions.
+AS,COLLATERAL ASSIGNMENT/TRANSFER ,O,"party assigning (sig.) & borrower, if applies ",assigned to,N,"*If multiple assignments with more than 8 borrowers, do not index any borrowers"
+ASL,COLLATERAL ASSIGNMENT/TRANSFER OF LEASE,O,"party assigning (sig.) & borrower, if applies ",assigned to,N,"*If multiple assignments with more than 8 borrowers, do not index any borrowers"
+LC,COMMON LAW LIEN,O,party claiming lien (sig.),"claimed against  Or ""PUBLIC""",N,
+POO,COMMUNITIZATION AGREEMENT,O,,,N,*see Pooling Agreement
+SET,COMMUNITY PROPERTY SETTLEMENT,O,signatory party  ,other party,N,"*If all sign & no definition made, index all as grantor/grantee"
+CT,COMPLETION CERTIFICATE,O,signatory party  ,"issued to  Or ""PUBLIC""",N,
+AG,COMPLIANCE CERTIFICATE AND AGREEMENT,O,signature,lender ,N,
+CDN,CONDEMNATION JUDGMENT  (CERTIFIED COPY OF),O,Plaintiff (usually City or County),Defendant,N,*use certified copy date for i/date
+CDN,CONDEMNATION PROCEEDINGS (CERTIFIED COPY OF),O,Plaintiff (usually City or County),Defendant,N,*use certified copy date for i/date
+DCO,CONDOMINIUM DECLARATION,O,owner (sig.) ,Condominium  Name,N,
+CON,CONSENT,O,party giving consent (sig.),given to,N,
+AAG,CONSENT TO SALE OF SECURITY & ASSUMPTION AGREEMENT,O,"purchaser, borrower (sig.), lender usually signs also, do not index lender as grantor",lender (take from signature area) ,N,
+CON,CONSENT& WAIVER,O,party giving consent (sig.),given to,N,
+SS,CONSTABLES BILL OF SALE,O,signature & County (show word Constable after both)  & owner (usually defendant),purchaser,N,
+SD,CONSTABLES DEED,O,signature & County (show word Constable after both)  & owner (usually defendant),purchaser,N,
+CTR,CONTRACT,O,signatory party  ,other party,N,"*IF parties are owner & contractor, key as grantor/grantee respectively. *IF parties are seller & purchaser, key as grantor/grantee respectively. *IF parties are Party of the First Part & Party of the Second Part, key as grantor/grantee respectively. *If all sign & no definition made, index all as grantor/grantee"
+CFD,CONTRACT FOR DEED,O,seller (sig.),purchaser,N,
+ML,CONTRACT FOR IMPROVEMENTS,O,signature  (owner),"contractor & assigned to party, if any ",N,"Find any one of the following 5 ways to know this is correct title & instructions, otherwise use instructions above. 1.       Assignment or Transfer is in the Title of document (search doc. for assignee) 2.       Deed of Trust or Trust Deed is in the Title of document (search doc. for assignee) 3.       Lender found in the 1st paragraph 4.       Paragraph after signatures, showing assignment & signed by contractor. 5.    Assignment document attached to end of Contract."
+ML,CONTRACT FOR IMPROVEMENTS AND TRUST DEED or AND DEED OF TRUST etc.,O,signature  (owner),"contractor & assigned to party, if any ",N,"Find any one of the following 5 ways to know this is correct title & instructions, otherwise use instructions above. 1.       Assignment or Transfer is in the Title of document (search doc. for assignee) 2.       Deed of Trust or Trust Deed is in the Title of document (search doc. for assignee) 3.       Lender found in the 1st paragraph 4.       Paragraph after signatures, showing assignment & signed by contractor. 5.    Assignment document attached to end of Contract."
+ML,CONTRACT FOR IMPROVEMENTS WITH ASSIGNMENT,O,signature  (owner),"contractor & assigned to party, if any ",N,"Find any one of the following 5 ways to know this is correct title & instructions, otherwise use instructions above. 1.       Assignment or Transfer is in the Title of document (search doc. for assignee) 2.       Deed of Trust or Trust Deed is in the Title of document (search doc. for assignee) 3.       Lender found in the 1st paragraph 4.       Paragraph after signatures, showing assignment & signed by contractor. 5.    Assignment document attached to end of Contract."
+ML,"CONTRACT FOR IMPROVEMENTS WITH DEED OF TRUST, etc.",O,signature  (owner),"contractor & assigned to party, if any ",N,"Find any one of the following 5 ways to know this is correct title & instructions, otherwise use instructions above. 1.       Assignment or Transfer is in the Title of document (search doc. for assignee) 2.       Deed of Trust or Trust Deed is in the Title of document (search doc. for assignee) 3.       Lender found in the 1st paragraph 4.       Paragraph after signatures, showing assignment & signed by contractor. 5.    Assignment document attached to end of Contract."
+CS,CONTRACT OF SALE,O,seller (sig.),purchaser,N,IF only purchaser signs Grantor- signature (purchaser)  Grantee- other party (seller)
+CS,CONTRACT OF/TO PURCHASE,O,seller (sig.),purchaser,N,IF only purchaser signs Grantor- signature (purchaser)  Grantee- other party (seller)
+CV,CONVEYANCE,O,"party assigning (sig.) & borrower, if applicable",assigned to,N,"ALL COUNTIES – IF “CONVEYANCE” IS THE TITLE, USE “CV” CODE.  YOU DO NOT HAVE TO
+READ INTO THE DOCUMENT TO SEE IF WHAT IS BEING CONVEYED.  HOWEVER, IF THIS 
+TITLE HAS OTHER COMPONENTS THE COMPLETE TITLE SHOULD BE CONSIDERED.
+IF NO TITLE YOU MUST READ TO DETERMINE WHAT IS BEING CONVEYED AND CODE
+APPROPRIATELY
+
+*If multiple assignments with more than 8 borrowers, do not index any borrowers"
+CV,CONVEYANCE & AGREEMENT,O,"party assigning (sig.) & borrower, if applicable",assigned to,N,"*If multiple assignments with more than 8 borrowers, do not index any borrowers"
+CV,CONVEYANCE & ASSIGNMENT,O,"party assigning (sig.) & borrower, if applicable",assigned to,N,"*If multiple assignments with more than 8 borrowers, do not index any borrowers"
+AL,CONVEYANCE & ASSIGNMENT OF DEBT & LIEN,O,"signature & borrower, if applicable",conveyed unto,N,"*If multiple conveyances with more than 8 borrowers, do not index any borrowers"
+AL,CONVEYANCE & ASSIGNMENT OF LIEN,O,"signature & borrower, if applicable",conveyed unto,N,"*If multiple conveyances with more than 8 borrowers, do not index any borrowers"
+CV,CONVEYANCE & BILL OF SALE,O,"signature & borrower, if applicable",conveyed unto,N,"*If multiple conveyances with more than 8 borrowers, do not index any borrowers"
+CV,CONVEYANCE & TRANSFER,O,"party assigning (sig.) & borrower, if applicable",assigned to,N,"*If multiple assignments with more than 8 borrowers, do not index any borrowers"
+TL,CONVEYANCE & TRANSFER OF DEBT & LIEN,O,"signature & borrower, if applicable",conveyed unto,N,"*If multiple conveyances with more than 8 borrowers, do not index any borrowers"
+TL,CONVEYANCE & TRANSFER OF LIEN,O,"signature & borrower, if applicable",conveyed unto,N,"*If multiple conveyances with more than 8 borrowers, do not index any borrowers"
+CV,CONVEYANCE OF LEASE,O,signatory party,"conveyed to, sold to",N,
+CV,CONVEYANCE OF LEASE INTEREST,O,signatory party,"conveyed to, sold to",N,
+CV,CONVEYANCE OF LIEN,O,"signature & borrower, if applicable",conveyed unto,N,"*If multiple conveyances with more than 8 borrowers, do not index any borrowers"
+MC,CONVEYANCE OF MINERAL AND ROYALTY INTEREST,O,signatory party,"conveyed to, sold to",N,
+MC,CONVEYANCE OF MINERALS,O,signatory party,"conveyed to, sold to",N,
+ROC,CONVEYANCE OF OVERRIDING ROYALTIES,O,signatory party,"conveyed to, sold to",N,
+CV,CONVEYANCE OF PRODUCTION PAYMENT,O,signatory party,"conveyed to, sold to",N,
+ROC,CONVEYANCE OF ROYALTIES,O,signatory party,"conveyed to, sold to",N,
+MC,CONVEYANCE OF ROYALTY AND MINERAL INTEREST,O,signatory party,"conveyed to, sold to",N,
+CV,"CONVEYANCE, ASSIGNMENT & BILL OF SALE",O,"signature & borrower, if applicable",conveyed unto,N,"*If multiple conveyances with more than 8 borrowers, do not index any borrowers"
+COR,CORRECTION    (Use COR code only when you cannot identify doc. being corrected),O,all signatures,"""PUBLIC""",N,"**Except for following listings all Corrections will use instructions below.   Determine what type of document is being corrected and use type code & instructions for original document.  *Will Need Reference.  If type cannot be determined or multiple docs. combined, use the following"
+COR,CORRECTION AFFIDAVIT -- DEALING WITH CORRECTING A PREVIOUSLY FILED  DOCUMENT OR TO FILE FOR RECORD A LOST OR MISPLACED DOCUMENT.,O,Grantors of original document,Grantee of original document,N,
+COR,CORRECTION TO DECLARATION OF CONDOMINIUM   ,O,signatory party (owner) ,Condominium name,N,
+COR,CORRECTION TO DEED OF TRUST,O,borrower (sig.),"lender (beneficiary, payable to order of)",N,
+COR,CORRECTION TO LEASE,O,lessor (sig.)    ,Current lessee,N,"IF Lessor does not sign, change Type to = COR Grantor-signature    Grantee- other party"
+COR,CORRECTION TO MECHANICS LIEN CONTRACT,O,owner,contractor,N,"IF Owner, Contractor & Lender sign, Grantor- owner & Old contractor  Grantee- lender & New contractor.  -   If No New Contractor Signing, Grantor- owner Grantee- lender & contractor"
+COR,CORRECTION TO MORTGAGE,O,borrower (sig.) (mortgagor),lender  (mortgagee),N,
+COR,CORRECTION TO OIL & GAS LEASE,O,lessor (sig.)    ,Current lessee,N,"IF Lessor does not sign, change Type to = COR Grantor-signature    Grantee- other party"
+COR,"CORRECTION TO OIL, GAS & MINERAL LEASE",O,lessor (sig.)    ,Current lessee,N,"IF Lessor does not sign, change Type to = COR Grantor-signature    Grantee- other party"
+COR,CORRECTION TO PLAT,O,signatory party (owner),Subdivision name,N,
+CV,"COUNTYWIDE OIL, GAS, MINERAL, ROYALTY, REAL PROPERTY  ASSIGNMENT & CONVEYANCE",O,signatory party,conveyed unto,N,
+ RS,COVENANTS OF RESTRICTION,O,signature and property name,signature and property name,N,"*needs reference for Amd., Ext., Mod., or Renewal"
+AG,CROSS COLLATERIZATION AGREEMENT,O,"signature, all borrowers",lender,N,
+DC,DEATH CERTIFICATE   (CERTIFIED COPY OF),O,the deceased   (do Not show Deceased after name),"""PUBLIC""",N,*Use certified copy date for i/date
+DEC,DECLARATION,O,signatory party  ,"declared unto  Or ""PUBLIC""",N,"****USE ONLY IF DECLARATION IS IN TITLE, OTHERWISE USE AF"
+SI,DECLARATION & CROSS CONVEYANCE OF INTEREST,O,signatory party ,"party stipulated to have interest  Or  ""PUBLIC""",N,
+UA,DECLARATION (or DESIGNATION) OF A POOLED UNIT,O,"signature- usually property owner, mineral owner, or royalty owner.
+IF Lessee or Operator also sign, index as additional Grantees not Grantors  
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME*** 
+Grantor- Lessee","Unit name  OR if no Unit Name index LESSEE (Current Lessee) 
+(IF Title shows  Lease Being Ratified, Index both Unit Name & Current Lessee, if both given.
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME***
+ Grantee- ""PUBLIC""",N,UNIT NAME INFORMATION
+DCO,DECLARATION OF CONDOMINIUM,O,owner (sig.) ,Condominium ,N,
+DED,DECLARATION OF DEDICATION OF PLACE OR PROPERTY FOR HISTORICAL PURPOSES (USUALLY A CEMETERY),O,"""TEXAS HISTORICAL ASSOCIATION""","owner (if given), cemetery (if involves same) or other place or building as named",N,
+WAS,DECLARATION OF DEED NOTICE (AND RESTRICTION),O,signatory party,signatory party,N,
+EO,DECLARATION OF EXERCISE OF OPTION TO EXTEND OG&M LEASE,O,signatory party   ,other party           ,N,
+DEC,DECLARATION OF FORMATION etc. OF ARCHTECTURAL CONTROL COMMITTEE;    COMMUNITY ASSOCIATION; HOMEOWNERS ASSOCIATION AND OTHER LIKE   SUBDIVISION ASSOCIATIONS,O,signatory party,"association, etc, name (ex. Architectural Control Committee of Restful Shores; Homeowners Association of Willow Bend, or Willow Bend Homeowners Association)",N,
+SI,DECLARATION OF INTEREST (Agreement),O,signatory party ,"party stipulated to have interest  Or  ""PUBLIC""",N,
+DIF,DECLARATION OF INVALIDITY OF FORECLOSURE SALE,O,signatory party  ,borrower (land reverting to),N,
+RS,DECLARATION OF RESTRICTIVE COVENANTS (RESTRICTIONS),O,Company name(s),Company name(s),N,
+DEC,DECLARATION OF TAKING,O,signatory party ,party whose property is taken,N,
+DTH,DECLARATION OF TOWNHOMES,O,owner (sig.) ,Townhome Name,N,
+TUA,DECLARATION OF TRUST,O,signatory party ,Trust Name & trustee appointed (use ‘trustee’ after name),N,
+DEC,DECLARATION TO MANAGE AND CONTROL SEPARATE PROPERTY  ****,O,signatory party  ,"declared unto  Or ""PUBLIC""",N,"****USE ONLY IF DECLARATION IS IN TITLE, OTHERWISE USE AF"
+DL,DECLINATION,O,signature,"party declined unto   or  ""PUBLIC""",N,
+DTI,DECLINATION OF TITLE,O,signature (declining),"declined to, quitclaimed to",N,
+DTI,DECLINATION OF TITLE & QUIT CLAIM,O,signature (declining),"declined to, quitclaimed to",N,
+OD,DECREE  (CERTIFIED COPY OF),O,signatory party ,issued to &/or about,N,"*IF this is a suit,  Grantor- Plaintiff  -  Grantee- Defendant  *IF this is a single party suit,    Grantee- PUBLIC"
+DED,DEDICATION,O,owner (sig.),"dedicated  to  Or ""PUBLIC""",N,"*Check, this may be a PLAT"
+DED,DEDICATION OF CEMETERY  (If for Historical Purposes see listing prior page),O,signatory party,"Cemetery Name OR ""PUBLIC""",N,
+RS,DEDICATION OF RESTRICTIVE COVENANTS (RESTRICTIONS),O,Company name(s),Company name(s),N,"*needs reference for Amd., Ext., Mod., or Renewal  "
+DED,DEDICATION OF STREET,O,owner (sig.),"dedicated to & Street OR, if neither available, ""PUBLIC"" ",N,Grantee – should be indexed as PUBLIC and as the Name of the Street) Grantee – should be indexed as PUBLIC and as the Name of the Street) 
+DED,DEDICATION OF STREET AND GRANT OF EASEMENT,O,owner (sig.),"dedicated to & Street OR, if neither available, ""PUBLIC"" ",N,Grantee – should be indexed as PUBLIC and as the Name of the Street) Grantee – should be indexed as PUBLIC and as the Name of the Street) 
+DE,DEED,O,seller (sig.),"purchaser  (granted, sold & conveyed unto)",N,
+ALD,DEED   ,O,"signatory party, party sig. represents (if other than self) & party assessed against (owner)",purchaser,N, (BY HOMEOWNERS ASSOCIATION) (IN FORECLOSURE FOR NON-PAYMENT)
+DE,DEED IN LIEU OF FORECLOSURE,O,seller (sig.),"purchaser  (granted, sold & conveyed unto)",N,
+DIT,DEED –IN- TRUST,O,signatory party,party being deeded unto,N,*This is dealing with property used as collateral to do business as a Bail Bondsman. It may be used for purposes other than Bondsman. It is Not to be used for Deeding Property into a Trust.  (DE = Deed) It is Not to be used for a Deed of Trust securing a purchase of real estate. (see listing directly below  DT = Deed of Trust)
+RE,DEED OF RECONVEYANCE,O,signature (lender),"being released  (use name in the ‘release statement’ if available, else, use the ‘Note-Deed of Trust executed by:’, ‘ borrower’)",N,
+DT,DEED OF TRUST,O,"signature (owner, borrower)","lender  (beneficiary, payable to the order of, justly indebted to)",N,*IF Short Form **needs reference to Master Deed of Trust if given
+DT,DEED OF TRUST & ASSIGNMENT OF CONTRACTOR’S LIEN,O,"signature (owner, borrower) & Contractor, if signing","lender & assigned to party, if any",N,
+DT,DEED OF TRUST & ASSIGNMENT OF LIEN,O,"signature (owner, borrower) & Contractor, if signing","lender & assigned to party, if any",N,
+DT,DEED OF TRUST TO SECURE ASSUMPTION,O,"signature (owner, borrower)","lender/beneficiary, (usually is an individual) Do Not use Payable to the Order of ",N,
+DE,"DEED, ASSIGNMENT & BILL OF SALE",O,seller (sig.),"purchaser  (granted, sold & conveyed unto)",N,
+SI,DELAY RENTAL STIPULATION,O,"signature, usually the lessor","party directed to pay, usually the current lessee",N,
+NO,DEMOLITION ORDER,O,signatory party (usually a city),"property owner & other interested parties (if listed) OR  ""PUBLIC""",N,
+LIC,DENTIST LICENSE/CERTIFICATE,O,party issuing certificate,issued to,N,
+DEP,DEPUTATION,O,office which deputized person will represent  (ex. Hunt County Sheriff),being deputized,N,
+DES,DESIGNATION,O,signatory party ,"other party  Or ""PUBLIC"" , IF Depository involved; current lessee & depository  ",N,
+DES,DESIGNATION OF DEPOSITORY,O,signatory party ,"other party  Or ""PUBLIC"" , IF Depository involved; current lessee & depository  ",N,
+DO,DESIGNATION OF DEPOSITORY AND RATIFICATION AND RENTAL DIVISION ORDER,O,signatory party ,"other party  Or ""PUBLIC"" , IF Depository involved; current lessee & depository  ",N,
+EO,DESIGNATION OF EXTENSION OF PRIMARY TERM OF OIL & GAS LEASE,O,signatory party   ,other party           ,N,
+APP,DESIGNATION OF RECEIVER,O,"party doing appointing (sig) & whom they represent & Borrowers, if any",being appointed  (word ‘trustee’ is not needed after name),N,
+AT,DESIGNATION OF SUBSTITUTE TRUSTEE,O,"party doing appointing (sig.) & whom they represent & Borrowers, if any",being appointed (word ‘trustee’ not needed after name) ,N,
+AT,DESIGNATION OF SUCCESSOR TRUSTEE,O,"party doing appointing (sig.) & whom they represent & Borrowers, if any",being appointed (word ‘trustee’ not needed after name) ,N,
+AT,DESIGNATION OF TRUSTEE,O,"party doing appointing (sig.) & whom they represent & Borrowers, if any",being appointed (word ‘trustee’ not needed after name) ,N,
+M,DIRECTIVE TO PHYSICIAN,O,signatory party ,"""PUBLIC""",N,{COMAL COUNTY ONLY Use Code DIR}
+CC,"DIRECTIVE TO PHYSICIAN, CERTIFIED COPY OF",O,signatory party ,"""PUBLIC""",N,{COMAL COUNTY ONLY Use Code DIR}
+ROD,DISABILITIES REMOVED ,O,person for whom Disabilities are to be removed,"""PUBLIC""",N,"*This covers Application, Petition, Order & Judgment"
+DCG,DISCHARGE,O,signatory party ,"other party  Or ""PUBLIC""",N,
+DB,DISCHARGE OF BANKRUPTCY   (CERTIFIED COPY OF),O,bankrupt party,"""PUBLIC""",N,*use certified copy date for i/date
+DB,DISCHARGE OF BANKRUPTCY  (CERTIFIED COPY OF),O,bankrupt party     ,"""PUBLIC""",N,*Use certified copy date for i/date
+ RE,DISCHARGE OF LIEN,O,signature (lender),"being released (use name in the ‘release statement’ if available, else, use the ‘Note-Deed of Trust executed by:’, ‘ borrower’)",N,
+DCL,DISCLAIMER,O,signatory party ,"Disclaimed to  OR ""PUBLIC""",N,
+OD,DISMISSAL OF A SUIT,O,Plaintiff ,Defendant,N,"*IF this is a single party suit,    Grantee- PUBLIC  *use certified copy date as i/date"
+DIS,DISSOLUTION,O,signatory party  ,"being dissolved  Or ""PUBLIC""",N,
+DIS,DISSOLUTION OF JOINT VENTURE,O,signatory party  ,"being dissolved  Or ""PUBLIC""",N,
+DIS,DISSOLUTION OF PARTNERSHIP,O,signatory party  ,"being dissolved  Or ""PUBLIC""",N,
+DIS,"DISSOLUTION, CERTIFICATE OF  (Certificate filed with the State)",O,Business being dissolved,"""PUBLIC""",N,
+ROC,DISTRIBUTION OF OVERRIDING ROYALTIES,O,signatory party,conveyed to,N,
+DE,DISTRIBUTION SURFACE PROPERTY AND MINERAL DEED (WITH/WITHOUT WARRANTY),O,signatory parties,"purchaser  (granted, sold & conveyed unto)",N,
+NO,DISTRICT INFORMATION FORM,O,signatory party,"""PUBLIC""",N,
+DO,DIVISION ORDER,O,signatory party  ,current lessee AND IF Designation of Depository in Title also index Depository,N,
+DO,DIVISION ORDER AND DESIGNATION OF DEPOSITORY,O,signatory party  ,current lessee AND IF Designation of Depository in Title also index Depository,N,
+DV,DIVORCE PROCEEDINGS   (CERTIFIED COPY OF),O,Plaintiff  (petitioner),Defendant  (respondent),N,*use certified copy date for i/date
+M,DONATION,O,signatory party ,"donated to  Or ""PUBLIC""",N,
+GD,DONATION DEED,O,signatory party (party giving),party donated unto,N,
+CC,"DONATION, CERTIFIED COPY OF",O,signatory party ,"donated to  Or ""PUBLIC""",N,
+AG,DRILLSITE AGREEMENT,O,"signatory parties and Unit Name, if being represented","DRILLSITE AGREEMENT and Subdivision Name, if shown at Title of Document",N,
+EM,EASEMENT,O,party granting easement,granted to,N,
+EM,EASEMENT & RIGHT OF WAY,O,party granting easement,granted to,N,
+EM,EASEMENT AGREEMENT,O,party granting easement,granted to,N,
+EMD,EASEMENT DEED,O,party granting easement,granted to,N,"Only select Easement Deed if ""Deed"" is included in the title."
+EM,EASEMENT FOR SANITARY CONTROL,O,party granting easement,granted to,N,
+EM,"EASEMENT, SPECIAL WARRANTY",O,party granting easement,granted to,N,
+AG,ELECTION NOT TO PROBATE WILL,O,signature & deceased party,signature ,N,"Do not need to included ""deceased"" designation if given on document for party name(s)"
+ CV,ELECTION NOT TO PROBATE WILL AND CONVEYANCE,O,signature & deceased party,conveyed to party,N,"Do not need to included ""deceased"" designation if given on document for party name(s)"
+AF,ELECTION TO MANAGE PROPERTY,O,signatory party,"party declared unto or ""PUBLIC""",N,
+AF,"ELECTION TO MANAGE, CONTROL & DISPOSE OF SEPARATE PROPERTY",O,signatory party,"party declared unto or ""PUBLIC""",N,
+NO,ELECTION TO RELINQUISH DISABILITIES OF COVERTURE,O,Signatory party,"""PUBLIC""",N,
+AG,ENCROACHMENT / ENCROACHMENT AGREEMENT,O,party granting encroachment rights,party receiving rights,N,
+FE,ENTIRE DOCUMENT MISSING,N,MS\,MS\,N,Take the recording date from the Prior Document
+EST,ESTATE TAX LETTER,O,signature (usually government),decedent,N,
+EST,ESTATE TAX LIEN,O,signature (usually government),decedent,N,
+EST,ESTATE TAX LIEN RELEASE,O,signature (usually government),decedent,N,
+EST,ESTATE TAX RECEIPT,O,signature (usually government),decedent,N,
+M,ESTRAY,O,signatory party ,"animal  Or ""PUBLIC""",N,
+AF,"ESTRAY, AFFIDAVIT OF OWNERSHIP",O,signatory party ,"""PUBLIC""",N,
+CC,"ESTRAY, CERTIFIED COPY OF",O,signatory party ,"animal  Or ""PUBLIC""",N,
+NO,"ESTRAY, NOTICE OF",O,signatory party ,"animal  Or ""PUBLIC""",N,
+PEW,EXCLUSION FROM EASEMENT                                  ,O,signatory party   ,other party           ,N,
+WT,EXECUTION (by itself),O,Plaintiff,"Defendant Or ""PUBLIC""",N,"Grantee-  Defendant (*If this is a 2 party suit),  ""PUBLIC"" (*If this is a 2 party suit) "
+EO,EXERCISE OF OPTION                                                   ,O,signatory party   ,other party           ,N,
+AT,EXERCISE OF TRUSTEE REMOVAL & REPLACEMENT POWER,O,"signature & Borrower, if applies OR & Trust Name, if applies",being removed & being appointed (show TRUSTEE and SUB TRUSTEE respectively   after names),N,
+EXT,EXTENSION                                                                       ,O,"signatory party    (if lien, borrower)","other party           (if lien, lender from sig. area)",N,
+LS,EXTENSION & AMENDMENT OF LEASE,O,"signature  (granting extension, lessor)",current lessee,N,"IF Lessor does not sign, change Type to = EXT  Grantor-signature     Grantee- other party"
+OGL,"EXTENSION & AMENDMENT OF OIL, GAS & MINERAL LEASE",O,"signature  (granting extension, lessor)",current lessee,N,"IF Lessor does not sign, change Type to = EXT  Grantor-signature     Grantee- other party"
+EXT,EXTENSION & MODIFICATION AGREEMENT ,O,"signatory party    (if lien, borrower)","other party           (if lien, lender from sig. area)",N,
+EX,EXTENSION & MODIFICATION OF LIEN,O,borrower (sig.),Lender (use from signatory area),N,
+EXT,EXTENSION & RENEWAL AGREEMENT                                               ,O,"signatory party    (if lien, borrower)","other party           (if lien, lender from sig. area)",N,
+EX,EXTENSION & RENEWAL OF LIEN,O,borrower (sig.),Lender (use from signatory area),N,
+EXT,EXTENSION AGREEMENT    ,O,"signatory party    (if lien, borrower)","other party           (if lien, lender from sig. area)",N,
+EX,EXTENSION OF DEED OF TRUST,O,borrower (sig.),Lender (use from signatory area),N,
+LS,EXTENSION OF LEASE,O,"signature  (granting extension, lessor)",current lessee,N,"IF Lessor does not sign, change Type to = EXT  Grantor-signature     Grantee- other party"
+EX,EXTENSION OF LIEN,O,borrower (sig.),Lender (use from signatory area),N,
+OGL,"EXTENSION OF OIL, GAS & MINERAL LEASE",O,"signature  (granting extension, lessor)",current lessee,N,"IF Lessor does not sign, change Type to = EXT  Grantor-signature     Grantee- other party"
+AS,FARMOUT AGREEMENT AND ASSIGNMENT,O,party assigning (sig.),party assigned to,N,
+NLF,FEDERAL LIEN,O,"""U S A""",Defendant,N,
+FTL,FEDERAL TAX LIEN,O,"government agency    ""U S A INTERNAL REVENUE SERVICE""",taxpayer,O,
+RFT,FEDERAL TAX LIEN RELEASE,O,"government agency    ""U S A INTERNAL REVENUE SERVICE""",taxpayer,N,
+FN,FIELD NOTES,O,"sig., usually the Surveyor (show title) & Property Owner (if given)","Property name (survey or subdivision name)   Or ""PUBLIC""",N,*IF there is a owners certificate & the City approval for the Plat then the document    would actually be a PL = PLAT at this time we have seen Only 1 like this in Hunt    backfile/re-indexing  (time – 02/06/2009)
+FS,FINANCING STATEMENT,O,debtor (sig.),"lender (secured party) & assignee, if applies",N,*needs reference if continuation
+FSA,FINANCING STATEMENT – ASSIGNMENT,O,lender (sig.) & Debtor,assigned to,N,
+FS,FINANCING STATEMENT – NOTICE OF UCC,O,"signature & who represented, if any",Other party,N,
+FSA,FINANCING STATEMENT – PARTIAL ASSIGNMENT,O,lender (sig.) & Debtor,assigned to,N,
+FSP,FINANCING STATEMENT – PARTIAL RELEASE,O,signature (lender),debtor,N,
+FSR,FINANCING STATEMENT – RELEASE/TERMINATION,O,signature (lender),debtor,N,
+FS,FINANCING STATEMENT & ASSIGNMENT,O,debtor (sig.),"lender (secured party) & assignee, if applies",N,*needs reference if continuation
+FS,FINANCING STATEMENT CONTINUATION,O,debtor (sig.),"lender (secured party) & assignee, if applies",N,*needs reference if continuation
+CT,FORECLOSURE CERTIFICATE,O,signatory party,borrowers,N,
+TD,FORECLOSURE DEED,O,Borrowers,purchaser  (struck off to),N,"*IF sig. other than a trustee, see appropriate title depending on who is signing. Trustee not needed."
+FC,FORFEITURE OF CONTRACT,O,signatory party ,Other party,N,"*IF this deals with Veterans Land Board
+Grantor- person forfeiting contract
+Grantee- VETERANS LAND BOARD OF STATE OF TEXAS (or State involved)"
+STL,FRANCHISE TAX LIEN,O,"government agency (usually ""TEXAS STATE OF"")",Taxpayer,N,
+LIC,FUNERAL LICENSE/CERTIFICATE,O,issuing,issued to,N,
+CTR,GAS PURCHASE CONTRACT,O,signature (usually seller),other (usually purchaser),N,
+WD,GENERAL WARRANTY DEED,O,"signature, seller",purchaser (grant sell & convey unto),N,
+CEM,GIFT CEMETERY DEED ,O,signatory party,party granted to,N,
+MD,GIFT COAL DEED ,O,signatory party,party granted to,N,
+GD,GIFT DEED,O,signatory party,party granted to,N,
+EMD,GIFT EASEMENT DEED,O,signatory party,party granted to,N,
+GD,GIFT GENERAL WARRANTY DEED,O,signatory party,party granted to,N,
+CV,GIFT GRAVEL DEED,O,signatory party,party granted to,N,
+MD,GIFT MINERAL DEED,O,signatory party,party granted to,N,
+RWD,GIFT RIGHT OF WAY DEED,O,signatory party,party granted to,N,
+RYD,GIFT ROYALTY DEED ,O,signatory party,party granted to,N,
+GD,GIFT SPECIAL WARRANTY DEED,O,signatory party,party granted to,N,
+TBD,GIFT TIMBER DEED,O,signatory party,party granted to,N,
+MD,GIFT TRUSTEES MINERAL DEED,O,signatory party,party granted to,N,
+GD,GIFT WARRANTY DEED,O,signatory party,party granted to,N,
+EM,GRANT OF EASEMENT,O,party granting easement,granted to,N,
+CV,GRAVEL DEED,O,seller (sig.),purchaser,N,
+GUA,GUARANTEE,O,signatory party  ,other party,N,"GUARDIANSHIP PROCEEDINGS
+   SEE – PROBATE PROCEEDINGS
+  *use certified copy date for I/date"
+EM,GUY AND ANCHORAGE CONSENT,O,signatory party,party given permission to use property,N,
+EM,GUY AND ANCHORAGE PERMIT,O,signatory party,party given permission to use property,N,
+CT,HAZARDOUS WASTE (SUBSTANCE) INDEMNIFICATION CERTIFICATE / INDEMNITY AGREEMENT,O,signatory party,"other party OR ""PUBLIC"" (if borrower not signing they may be shown under paragraph   Titled “Borrower”.",N,
+AG,HOME EQUITY COMPLIANCE CERTIFICATE AND AGREEMENT,O,signature (owner borrower),lender,N,
+ALN,HOMEOWNERS ASSOCIATION ASSESSMENT (OR LIEN AFFIDAVIT/CLAIM),O,party claiming lien (sig.)   ,"party claimed against, if no name given, use UNKNOWN",N,
+HOME,HOMESTEAD AFFIDAVIT,O,signatory party ,"""PUBLIC""",N,
+HOME,HOMESTEAD AFFIDAVIT AS RELEASE OF JUDGMENT LIEN *use Judgment Lien Reference if given,O,signatory party ,"""PUBLIC""",N,
+HOME,HOMESTEAD DESIGNATION,O,signatory party ,"""PUBLIC""",N,
+DT,HOMESTEAD LIEN CONTRACT AND DEED OF TRUST,O,"signature (owner, borrower)","lender  (beneficiary, payable to the order of, justly indebted to)",N,
+HOME,HOMESTEAD/NON-HOMESTEAD DECLARATION      (AFF./DESIG.),O,signatory party ,"""PUBLIC""",N,
+HL,HOSPITAL LIEN **,O,signatory party & Hospital (if different from signature),injured person,N,"**Key Hospital name the way it is shown at the signature and/or in the 
+       body of the document.  Don’t bother with the Letterhead unless that is
+    the only place the Hospital Name is shown.  Often the signatory party is a
+        representative or agent and should be indexed."
+CTR,IMPROVEMENT AGREEMENT (between the City & Property Developer (owner)),O,all signatures,all signatures and the Proposed Subdivision Name,N,"*Property – do not index proposed subdivision, key instead the current description of  the property. ***If this doc. involves other than a City & a Developer, please check further Before using this instruction. ********THIS IS NOT THE SAME THING AS A “CONTRACT FOR IMPROVEMENTS”BETWEEN AN OWNER & CONTRACTOR = ML"
+ID,INDENTURE,O,borrower (sig.),lender,N,"*Not often used, usually is an Indenture of ____ something.  Example if titled  Indenture of Mortgage, we would code for Mortgage."
+CTR,INDUSTRIAL DISTRICT CONTRACT,O,signatures (usually City and a Company),signatures (usually City and a Company),N,
+WAS,INDUSTRIAL SOLID WASTE,O,signatory party  ,"other party  Or ""PUBLIC""",N,
+WAS,INDUSTRIAL SOLID WASTE CERTIFICATION OF REMEDIATION,O,signatory party  ,"other party  Or ""PUBLIC""",N,
+IT,INHERITANCE TAX RECEIPT,O,government agency,Estate issued to (ESTATE after name),N,
+IT         ,INHERITANCE TAX REPORT  (Affidavit for Inheritance Tax Appraisement),O,estate involved,estate involved (ESTATE after name),N,
+IT,INHERITANCE TAX RETURN – DECLARATION OF NO TAX DUE,O,government agency,Estate issued to (ESTATE after name),N,
+IT,INHERITANCE TAX WAIVER,O,government agency,Estate issued to (ESTATE after name),N,
+IT,"INHERITANCE TAX, RELEASE OF LIEN",O,government agency,Estate issued to (ESTATE after name),N,
+JV,JOINT VENTURE AGREEMENT,O,signatory party ,new Business name,N,
+JUD,JUDGMENT   (CERTIFIED COPY OF),O,Plaintiff,"Defendant or ""PUBLIC""",N,"*If single party suit use PUBLIC as grantee
+*If dealing with Probate, go to Probate for instructions
+*use certified copy date for i/date"
+PB,JUDGMENT DECLARING HEIRSHIP,O,estate  (use Deceased and/or Estate or Minor after name as shown on document.  If party is shown as incompetent/incapacitated  use Estate after Name),"""PUBLIC""",N,"**If doc shows “Succession of” treat that as “Estate of” & index ESTATE after name
+Will Only – see W’s Otherwise use this code (PB) *use certified copy date for i/date
+ We would not need to key ESTATE as a name designator parties on this document. Accounted for based on doc type."
+ROD,JUDGMENT FOR REMOVAL OF DISABILITIES,O,Party for whom Disabilities are being Removed,"""PUBLIC""",N,
+LC,LABOR & MATERIAL LIEN,O,signatory party       ,"claimed against, (contractor, owner, sub-contractor, supplier)",N,
+LC,LABOR LIEN,O,signatory party       ,"claimed against, (contractor, owner, sub-contractor, supplier)",N,
+LAW,LAND AWARD,O,signatory party       ,recipient,N,
+WAS,LANDFILL DECLARATION DEED,O,signatory party ,"other party  Or ""PUBLIC""",N,
+LC,LANDLORDS LIEN,O,signatory party (landlord),party lien claimed against,N,
+WAV,LANDLORDS WAIVER ,O,signatory party (landlord),party waiver/consent given to,N,
+WAV,LANDLORDS WAIVER & CONSENT,O,signatory party (landlord),party waiver/consent given to,N,
+AF,LANDMAN’S STATEMENT,O,"signature & who signature represents, if any",parties affidavit is about,N,
+LS,LEASE,O,lessor (sig.)         ,Current lessee,N,"*Informational – Lessor is usually the Owner of the Land &  --Lessee would be the Owner of the Lease
+**IF Lessor does not sign, change Type to = Appropriate type AM, EXT, RN, or AG  Grantor- signature  Grantee- other party
+*needs reference if amendment, extension or renewal"
+LS,LEASE AMENDMENT,O,lessor (sig.)         ,Current lessee,N,"*Informational – Lessor is usually the Owner of the Land &  --Lessee would be the Owner of the Lease
+**IF Lessor does not sign, change Type to = Appropriate type AM, EXT, RN, or AG  Grantor- signature  Grantee- other party
+*needs reference if amendment, extension or renewal"
+LS,LEASE EXTENSION,O,lessor (sig.)         ,Current lessee,N,"*Informational – Lessor is usually the Owner of the Land &  --Lessee would be the Owner of the Lease
+**IF Lessor does not sign, change Type to = Appropriate type AM, EXT, RN, or AG  Grantor- signature  Grantee- other party
+*needs reference if amendment, extension or renewal"
+MEL,LEASE MEMORANDUM,O,lessor (sig.)    ,Current lessee,N,
+OGL,"LEASE OF OIL, GAS & MINERALS",O,lessor (sig.)         ,Current lessee,N,"*Informational – Lessor is usually the Owner of the Land &  --Lessee would be the Owner of the Lease
+**IF Lessor does not sign, change Type to = Appropriate type AM, EXT, RN, or AG  Grantor- signature  Grantee- other party
+*needs reference if amendment, extension or renewal"
+OGL,"LEASE OF OIL, GAS & MINERALS AGREEMENT",O,lessor (sig.)         ,Current lessee,N,"*Informational – Lessor is usually the Owner of the Land &  --Lessee would be the Owner of the Lease
+**IF Lessor does not sign, change Type to = Appropriate type AM, EXT, RN, or AG  Grantor- signature  Grantee- other party
+*needs reference if amendment, extension or renewal"
+OGL,"LEASE OF OIL, GAS & MINERALS AMENDMENT",O,lessor (sig.)         ,Current lessee,N,"*Informational – Lessor is usually the Owner of the Land &  --Lessee would be the Owner of the Lease
+**IF Lessor does not sign, change Type to = Appropriate type AM, EXT, RN, or AG  Grantor- signature  Grantee- other party
+*needs reference if amendment, extension or renewal"
+OGL,"LEASE OF OIL, GAS & MINERALS EXTENSION",O,lessor (sig.)         ,Current lessee,N,"*Informational – Lessor is usually the Owner of the Land &  --Lessee would be the Owner of the Lease
+**IF Lessor does not sign, change Type to = Appropriate type AM, EXT, RN, or AG  Grantor- signature  Grantee- other party
+*needs reference if amendment, extension or renewal"
+OGL,"LEASE OF OIL, GAS & MINERALS RENEWAL",O,lessor (sig.)         ,Current lessee,N,"*Informational – Lessor is usually the Owner of the Land &  --Lessee would be the Owner of the Lease
+**IF Lessor does not sign, change Type to = Appropriate type AM, EXT, RN, or AG  Grantor- signature  Grantee- other party
+*needs reference if amendment, extension or renewal"
+LS,LEASE RATIFICATION,O,lessor (sig.),Current lessee,N,"**IF Lessor does not sign, change Type to =  RAT  Grantor- signature  Grantee- other party"
+DO,LEASE RATIFICATION & DIVISION ORDER,O,lessor (sig.),Current lessee AND IF Designation of Depository in Title also index Depository,N,
+LS,LEASE RENEWAL,O,lessor (sig.)         ,Current lessee,N,"*Informational – Lessor is usually the Owner of the Land &  --Lessee would be the Owner of the Lease
+**IF Lessor does not sign, change Type to = Appropriate type AM, EXT, RN, or AG  Grantor- signature  Grantee- other party
+*needs reference if amendment, extension or renewal"
+TLS,LEASE TERMINATION,O,signatory party ,party terminated,N,
+LET,LETTER,O,signatory party       ,"recipient and parties letter concerns, if other than signatory party & recipient ",N,
+LET,LETTER AGREEMENT,O,signatory party       ,"recipient and parties letter concerns, if other than signatory party & recipient ",N,
+PB,LETTERS OF ADMINISTRATION,O,"Estate (use Deceased and/or Estate after Name, as shown on document) ","""PUBLIC""",N,
+PB,LETTERS OF GUARDIANSHIP,O,"Estate (use Deceased and/or Estate after Name, as shown on document) ","""PUBLIC""",N,
+PB,LETTERS OF TEMPORARY ADMINISTRATION,O,"Estate (use Deceased and/or Estate after Name, as shown on document) ","""PUBLIC""",N,
+PAT,LETTERS PATENT,O,signatory party ,given to,N,*use certified copy date for i/date
+PB,LETTERS TESTAMENTARY,O,"Estate (use Deceased and/or Estate after Name, as shown on document) ","""PUBLIC""",N,
+LIC,LICENSE / CERTIFICATE,O,signatory party ,issued to,N,
+AG,LICENSE AGREEMENT,O,signatory party ,authority granted to,N,
+LN,LIEN   (LIEN GRANTED),O,signatory party ,lien granted to,N,
+LC,LIEN AFFIDAVIT/CLAIM/NOTICE (general),O,signatory party ,"claimed against  (contractor, lessor, lessee, owner, sub-contractor, supplier)",N,
+LP,LIS PENDENS  (NOTICE OF) Multi Party,O,Plaintiff,Defendant,N,"             **IF Defendant is given as; Property, Buildings etc.  Look within the document for 
+      the purported property Owner & use that party as the Defendant.  
+           ***IF no property Owner is found, use the actual street address of the property shown 
+                   in the case set-up, 
+       ie. 5890 W UNIVERSITY BLVD ODESSA ECTOR COUNTY TEXAS
+                      ****IF no property address given, follow instructions for single party suit, shown above."
+LP,LIS PENDENS  (NOTICE OF) Single Party,O,Plaintiff,"""PUBLIC""",N,"           ***IF no property Owner is found, use the actual street address of the property shown 
+                   in the case set-up, 
+       ie. 5890 W UNIVERSITY BLVD ODESSA ECTOR COUNTY TEXAS
+                      ****IF no property address given, follow instructions for single party suit, shown above."
+M,LIVING WILL,O,Signature,"""PUBLIC""",N,"Do not need to included ""deceased"" designation if given on document for party name(s)"
+CC,"LIVING WILL, CERTIFIED COPY OF",O,Signature,"""PUBLIC""",N,"Do not need to included ""deceased"" designation if given on document for party name(s)"
+CT,MANAGEMENT CERTIFICATE,O,signatory party  (usually a HomeOwners Associatiion),Property Name (usually new Subdivision. name),N,*IF someone other than the association is being made manager index that party as additional Grantee.
+OD,MANDATE,O,Plaintiff,Defendant,N,"*If single party suit use PUBLIC as grantee
+*If dealing with Probate, go to Probate for instructions
+*use certified copy date for i/date"
+ADD,MANUFACTURED HOME RIDER TO SECURITY INSTRUMENT,O,signatory party ,other party,N,
+MAP,MAP,O,signature,"Name of property or ""PUBLIC""",N,"*not often used, usually will be either “Field Notes or Surveyors Plat”"
+MB,MARKS AND BRANDS,O,Owners and  Business (if given),"""PUBLIC""",N,
+AG,MARRIAGE AGREEMENT / PRE-NUPTIAL,O,signatures,signatures,N,
+MLI,MARRIAGE LICENSE   (CERTIFIED COPY OF),O,first party,second party,N,*use certified copy date for i/date
+MAD,MARSHALS DEED,O,signature & government body sig. represents (show word MARSHAL after each)  & owner (usually defendant),purchaser,N,
+MDT,MASTER DEED OF TRUST,O,Person filing,"""PUBLIC""",N,"*This is a shell to be used for future loans.  Often there is no signature.  If this is the  case, find lender in text of doc. and use that name as Grantor, Public as Grantee."
+LC,MATERIALMANS LIEN  (Claim),O,signatory party (party who is claiming lien),"claimed against (contractor, owner, sub-contractor, supplier)",N,
+ML,MATERIALMANS LIEN CONTRACT,O,signature (owner),contractor,N,
+LC,MECHANICS & MATERIALMANS LIEN  (Claim),O,signatory party (party who is claiming lien),"claimed against (contractor, owner, sub-contractor, supplier)",N,
+ML,MECHANICS & MATERIALMANS LIEN CONTRACT    ,O,signature (owner),contractor,N,
+ML,MECHANICS LIEN (CONTRACT) WITH ASSIGNMENT,O,signature (owner),contractor & assigned to party,N,"Find any one of the following 5 ways to know this is correct title & instructions,  otherwise use instructions above.
+1.       Assignment or Transfer is in the Title of document (search doc. for assignee)
+2.       Deed of Trust or Trust Deed is in the Title of document (search doc. for assignee)
+3.       Lender found in the 1st paragraph 
+4.       Paragraph after signatures, showing assignment & signed by contractor.
+5.    Assignment document attached to end of Contract."
+LC,MECHANICS LIEN AFFIDAVIT,O,signatory party (party who is claiming lien),"claimed against (contractor, owner, sub-contractor, supplier)",N,
+ML,MECHANICS LIEN CONTRACT  ,O,signature (owner),contractor,N,
+RME,MEDICAID ESTATE RECOVERY PROGRAM NOTICE OF WITHDRAWAL OF CLAIM ,O,signatory party,claimed against party being released,N,
+MED,MEDICAL LIEN,O,signatory party ,claimed against,N,*This code handles all types of Medical Liens Except Hospital Liens
+MEM,MEMORANDUM  (General - If type cannot be determined or multiple docs. Combined),O,all signatures,"other parties  or ""PUBLIC""",N,"(Use MEM code only when cannot identify doc. being memorandized or  other special circumstances described below).
+**Except for the few following listed type all memorandums will use instructions below
+Determine what type of document is being memorandized and use type code & instructions for Original Document.
+ If type cannot be determined or multiple docs. combined, use the following
+Grantor- all signatures
+ Grantee- other parties  or PUBLIC"
+MEM,MEMORANDUM (IF Proper Party Does Not Sign Document ),O,assignor,assignee,N,"(Use MEM code only when cannot identify doc. being memorandized or  other special circumstances described below).
+**Except for the few following listed type all memorandums will use instructions below
+Determine what type of document is being memorandized and use type code & instructions for Original Document.
+IF Proper Party Does Not Sign Document (ie: if Memo. of Assignment and the signatory
+ party is not the Assignor); Change Type to: MEM -Grantor – signatory party  Grantee – other party
+"
+MEL,"MEMORANDUM OF LEASE or OIL,GAS & MINERAL LEASE, LEASE EXTENSION, LEASE OPTION or EXERCISE OF LEASE OPTION, LEASE RATIFICATION",O,signatory party  ,other party,N,"*If both parties sign index as follows:  Grantor- Lessor    Grantee- Lessee
+*needs reference if extension or ratification
+*Informational – Lessor is usually the Owner of the Land
+ -- Lessee would be the Owner of the Lease"
+AG,MEMORANDUM OF NEGATIVE PLEDGE AGREEMENT,O,signature,other party  (pledged unto),N,
+MT,MEMORANDUM OF TRUST AGREEMENT,O,signature and Trustor if shown,"other party & Trust Name, if shown",N,
+DE,MEMORANDUM OF TRUST AND DEED AND STOCK TRANSFER POWER,O,signature  (Trustor),Trust Name and Trustee,N,
+MER,MERGER,O,All business names,Surviving business ,N,
+AF,MILITARY AFFIDAVIT,O,signature,"""PUBLIC""",N,
+MID,MILITARY DISCHARGE,O,branch of Military prefaced by US  (ex. U S NAVY),party discharged,N,
+ASM,MINERAL & ROYALTY TRANSFER,O,signatory party ,"conveyed, sold to",N,*needs reference IF a Transfer
+ASM,MINERAL & ROYALTY TRANSFER & ASSIGNMENT OF OVERRIDING  ROYALTY,O,signatory party ,"conveyed, sold to",N,*needs reference IF a Transfer
+MD,MINERAL AND ROYALTY DEED,O,signatory party ,"conveyed, sold to",N,*needs reference IF a Transfer
+MC,MINERAL AWARD FROM STATE,O,signatory party ,"conveyed, sold to",N,*needs reference IF a Transfer/Conveyance 
+MC,MINERAL CONVEYANCE,O,signatory party ,"conveyed, sold to",N,*needs reference IF a Transfer/Conveyance 
+MD,"MINERAL DEED   (General Warranty, Gift, Special Warranty or Warranty Mineral Deed)",O,signatory party ,"conveyed, sold to",N,*needs reference IF a Transfer
+OGL,MINERAL LEASE,O,lessor (sig.),lessee,N,
+MIN,"MINUTES   (IF Resolving to do something, use Resolution code RL)",O,signatory party (Business),"""PUBLIC""",N,
+M,MISCELLANEOUS,O,as needed,as needed,N,"List of Titles in Matrix using this code are as follows:
+  BY-LAWS;  CHARTER;    DIRECTIVE TO PHYSICIAN; DONATION; ESTRAY;   LIVING WILL;  RECEIPT; REPORT; TRADE NAME.
+  See Individual Listing for Grantor – Grantee Instructions
+  IF THESE ARE CERTIFIED COPIES, INDEX AS TYPE CC
+
+"
+ADD,MOBILE HOME RIDER TO SECURITY INSTRUMENT,O,signatory party ,other party,N,
+ADD,MOBILE HOME RIDER TO SECURITY INSTRUMENT,O,signatory party ,other party,N,
+ADD,MOBILE HOME RIDER TO SECURITY INSTRUMENT,O,signatory party ,other party,N,
+MOD,MODIFICATION,O,"borrower, *If signing parties are borrower and lender.  *Otherwise -- Grantor-signatory party",lender (take from sig. area only) *If signing parties are borrower and lender.  *Otherwise -- Grantee-other party,N,
+ADML,MODIFICATION & AGREEMENT FOR ADDITIONAL WORK UNDER BUILDERS & RESIDENTIAL CONSTRUCTION LIEN CONTRACT,O,owner,contractor ,N,"IF Owner, Contractors & Lender sign - Grantor- owner & Old contractor & Grantee- lender & New contractor
+If No New Contractor Signing - Grantor- owner & Grantee- lender & contractor"
+MOD,MODIFICATION & ASSUMPTION AGREEMENT,O,borrower & purchaser,lender (take from sig. area only) and assumed parties,N,
+MOD,MODIFICATION & EXTENSION AGREEMENT,O,"borrower, *If signing parties are borrower and lender.  *Otherwise -- Grantor-signatory party",lender (take from sig. area only) *If signing parties are borrower and lender.  *Otherwise -- Grantee-other party,N,
+MOD,MODIFICATION & RENEWAL,O,"borrower, *If signing parties are borrower and lender.  *Otherwise -- Grantor-signatory party",lender (take from sig. area only) *If signing parties are borrower and lender.  *Otherwise -- Grantee-other party,N,
+MOD,MODIFICATION ASSUMPTION & RELEASE AGREEMENT,O,borrower & purchaser,lender (take from sig. area only) and assumed parties,N,
+MOD,MODIFICATION OF DEED OF TRUST,O,"borrower, *If signing parties are borrower and lender.  *Otherwise -- Grantor-signatory party",lender (take from sig. area only) *If signing parties are borrower and lender.  *Otherwise -- Grantee-other party,N,
+MOD,MODIFICATION OF LIEN,O,"borrower, *If signing parties are borrower and lender.  *Otherwise -- Grantor-signatory party",lender (take from sig. area only) *If signing parties are borrower and lender.  *Otherwise -- Grantee-other party,N,
+MOD,MODIFICATION OF TAX LIEN CONTRACT,O,property owner (signature),Tax Lien Holder,N,
+MTG,MORTGAGE,O,borrower (sig.) (mortgagor),lender  (mortgagee),O,
+CON,"MORTGAGE / TRUST MODIFICATION, WAIVER & CONSENT",O,"party giving consent (sig.) Lender, Mortgagee","given to, Mortgagor & Lessee",N,
+LIC,MORTICIANS LICENSE/CERTIFICATE,O,party issuing,issued to,N,
+LC,MOWING LIEN,O,signature (usually a City),claimed against,N,
+LC,MUNICIPAL UTILITY LIEN,O,signatory party,claimed against  ,N,
+AG,NON-DISTURBANCE AND ATTORNMENT AGREEMENT,O,signature (party agreeing to the non-disturbance Usually the LENDER,"other parties (usually the tenant & property owner, they usually sign  also but would not be grantor)",N,
+NOTE,NOTE,O,borrower (sig.)           ,lender  ,O,"*A Note is, in non-real estate language, an IOU. It is a promise to pay.  It does not need $ indexed."
+ADML,NOTE MODIFICATION & AGREEMENT FOR ADDITIONAL WORK UNDER BUILDERS & RESIDENTIAL CONSTRUCTION LIEN CONTRACT,O,owner,lender & contractor,N,If No New Contractor Signing
+ADML,NOTE MODIFICATION & AGREEMENT FOR ADDITIONAL WORK UNDER BUILDERS & RESIDENTIAL CONSTRUCTION LIEN CONTRACT,O,owner & Old contractor,lender & New contractor,N,"IF Owner, Contractors & Lender sign"
+ADML,NOTE MODIFICATION & AGREEMENT FOR ADDITIONAL WORK UNDER BUILDERS & RESIDENTIAL CONSTRUCTION LIEN CONTRACT,O,owner,contractor ,N,
+NO,NOTICE,O,signatory party ,"party notified &/Or notified about  Or ""PUBLIC""s",N,*needs reference if available
+FC,NOTICE CONCERNING LOAN FORFEITURES,O,signatory party ,Other party,N,
+FC,NOTICE CONCERNING LOAN FORFEITURES *IF this deals with Veterans Land Board,O,person forfeiting contract,"""VETERANS LAND BOARD OF THE STATE OF TEXAS"" (or State involved)",N,
+ALN,NOTICE OF  LIEN - BY HOMEOWNERS ASSOCIATION,O,claiming lien (sig.) (homeowners association)  ,claimed against,N,
+NO,NOTICE OF ACCELERATION,O,signature  (do not add Lender unless doc. shows them as “current Lender”),"defaulting parties  or ""PUBLIC""",N,
+NO,NOTICE OF ACCELERATION AND NOTICE OF TRUSTEE’S SALE,O,signature  (do not add Lender unless doc. shows them as “current Lender”),"defaulting parties  or ""PUBLIC""",N,
+NO,NOTICE OF ASSIGNMENT OF JUDGMENT (signed by the Assignee),O,Assignee (sig. party),Plaintiff(s) & Defendant(s) of the Judgment,N,*needs reference if available
+BR,NOTICE OF BANKRUPTCY PROCEEDINGS (CERTIFIED COPY OF),O,bankrupt party,"""PUBLIC""",N,
+NO,NOTICE OF BOND FILING,O,signature (usually the County Clerk) use County & Clerks name ,notified &/Or notified about,N,
+NO,NOTICE OF DEMOLITION (ORDER),O,signatory party (usually a City),"property owner & other interested parties (if listed)  or  ""PUBLIC""",N,
+LS,NOTICE OF ELECTION TO RENEW LEASE,O,signatory party (LESSOR),lessee,N,"*if both parties sign- Grantor- lessor   Grantee- lessee
+IF Lessor does not sign, change Type to = NO Grantor-signature"
+NFT,NOTICE OF ERROR IN FILING FEDERAL TAX LIEN,O,"""U S A INTERNAL REVENUE SERVICE""",taxpayer,N,
+LS,NOTICE OF EXTENSION OF PRIMARY TERM       ,O,signatory party (LESSOR),lessee,N,"*if both parties sign- Grantor- lessor   Grantee- lessee
+IF Lessor does not sign, change Type to = NO Grantor-signature"
+LS,NOTICE OF LEASE        ,O,signatory party (LESSOR),lessee,N,"*if both parties sign- Grantor- lessor   Grantee- lessee
+IF Lessor does not sign, change Type to = NO Grantor-signature"
+LS,NOTICE OF LEASE EXTENSION BY EXERCISE OF OPTION TO EXTEND,O,signatory party (LESSOR),lessee,N,"*if both parties sign- Grantor- lessor   Grantee- lessee
+IF Lessor does not sign, change Type to = NO Grantor-signature"
+LC,NOTICE OF LIEN AFFIDAVIT/CLAIM/NOTICE (general),O,signatory party ,"claimed against  (contractor, owner, sub-contractor, supplier)",N,
+NLF,NOTICE OF LIEN FOR FINE AND/OR RESTITUTION,O,"""U S A""",Defendant,N,
+STL,NOTICE OF LIEN FOR UNPAID CONTRIBUTIONS (TAXES) UNDER TEXAS   UNEMPLOYMENT COMPENSATION ACT,O,"government (""TEXAS STATE OF"")",employer who is indebted to the State through the Unemployment Commission,N,
+SU,NOTICE OF NON-SUIT,O,Plaintiff,Defendant,N,
+NO,NOTICE OF OBLIGATION TO PAY PUBLIC IMPROVEMENT DIST. ASSESSMENT,O,signatory party,"owner  OR ""PUBLIC""",N,*This is Not an Assessment Lien nor a Lien Notice
+OGL,"NOTICE OF OIL, GAS & MINERAL LEASE",O,signatory party (LESSOR),lessee,N,"*if both parties sign- Grantor- lessor   Grantee- lessee
+IF Lessor does not sign, change Type to = NO Grantor-signature"
+OGL,"NOTICE OF OIL, GAS & MINERAL LEASE ",O,signatory party (LESSOR),lessee,N,"*if both parties sign- Grantor- lessor   Grantee- lessee
+IF Lessor does not sign, change Type to = NO Grantor-signature"
+NO,NOTICE OF ORDER FOR DEMOLITION,O,signatory party (usually a City),"property owner  or  ""PUBLIC""",N,
+NO,NOTICE OF SEIZURE,O,signatory party  ,other party,N,
+OD,NOTICE OF SHERRIF’S SALE /PUBLISHERS AFFIDAVIT /ORDER / SHERIFF’S RETURN ,O,Plaintiff,Defendant,N,*use certified copy date as i/date
+REA,NOTICE OF TERMINATION OF ASSIGNMENT OF CHILD SUPPORT LIEN,O,signature (usually the State) & party claimed against (Obligor),party support payable to (Obligee) (Not the child),N,
+HL,NOTICE OF TEXAS HOSPITAL LIEN,O,signatory party & Hospital (if different from signature),injured person,N,"**Key Hospital name the way it is shown at the signature and/or in the 
+       body of the document.  Don’t bother with the Letterhead unless that is
+    the only place the Hospital Name is shown.  Often the signatory party is a
+        representative or agent and should be indexed."
+NO,NOTICE OF TRUSTEE’S SALE,O,signature  (do not add Lender unless doc. shows them as “current Lender”),"defaulting parties  or ""PUBLIC""",N,
+AF,NOTICE OF TRUSTEE’S SALE AFFIDAVIT,O,signature ,"""PUBLIC""",N,"Grantor- signature (if states at sig. or in body, that party is officer of Company, key Company 
+Name Only)  (if states at sig. or in body, that party is or has been acting as Trustee, key as 
+Trustee)"
+ALN,NOTICE OF UNPAID ASSESSMENTS SECURED BY LIEN (by Homeowners Association),O,"party claiming lien (Homeowners Association, signatory party.)   ","party claimed against, if no name given, use UNKNOWN",N,
+NO,NOTICE OF UTILITY DISTRICT,O,signature ,"other party or ""PUBLIC""",N,If both Seller & Purchaser sign index: Grantor – Seller       Grantee – Purchaser
+NO,NOTICE OF UTILITY SECURITY AGREEMENT,O,signatory party    ,"""PUBLIC""",N,
+NO,NOTICE OF UTILITY SECURITY INSTRUMENT,O,signatory party    ,"""PUBLIC""",N,
+NO,NOTICE OF WATER & SEWER SERVICE,O,signature,"other party  Or  ""PUBLIC""",N,
+RME,NOTICE OF WITHDRAWAL OF CLAIM BY MEDICARE ESTATE RECOVERY PROGRAM AGAINST THE ESTATE,O,signatory party,claimed against party being released,N,
+NO,NOTICE TO OPERATOR Etc. ,O,"""TEXAS RAILROAD COMMISSION""",Operator & other parties (both usually listed on left & right directly below heading of document),N,
+LIC,NURSES LICENSE/CERTIFICATE,O,issuing party  ,issued to,N,
+OT,OATH,O,party giving oath (sig.),"person &/or Office oath sworn to Or ""PUBLIC"" ",N,
+NO,OIL & GAS DIVISION OF THE TEXAS RAILROAD COMMISSION,O,"""TEXAS RAILROAD COMMISSION""",Operator & other parties (both usually listed on left & right directly below heading of document),N,
+NO,OIL & GAS DIVISION of the Texas Railroad Commission,O,"""TEXAS RAILROAD COMMISSION""","Operator & other parties (both usually listed on left & right directly below heading of document) **IF no grantee name at all index ""PUBLIC""",N,
+OGL,OIL & GAS LEASE,O,lessor (sig.),lessee (leased to),N,
+OGL,OIL GAS & MINERAL LEASE,O,lessor (sig.),lessee (leased to),N,
+AS,OIL PAYMENT ASSIGNMENT/CONTRACT ,O,signatory party,assigned to party,N,
+AS,OIL PRODUCTION PAYMENT/ASSIGNMENT/CONTRACT,O,signatory party,assigned to party,N,
+OGL,"OIL, GAS & MINERAL LEASE RATIFICATION",O,lessor (sig.),Current lessee,N,"**IF Lessor does not sign, change Type to =  RAT  Grantor- signature  Grantee- other party"
+MEL,"OIL, GAS & MINERAL, SUB OR SURFACE LEASE MEMORANDUM",O,lessor (sig.)    ,Current lessee,N,
+AG,OPERATING AGREEMENT,O,Operator,Non-Operator,N,
+OP,OPTION,O,granting option (sig.),granted to,N,"*If all sign & no definition made, index all as grantor/grantee"
+OP,OPTION AGREEMENT,O,granting option (sig.),granted to,N,"*If all sign & no definition made, index all as grantor/grantee"
+LIC,OPTOMETRISTS LICENSE/CERTIFICATE,O,issuing party,issued to ,N,
+ OD,ORDER   (CERTIFIED COPY OF),O,signatory party ,issued to &/or about,N,"*IF this is a suit,  Grantor- Plaintiff  -  Grantee- Defendant
+*IF this is a single party suit,    Grantee- PUBLIC
+***IF this concerns a PROBATE Case – move to PROBATE PROCEEDINGS for all indexing information."
+OD,"ORDER DECLARING RESULTS OF AN ELECTION HELD TO CHANGE THE STATUS OF A COMMUNITY, or just an ORDER INCORPORATING A CITY OR TOWN etc.",O,"Name of Community, Town, City, Both OLD and New Name, if given.","""PUBLIC""",N,
+PB,ORDER FIXING INHERITANCE TAX,O,estate  (used Deceased and/or Estate after Name as shown on document),"""PUBLIC""",N,
+ROD,ORDER FOR REMOVAL OF DISABILITIES,O,Party for whom Disabilities are being Removed,"""PUBLIC""",N,
+JUD,ORDER OF JUDGMENT,O,Plaintiff,"Defendant *If single party suit, Grantee- ""PUBLIC""",N,*use certified copy date as i/date
+OD,ORDER or APPLICATION GRANTING FORECLOSURE,O,Applicant (usually found in 1st sentence),Defaulting parties  (found above 1st sentence on left side of document),N,"*use certified copy date as i/date 
+* This is not an ordinary Suit, so I don’t think F/K/A etc names should be indexed."
+ORD,ORDINANCE,O,signature (government agency),"ORDINANCE # (key:  ORDINANCE #759-31)  Or ""PUBLIC""",N,"*If Ordinance is for allowing assessments for improvements, see the proper lien (Paving Lien, Mowing Lien etc)
+*If Ordinance is actually saying that an area is ‘hereby annexed into whatever” See the instructions for Annexation)"
+AG,OWNERS TITLE POLICY COMMITMENT,O,signatory party,party policy issued to,N,
+PAS,PARTIAL ASSIGNMENT,O,"assignor (sig.) & borrower, if any",assignee (assigned unto),N,"*If multiple assignments with more than 8 borrowers, do not index any borrowers"
+PAS,PARTIAL ASSIGNMENT & BILL OF SALE,O,"assignor (sig.) & borrower, if any",assignee (assigned unto),N,"*If multiple assignments with more than 8 borrowers, do not index any borrowers"
+PAJ,PARTIAL ASSIGNMENT OF JUDGMENT,O,assignor (sig.) & Debtor (recovered against),assignee (assigned unto),N,
+PLS,PARTIAL ASSIGNMENT OF LEASE,O,assignor (sig.),assignee (assigned unto),N,
+PLS,PARTIAL ASSIGNMENT OF LEASE INTEREST,O,assignor (sig.),assignee (assigned unto),N,
+PAL,PARTIAL ASSIGNMENT OF LIEN,O,assignor (sig.) & borrower,assignee (assigned unto),N,"*If multiple assignments with more than 8 borrowers, do not index any borrowers"
+PLS,PARTIAL ASSIGNMENT OF OIL & GAS LEASE,O,assignor (sig.),assignee (assigned unto),N,
+PAS,PARTIAL ASSIGNMENT OF OIL & GAS LEASE AND BILL OF SALE,O,assignor (sig.),assignee (assigned unto),N,
+ASR,PARTIAL ASSIGNMENT OF OVERRIDING ROYALTY,O,assignor (sig.),assignee (assigned unto),N,
+PLS,PARTIAL ASSIGNMENT OF WORKING INTEREST,O,assignor (sig.),assignee (assigned unto),N,
+PAS,"PARTIAL ASSIGNMENT, CONVEYANCE & BILL OF SALE",O,"assignor (sig.) & borrower, if any",assignee (assigned unto),N,"*If multiple assignments with more than 8 borrowers, do not index any borrowers"
+DCL,PARTIAL DISCLAIMER,O,signatory party ,disclaimed to,N,
+PAS,PARTIAL REASSIGNMENT ,O,"assignor (sig.) & borrower, if any",assignee (assigned unto),N,"*If multiple assignments with more than 8 borrowers, do not index any borrowers"
+PAR,PARTIAL RELEASE,O,signatory party ,being released,N,
+PLC,PARTIAL RELEASE OF ABSTRACT OF ASSESSMENT,O,"""TEXAS STATE OF""  (or State involved)",assessed employer/party,N,
+PLC,PARTIAL RELEASE OF ASSESSMENT FOR WATER/SEWER,O,signature   (usually City or Homeowners Association),being released   (claimed against),N,"*IF Assessment (claim) has been transferred to a Contractor & a Mechanics Lien Contract has been established, please see Partial Release of Mechanics Lien (PR)  for code & instructions."
+PLC,PARTIAL RELEASE OF ASSESSMENT LIEN,O,signature   (usually City or Homeowners Association),being released   (claimed against),N,"*IF Assessment (claim) has been transferred to a Contractor & a Mechanics Lien Contract has been established, please see Partial Release of Mechanics Lien (PR)  for code & instructions."
+PLC,PARTIAL RELEASE OF ASSESSMENT LIEN FOR PAVING ,O,signature  (usually City),"being released  (claimed against) – IF no claimed against Party given, but does have street(s) that have been paved, use street names as grantee",N,"*IF Assessment (claim) has been transferred to a Contractor & a Mechanics Lien Contract has been established, please see Partial Release of Mechanics Lien (PR) for code & instructions."
+PCS,PARTIAL RELEASE OF CHILD SUPPORT LIEN,O,signature  (usually State) & other party claiming lien (Not  the child),claimed against,N,
+PAR,PARTIAL RELEASE OF COLLATERAL ASSIGNMENT/TRANSFER,O,signatory party ,being released,N,
+PR,PARTIAL RELEASE OF DEED OF TRUST,O,lender (sig.),borrower (being released),N,
+PEW,PARTIAL RELEASE OF EASEMENT,O,signatory party ,being released,N,
+PFT,PARTIAL RELEASE OF FEDERAL TAX LIEN,O,"government agency    (""U S A INTERNAL REVENUE SERVICE"")",taxpayer,O,
+PRJ,PARTIAL RELEASE OF JUDGMENT,O,party releasing  (sig.),being released  (debtor)  ,N,"*If Attorney signing, key attorney Only if attorney was a recovering party or is stated to be the owner of the indebtedness.  Do not key the Attorney if Only signing for the recovering party."
+PLC,PARTIAL RELEASE OF LABOR LIEN,O,signatory party ,being released (claimed against) ,N,"*IF Assessment (claim) has been transferred to a Contractor & a Mechanics Lien
+  Contract has been established, please see Partial Release of Mechanics Lien (PR)
+  for code & instructions."
+PRL,PARTIAL RELEASE OF LEASE,O,signatory party ,"being released   (released party is usually the lessor, land owner)",N,
+PR,PARTIAL RELEASE OF LEIN (FOR IMPROVEMENT AGREEMENT) ((between theCity & Property Developer (owner)),O,all signatures,Subdivision Name,N,"***If this doc. involves other than a City & a Developer/Property Owner(s)
+      please check further before using this instruction.
+   ********THIS IS NOT THE SAME THING AS A “PARTIAL RELEASE of     CONTRACT FOR IMPROVEMENTS”BETWEEN AN OWNER & 
+   CONTRACTOR "
+PR,PARTIAL RELEASE OF LIEN,O,lender (sig.),"borrower (being released, lien executed by)",N,
+PLC,PARTIAL RELEASE OF LIEN AFFIDAVIT,O,signatory party ,being released (claimed against),N,"*IF Assessment (claim) has been transferred to a Contractor & a Mechanics Lien
+  Contract has been established, please see Partial Release of Mechanics Lien (PR) 
+ for code & instructions."
+PLC,PARTIAL RELEASE OF LIEN CLAIM,O,signatory party ,being released (claimed against),N,"*IF Assessment (claim) has been transferred to a Contractor & a Mechanics Lien
+  Contract has been established, please see Partial Release of Mechanics Lien (PR) 
+ for code & instructions."
+PLC,PARTIAL RELEASE OF LIEN NOTICE,O,signatory party ,being released (claimed against),N,"*IF Assessment (claim) has been transferred to a Contractor & a Mechanics Lien
+  Contract has been established, please see Partial Release of Mechanics Lien (PR) 
+ for code & instructions."
+PLP,PARTIAL RELEASE OF LIS PENDENS,O,signatory party (usually Plaintiff),being released  (usually Defendant),N,
+PLC,PARTIAL RELEASE OF MATERIALMANS LIEN (Claim),O,signatory party ,being released  (claimed against),N,"*IF Assessment (claim) has been transferred to a Contractor & a Mechanics Lien
+  Contract has been established, please see Partial Release of Mechanics Lien (PR) 
+ for code & instructions."
+PLC,PARTIAL RELEASE OF MECHANICS & MATERIALMANS LIEN (Claim),O,signatory party ,being released  (claimed against),N,"*IF Assessment (claim) has been transferred to a Contractor & a Mechanics Lien
+  Contract has been established, please see Partial Release of Mechanics Lien (PR) 
+ for code & instructions."
+PLC,PARTIAL RELEASE OF MECHANICS LIEN AFFIDAVIT,O,signatory party ,being released  (claimed against),N,"*IF Assessment (claim) has been transferred to a Contractor & a Mechanics Lien
+  Contract has been established, please see Partial Release of Mechanics Lien (PR) 
+ for code & instructions."
+PR,PARTIAL RELEASE OF MECHANICS LIEN CONTRACT,O,lender (sig.),"borrower (being released, lien executed by)",N,
+PRL,PARTIAL RELEASE OF OIL & GAS LEASE,O,signatory party ,"being released   (released party is usually the lessor, land owner)",N,
+PRL,PARTIAL RELEASE OF OIL & GAS LEASE,O,signatory party ,"being released   (released party is usually the lessor, land owner)",N,
+PAR,PARTIAL RELEASE OF OIL & GAS LEASE & DEED OF TRUST   ,O,signatory party ,"being released, should be the lessor/borrower",N,
+PLC,PARTIAL RELEASE OF PAVING LIEN,O,signature  (usually City),"being released  (claimed against) – If concerns Paving Lien and IF no claimed against Party given, but does have street(s) that have been paved, use street names as grantee",N,"*IF Assessment (claim) has been transferred to a Contractor & a Mechanics Lien
+  Contract has been established, please see Partial Release of Mechanics Lien (PR) 
+ for code & instructions."
+PLC,PARTIAL RELEASE OF PRIVILEGED LIEN,O,signature  (usually City),"being released  (claimed against) – If concerns Paving Lien and IF no claimed against Party given, but does have street(s) that have been paved, use street names as grantee",N,"*IF Assessment (claim) has been transferred to a Contractor & a Mechanics Lien
+  Contract has been established, please see Partial Release of Mechanics Lien (PR) 
+ for code & instructions."
+RPP,PARTIAL RELEASE OF PRODUCTION PAYMENT,O,signatory party ,being released ,N,
+PRR,PARTIAL RELEASE OF RESTRICTIVE COVENANTS,O,signatory party  ,"Property name & released to, if any",N,
+PEW,PARTIAL RELEASE OF RIGHT OF WAY,O,signatory party ,being released,N,
+PEW,PARTIAL RELEASE OF RIGHT OF WAY EASEMENT,O,signatory party ,being released,N,
+PST,PARTIAL RELEASE OF STATE TAX LIEN,O,"government agency     (""TEXAS STATE OF"")",taxpayer,N,
+PTX,PARTIAL RELEASE OF TAX LIEN,O,government agency,taxpayer,N,*use for other than State you are indexing & Federal Government
+SUB,PARTIAL SUBORDINATION OF LIEN,O,"signature  (subordinating, inferior party)",subordinated to  (superior party),N,
+TL,PARTIAL TRANSFER OF LIEN,O,signatory party  & borrower,transferred to,N,"*If multiple assignments with more than 8 borrowers, do not index any borrowers"
+PVP,PARTIAL VACATION OF PLAT,O,"sig., usually the Surveyor (show title) & Property Owner (if given) and property name","sig., usually the Surveyor (show title) & Property Owner (if given) and property name",N,
+PAA,PARTITION AGREEMENT,O,signatures,"signatures 
+*If only one party signs use other party as Grantee",N,
+PD,PARTITION DEED,O,signatory party ,deeded to,N,"*If there are multiple ‘grant sell & convey’ clauses &, IF all property from a single
+    Survey; Index Survey Name with No Acreage, Otherwise Index property as MUL"
+PAG,PARTNERSHIP AGREEMENT,O,signatory parties,new business,N,
+AG,PARTY WALL AGREEMENT  (Common Wall),O,signatures,signatures OR other party,N,
+PAT,PATENT  ,O,signature  (usually the State),patent issued to,N,*use certified copy date for i/date
+LC,PAVING LIEN (Claim),O,signature  (usually a City),"claimed against,  -  IF no claimed against party given, but does have street(s) being   paved,  use street names as grantee",N,
+ML,"PAVING LIEN CONTRACT (this would be a Contract, Not a Claim)",O,Signature,contractor,N,
+PE,PERMIT,O,signatory party ,given to,N,
+PEO,PERMIT & OPTION,O,signatory party ,given to,N,
+PET,PETITION,O,party petitioning (sig.),being petitioned,N,
+PET,PETITION BY AN ADULT TO BE ADOPTED ,O,party petitioning to be allowed to be adopted,"""PUBLIC""",N,
+ROD,PETITION FOR REMOVAL OF DISABILITIES ,O,party FOR WHOM disabilities are being removed,"""PUBLIC""",N,
+AG,PIPELINE AGREEMENT,O,signatory party,party rights given to,N,
+AG,PIPELINE RELOCATION AGREEMENT,O,signatory party,party rights given to,N,*If relocation agreement will need reference to orig. agreement.
+PL,PLAT,O,property owner (Dedicator) and property name.,property owner (Dedicator) and property/addition name.,N,"If No Owner
+Grantor- Property Name **
+Grantee- Public & plat filing
+information, if given
+ex:  PUBLIC CABINET-G SLIDE-61 
+ ** If info. coming from a write-up sheet by the County index Property Name as shown, but be sure it starts with the Subdivision Name.  If name has more property desc. than will fit on 1 line Drop property description from the name.
+Example:  Plat Name:  Lambert Properties Addition Block 1 Lot 1
+*index on property format  as Addition Name Only
+* Do not index underlying property from the tax certificate pages that are often attached."
+FN,PLAT & FIELD NOTES,O,"sig., usually the Surveyor (show title) & Property Owner (if given) and property name","sig., usually the Surveyor (show title) & Property Owner (if given) and property name",N,*IF there is a owners certificate & the City approval for the Plat then the document    would actually be a PL = PLAT at this time we have seen Only 1 like this in Hunt    backfile/re-indexing  (time – 02/06/2009)
+FN,PLAT & FIELD NOTES,O,"sig., usually the Surveyor (show title) & Property Owner (if given) and property name","sig., usually the Surveyor (show title) & Property Owner (if given) and property name",N,*IF there is a owners certificate & the City approval for the Plat then the document would actually be a PL = PLAT at this time we have seen Only 1 like this in Hunt    re-indexing (time – 02/06/2009)
+SP,PLAT BY SURVEYOR ONLY (SURVEY PLAT),O,"sig., usually the Surveyor (show title) & Property Owner (if given) and property name","sig., usually the Surveyor (show title) & Property Owner (if given) and property name",N,*IF there is a owners certificate & the City approval for the Plat then the document    would actually be a PL = PLAT at this time we have seen Only 1 like this in Hunt    backfile/re-indexing  (time – 02/06/2009)
+PLVR,PLAT VACATE AND REPLAT,O,"sig., usually the Surveyor (show title) & Property Owner (if given) and property name",Property name being vacated and name of Replat and signature,N,
+PLE,PLEDGE,O,signature,"party pledge given to  OR ""PUBLIC""",N,
+LIC,POLYGRAPH LICENSE/CERTIFICATE,O,issuing party,issued to,N,
+UA,POOLED UNIT DECLARATION,O,"signature- usually property owner, mineral owner, or royalty owner.  ",Unit name  OR if no Unit Name index LESSEE (Current Lessee,N," IF Lessee or Operator also sign, index as additional Grantees not Grantors.
+ IF Title shows  Lease Being Ratified, Index both Unit Name and Current Lessee, if both given.
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME***
+  GRANTOR- LESSEE
+  GRANTEE- PUBLIC
+Unit names using double names index as shown in the example below
+   example Exxon Mobil – J. C. Clanton #1Unit
+   Key -  EXXON MOBIL J C CLANTON #1UNIT"
+UA,POOLED UNIT DECLARATION (or DESIGNATION),O,"signature- usually property owner, mineral owner, or royalty owner.
+IF Lessee or Operator also sign, index as additional Grantees not Grantors  
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME*** 
+Grantor- Lessee","Unit name  OR if no Unit Name index LESSEE (Current Lessee) 
+(IF Title shows  Lease Being Ratified, Index both Unit Name & Current Lessee, if both given.
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME***
+ Grantee- ""PUBLIC""",N,UNIT NAME INFORMATION
+POO,POOLING AGREEMENT,O,"signature- usually property owner, mineral owner, or royalty owner.  ",Unit name  OR if no Unit Name index LESSEE (Current Lessee,N," IF Lessee or Operator also sign, index as additional Grantees not Grantors.
+ IF Title shows  Lease Being Ratified, Index both Unit Name and Current Lessee, if both given.
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME***
+  GRANTOR- LESSEE
+  GRANTEE- PUBLIC
+Unit names using double names index as shown in the example below
+   example Exxon Mobil – J. C. Clanton #1Unit
+   Key -  EXXON MOBIL J C CLANTON #1UNIT"
+POO,POOLING AGREEMENT,O,"signature- usually property owner, mineral owner, or royalty owner.
+IF Lessee or Operator also sign, index as additional Grantees not Grantors  
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME*** 
+Grantor- Lessee","Unit name  OR if no Unit Name index LESSEE (Current Lessee) 
+(IF Title shows  Lease Being Ratified, Index both Unit Name & Current Lessee, if both given.
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME***
+ Grantee- ""PUBLIC""",N,UNIT NAME INFORMATION
+POO,POOLING AGREEMENT AND RATIFICATION OF LEASE,O,"signature- usually property owner, mineral owner, or royalty owner.  ",Unit name  OR if no Unit Name index LESSEE (Current Lessee,N," IF Lessee or Operator also sign, index as additional Grantees not Grantors.
+ IF Title shows  Lease Being Ratified, Index both Unit Name and Current Lessee, if both given.
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME***
+  GRANTOR- LESSEE
+  GRANTEE- PUBLIC
+Unit names using double names index as shown in the example below
+   example Exxon Mobil – J. C. Clanton #1Unit
+   Key -  EXXON MOBIL J C CLANTON #1UNIT "
+POO,POOLING AGREEMENT AND RATIFICATION OF LEASE,O,"signature- usually property owner, mineral owner, or royalty owner.
+IF Lessee or Operator also sign, index as additional Grantees not Grantors  
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME*** 
+Grantor- Lessee","Unit name  OR if no Unit Name index LESSEE (Current Lessee) 
+(IF Title shows  Lease Being Ratified, Index both Unit Name & Current Lessee, if both given.
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME***
+ Grantee- ""PUBLIC""",N,UNIT NAME INFORMATION
+POO,POOLING AUTHORIZATION,O,signature,"party authority given to, usually Lessee or Operator, & if present index Unit Name",N,
+POO,POOLING DECLARATION,O,"signature- usually property owner, mineral owner, or royalty owner.  ",Unit name  OR if no Unit Name index LESSEE (Current Lessee,N," IF Lessee or Operator also sign, index as additional Grantees not Grantors.
+ IF Title shows  Lease Being Ratified, Index both Unit Name and Current Lessee, if both given.
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME***
+  GRANTOR- LESSEE
+  GRANTEE- PUBLIC
+Unit names using double names index as shown in the example below
+   example Exxon Mobil – J. C. Clanton #1Unit
+   Key -  EXXON MOBIL J C CLANTON #1UNIT"
+POO,POOLING DECLARATION,O,"signature- usually property owner, mineral owner, or royalty owner.
+IF Lessee or Operator also sign, index as additional Grantees not Grantors  
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME*** 
+Grantor- Lessee","Unit name  OR if no Unit Name index LESSEE (Current Lessee) 
+(IF Title shows  Lease Being Ratified, Index both Unit Name & Current Lessee, if both given.
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME***
+ Grantee- ""PUBLIC""",N,UNIT NAME INFORMATION
+POO,POOLING DESIGNATION,O,"signature- usually property owner, mineral owner, or royalty owner.  ",Unit name  OR if no Unit Name index LESSEE (Current Lessee,N," IF Lessee or Operator also sign, index as additional Grantees not Grantors.
+ IF Title shows  Lease Being Ratified, Index both Unit Name and Current Lessee, if both given.
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME***
+  GRANTOR- LESSEE
+  GRANTEE- PUBLIC
+Unit names using double names index as shown in the example below
+   example Exxon Mobil – J. C. Clanton #1Unit
+   Key -  EXXON MOBIL J C CLANTON #1UNIT"
+POO,POOLING DESIGNATION,O,"signature- usually property owner, mineral owner, or royalty owner.
+IF Lessee or Operator also sign, index as additional Grantees not Grantors  
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME*** 
+Grantor- Lessee","Unit name  OR if no Unit Name index LESSEE (Current Lessee) 
+(IF Title shows  Lease Being Ratified, Index both Unit Name & Current Lessee, if both given.
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME***
+ Grantee- ""PUBLIC""",N,UNIT NAME INFORMATION
+AG,POST-NUPTIAL MARRIAGE AGREEMENT,O,signatures,signatures,N,
+PA,POWER OF ATTORNEY,O,signatory party ,"being appointed & alternates appointed, if any   (no title needed after name here)",N,"Explanation:  IF signatory party (Grantor) is said to be acting for multiple parties (usually Multiple Trust Funds), It is Not necessary to include those additional parties in the   indexing of this document."
+AG,PRE-NUPTIAL MARRIAGE AGREEMENT,O,signatures,signatures,N,
+AG,PRIOR LIENHOLDERS AGREEMENT,O,signature,"potential lender – usually ""U S A FARMERS HOME ADMINISTRATION""",N,
+ LC,PRIVILEGED LIEN,O,signature  (usually City),claimed against,N,
+PB,PROBATE PROCEEDINGS   (CERTIFIED COPY OF),O,estate  (use Deceased and/or Estate or Minor after name as shown on document.  If party is shown as incompetent/incapacitated  use Estate after Name),"""PUBLIC""",N,"Will Only – see W’s
+Otherwise use this code (PB)
+*use certified copy date for i/date
+**If doc shows “Succession of” treat that
+as “Estate of” & index ESTATE after name"
+DEC,PROCLAMATION,O,signatory party,party proclamation is about,N,
+NOTE,PROMISORY NOTE,O,borrower (sig.),lender,N,
+APL,PROSPECT APPLICATION,O,"applicant & whom they represent, if any        ",applied to,N,
+LIC,PSYCHOLOGISTS LICENSE/CERTIFICATE,O,issuing party,issued to,N,
+AG,PURCHASE AGREEMENT,O,seller (signatory party),purchaser,N,
+QC,QUITCLAIM,O,signatory party ,"quitclaimed to  Or ""PUBLIC""",N,
+ASM,QUITCLAIM ASSIGNMENT OF MINERAL INTEREST,O,signatory party ,quitclaimed unto,N,
+ASR,QUITCLAIM ASSIGNMENT OF ROYALTY INTEREST,O,signatory party ,quitclaimed unto,N,
+QCD,QUITCLAIM DEED      (IF UNTITLED DOCUMENT USE QC = QUITCLAIM),O,signatory party ,quitclaimed unto,N,"*if from USA Internal Revenue Service dealing with redemption rights of seized 
+  property, include, as additional grantors, the parties whose property was seized."
+MD,QUITCLAIM MINERAL DEED,O,signatory party,party Minerals quitclaimed unto,N,
+MC,QUITCLAIM OF MINERAL AND ROYALTY INTEREST,O,signatory party ,quitclaimed unto,N,
+MC,QUITCLAIM OF MINERAL INTEREST,O,signatory party ,quitclaimed unto,N,
+ROC,QUITCLAIM OF ROYALTY INTEREST,O,signatory party ,quitclaimed unto,N,
+RYD,QUITCLAIM ROYALTY DEED,O,signatory party,party Royalty quitclaimed unto,N,
+NO,RAILROAD COMMISSION OF TEXAS OIL & GAS DIVISION,O,"""TEXAS RAILROAD COMMISSION""",Operator & other parties (both usually listed on left & right directly below heading of document),N,
+RAT,RATIFICATION,O,signatory party ,"ratified or ratified unto   Or  ""PUBLIC""",N,***Before using this code CHECK to see if document fits any of the Ratification Types set out       below.  
+DO,RATIFICATION & DIVISION ORDER,O,lessor (sig.),"Current lessee, IF doc. contains information also about ratification of a UNIT, include the Unit Name as additional grantee.",N,
+LS,RATIFICATION & EXTENSION OF LEASE,O,lessor (sig.),"Current lessee, IF doc. contains information also about ratification of a UNIT, include the Unit Name as additional grantee.",N,"IF Lessor does not sign, change Type to = EXT Grantor-signature          Grantee- other party"
+OGL,"RATIFICATION & EXTENSION OF OIL, GAS & MINERAL LEASE",O,lessor (sig.),"Current lessee, IF doc. contains information also about ratification of a UNIT, include the Unit Name as additional grantee.",N,"IF Lessor does not sign, change Type to = EXT Grantor-signature          Grantee- other party"
+LS,RATIFICATION & LEASE AMENDMENT,O,lessor (sig.),"Current lessee, IF doc. contains information also about ratification of a UNIT, include the Unit Name as additional grantee.",N,"IF Lessor does not sign, change Type to = AM Grantor-signature  Grantee- other party"
+OGL,"RATIFICATION & OIL, GAS & MINERAL LEASE AMENDMENT",O,lessor (sig.),"Current lessee, IF doc. contains information also about ratification of a UNIT, include the Unit Name as additional grantee.",N,"IF Lessor does not sign, change Type to = AM Grantor-signature  Grantee- other party"
+POO,RATIFICATION & POOLING AUTHORIZATION,O,signature,"party authority given to, usually Lessee or Operator, & if present index Unit Name",N,
+POO,RATIFICATION & POOLING AUTHORIZATION,O,signature,"party authority given to, usually Lessee or Operator, & if present index Unit Name",N,
+POO,RATIFICATION & POOLING AUTHORIZATION ,O,"signature- usually property owner, mineral owner, or royalty owner.
+IF Lessee or Operator also sign, index as additional Grantees not Grantors  
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME*** 
+Grantor- Lessee","Unit name  OR if no Unit Name index LESSEE (Current Lessee) 
+(IF Title shows  Lease Being Ratified, Index both Unit Name & Current Lessee, if both given.
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME***
+ Grantee- ""PUBLIC""",N,"
+
+UNIT NAME INFORMATION
+Unit names using double names index as shown in the examples below
+Example:  Standard Oil - John T. Joseph Gas Unit #1
+Index:    STANDARD OIL JOHN T JOSEPH GAS UNIT #1
+Example: H. L. Hunt – Lester E. Ewing Unit #4
+Index:   HUNT H L LESTER E EWING UNIT #4
+Example:  Barnwell Oil Unit No. 75, Well No. 1 (Jacob Bell, et al, Fee)
+Index:  BARNWELL OIL UNIT #75 WELL #1 JACOB BELL ET AL FEE
+Example:  Bethany (4300’ Glen Rose) North Unit
+Index:  BETHANY 4300’ GLEN ROSE NORTH UNIT
+"
+RAT,RATIFICATION AGREEMENT,O,signatory party ,"ratified or ratified unto   Or  ""PUBLIC""",N,***Before using this code CHECK to see if document fits any of the Ratification Types set out       below.  
+URA,"RATIFICATION OF AGREEMENT ENTITLED “UNIT AGREEMENT” , “UNIT OPERATING  AGREEMENT” or “POOLED UNIT AGREEMENT”",O,"signature   IF Lessee or Operator also sign, index as additional Grantees not Grantors.
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME***
+GRANTOR- LESSEE","Unit name  OR if no Unit Name index LESSEE (Current Lessee) 
+(IF Title shows  Lease Being Ratified, Index both Unit Name and Current Lessee, if both given.
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME***
+GRANTEE- ""PUBLIC""",N,
+URA,"RATIFICATION OF AGREEMENT ENTITLED “UNIT AGREEMENT”, “UNIT OPERATING AGREEMENT”, “POOLED UNIT DECLARATION”, LEASE RATIF. Or AMENDMENT, ROYALTY & RENTAL PAYMENT STIPULATIONS, RELEASE OR ________ AMENDMENT OF LEASE & RATIFICATION OF UNIT",O,"signature- usually property owner, mineral owner, or royalty owner.
+IF Lessee or Operator also sign, index as additional Grantees not Grantors  
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME*** 
+Grantor- Lessee","Unit name  OR if no Unit Name index LESSEE (Current Lessee) 
+(IF Title shows  Lease Being Ratified, Index both Unit Name & Current Lessee, if both given.
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME***
+ Grantee- ""PUBLIC""",N,UNIT NAME INFORMATION
+RAT,"RATIFICATION OF ASSIGNMENT (TRANSFER, CONVEYANCE)",O,signatory party ,"ratified or ratified unto   Or  ""PUBLIC""",N,***Before using this code CHECK to see if document fits any of the Ratification Types set out       below.  
+RCD,RATIFICATION OF CONDOMINIUM DECLARATION,O,signatory party ,Condominium name,N,
+,RATIFICATION OF DEED,O,,,N,"Use type of Deed being Ratified.
+ Follow Grantor/Grantee instructions according to type of Deed being ratified.            
+
+"
+RLN,RATIFICATION OF DEED OF TRUST LIEN,O,signatory party  ,other parties,N,
+RAT,RATIFICATION OF EASEMENT,O,signatory party ,"ratified or ratified unto   Or  ""PUBLIC""",N,***Before using this code CHECK to see if document fits any of the Ratification Types set out       below.  
+LS,RATIFICATION OF LEASE,O,signatory party (lessor),Current lessee,N,"IF Lessor does not sign, change Type to = RAT Grantor-signature          Grantee- other party"
+RLN,RATIFICATION OF LIEN ,O,signatory party  ,other parties,N,
+RLN,RATIFICATION OF MECHANIC’S LIEN CONTRACT,O,signatory party  ,other parties,N,
+OGL,"RATIFICATION OF OIL, GAS AND MINERAL LEASE",O,signatory party (lessor),Current lessee,N,"IF Lessor does not sign, change Type to = RAT Grantor-signature          Grantee- other party"
+RPL,RATIFICATION OF PLAT,O,signatory party ,New Subdivision name,N,
+URA,RATIFICATION OF POOLING AGREEMENT (or UNIT AGREEMENT) & STIPULATION OF INTERESTS,O,"signature- usually property owner, mineral owner, or royalty owner.
+IF Lessee or Operator also sign, index as additional Grantees not Grantors  
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME*** 
+Grantor- Lessee","Unit name  OR if no Unit Name index LESSEE (Current Lessee) 
+(IF Title shows  Lease Being Ratified, Index both Unit Name & Current Lessee, if both given.
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME***
+ Grantee- ""PUBLIC""",N,"
+
+UNIT NAME INFORMATION
+Unit names using double names index as shown in the examples below
+Example:  Standard Oil - John T. Joseph Gas Unit #1
+Index:    STANDARD OIL JOHN T JOSEPH GAS UNIT #1
+Example: H. L. Hunt – Lester E. Ewing Unit #4
+Index:   HUNT H L LESTER E EWING UNIT #4
+Example:  Barnwell Oil Unit No. 75, Well No. 1 (Jacob Bell, et al, Fee)
+Index:  BARNWELL OIL UNIT #75 WELL #1 JACOB BELL ET AL FEE
+Example:  Bethany (4300’ Glen Rose) North Unit
+Index:  BETHANY 4300’ GLEN ROSE NORTH UNIT
+"
+RS,RATIFICATION OF RESTRICTIVE COVENANTS,O,signatory party,Property name,N,
+URA,RATIFICATION OF UNIT,O,"signature   IF Lessee or Operator also sign, index as additional Grantees not Grantors.
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME***
+GRANTOR- LESSEE","Unit name  OR if no Unit Name index LESSEE (Current Lessee) 
+(IF Title shows  Lease Being Ratified, Index both Unit Name and Current Lessee, if both given.
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME***
+GRANTEE- ""PUBLIC""",N,
+NO,Re: NOTICE TO OPERATOR Etc.,O,"""TEXAS RAILROAD COMMISSION""","Operator & other parties (both usually listed on left & right directly below heading of document) **IF no grantee name at all index ""PUBLIC""",N,
+NO,Re: NOTICE TO OPERATOR Etc.,O,"""TEXAS RAILROAD COMMISSION""",Operator & other parties (both usually listed on left & right directly below heading of document),N,
+NOTE,REAL ESTATE LIEN NOTE,O,borrower (sig.),lender,N,"*A Note is, in non-real estate language, an IOU.
+It is a promise to pay.  It does not need $ indexed."
+REA,REASSIGNMENT,O,signatory party  & Borrower (if dealing with a Lien),assigned/conveyed unto,N,*If multiple assignment/conveyance with  more than 8 borrowers do not index any borrowers
+REA,REASSIGNMENT OF LIEN,O,signatory party  & Borrower (if dealing with a Lien),assigned/conveyed unto,N,*If multiple assignment/conveyance with  more than 8 borrowers do not index any borrowers
+M,RECEIPT,O,party issuing (sig.),issued to,N,
+CC,"RECEIPT, CERTIFIED COPY OF",O,party issuing (sig.),issued to,N,
+DE,RECEIVER’S DEED,O,Receiver (sig.) & parties to suit (Plaintiff and Defendant),"purchaser  (granted, sold & conveyed unto)",N,
+RCV,RECONVEYANCE        ,O,signatory party  & Borrower (if dealing with a Lien),assigned/conveyed unto,N,*If multiple assignment/conveyance with  more than 8 borrowers do not index any borrowers
+RE,RECONVEYANCE DEED,O,signature (lender),"being released  (use name in the ‘release statement’ if available, else, use the ‘Note-Deed of Trust executed by:’, ‘ borrower’)",N,This Title would usually be found on a document  Originating in a  State other than Texas
+RCV,RECONVEYANCE OF LIEN,O,signatory party  & Borrower (if dealing with a Lien),assigned/conveyed unto,N,*If multiple assignment/conveyance with  more than 8 borrowers do not index any borrowers
+NO,RECORDATION NOTICE AND MEMORANDUM OF THE SURVEYING AND PLACEMENT OF  AN OIL AND.OR GAS WELL SITE,O,signatory party (usually the Operator),lessor and lessee,N,
+RED,REDEMPTION,O,party redeeming,redeemed from,N,
+DL,REFUSAL,O,signatory party,"other party  Or  ""PUBLIC""",N,
+RES,REFUSAL TO ACT AS TRUSTEE,O,signatory party,"other party  Or  ""PUBLIC""",N,
+AG,REGULATORY AGREEMENT,O,signature (Borrower),Lender,N,
+REI,REINSTATEMENT AGREEMENT,O,signature  (Borrower),signature (Current Lender),N,
+REI,REINSTATEMENT OF LIEN,O,signature  (Borrower),signature (Current Lender),N,
+REL,RELEASE,O,signatory party ,being released or waived unto,N,"**THERE ARE MANY RELEASE CODES – YOU WILL NEED TO READ DOC.   IF A DOCUMENT IS TITLED RELEASE blah blah, BUT HAS A STATEMENT IN THE 1ST PARAGRAPH OR IN PARAGRAPH ABOVE SIGNATURE, SAYING IT IS A PARTIAL RELEASE.  SEE THE P’S FOR PARTIAL RELEASES.  THE WORD ‘PARTIAL’ MUST BE PRESENT IN THE DOCUMENT."
+RE,"RELEASE  DEED      ( Rel. of voluntary liens-Deed of Trust, Mechanics Lien Contract, Lien)",O,signature (lender),"being released (use name in the ‘release statement’ if available, else, use the ‘Note-Deed of Trust executed by:’, ‘ borrower’)",N,*This Title would usually be found on a document originating in a  State other than Texas
+REL,RELEASE & SETTLEMENT AGREEMENT,O,signatory party ,being released or waived unto,N,"**THERE ARE MANY RELEASE CODES – YOU WILL NEED TO READ DOC.   IF A DOCUMENT IS TITLED RELEASE blah blah, BUT HAS A STATEMENT IN THE 1ST PARAGRAPH OR IN PARAGRAPH ABOVE SIGNATURE, SAYING IT IS A PARTIAL RELEASE.  SEE THE P’S FOR PARTIAL RELEASES.  THE WORD ‘PARTIAL’ MUST BE PRESENT IN THE DOCUMENT."
+REL,RELEASE & WAIVER,O,signatory party ,being released or waived unto,N,"**THERE ARE MANY RELEASE CODES – YOU WILL NEED TO READ DOC.   IF A DOCUMENT IS TITLED RELEASE blah blah, BUT HAS A STATEMENT IN THE 1ST PARAGRAPH OR IN PARAGRAPH ABOVE SIGNATURE, SAYING IT IS A PARTIAL RELEASE.  SEE THE P’S FOR PARTIAL RELEASES.  THE WORD ‘PARTIAL’ MUST BE PRESENT IN THE DOCUMENT."
+REL,RELEASE & WAIVER OF LIEN,O,signatory party ,being released or waived unto,N,"**THERE ARE MANY RELEASE CODES – YOU WILL NEED TO READ DOC.   IF A DOCUMENT IS TITLED RELEASE blah blah, BUT HAS A STATEMENT IN THE 1ST PARAGRAPH OR IN PARAGRAPH ABOVE SIGNATURE, SAYING IT IS A PARTIAL RELEASE.  SEE THE P’S FOR PARTIAL RELEASES.  THE WORD ‘PARTIAL’ MUST BE PRESENT IN THE DOCUMENT."
+REL,RELEASE AGREEMENT,O,signatory party ,being released or waived unto,N,"**THERE ARE MANY RELEASE CODES – YOU WILL NEED TO READ DOC.   IF A DOCUMENT IS TITLED RELEASE blah blah, BUT HAS A STATEMENT IN THE 1ST PARAGRAPH OR IN PARAGRAPH ABOVE SIGNATURE, SAYING IT IS A PARTIAL RELEASE.  SEE THE P’S FOR PARTIAL RELEASES.  THE WORD ‘PARTIAL’ MUST BE PRESENT IN THE DOCUMENT."
+RLC,RELEASE OF ABSTRACT OF ASSESSMENT,O,"""TEXAS STATE OF""  (or State involved)",assessed employer/party,N,
+RJ,RELEASE OF ABSTRACT OF JUDGMENT,O,party releasing (usually party who recovered judgment)  ,released (recovered against) ,O,*Do not index from the signatory area.  Index only parties indicated above
+RAD,RELEASE OF ADMINISTRATIVE LIEN,O,party releasing (usually the State),being released,N,
+RLC,RELEASE OF ASSESSMENT LIEN  BY A CITY  **,O,party releasing,being released,N,"**  IF deals with Paving and  no claimed against party given, but does 
+        have street(s) that have been  paved, use street names as grantee
+   *needs reference
+ *IF Assessment (claim) has been transferred to a Contractor & a 
+ Mechanics Lien   Contract has been established, please see Release
+ of Mechanics Lien (RE) for code & instructions.
+
+
+
+"
+RLC,RELEASE OF ASSESSMENT LIEN BY HOMEOWNERS ASSOCIATION,O,party releasing,being released,N,"**  IF deals with Paving and  no claimed against party given, but does 
+        have street(s) that have been  paved, use street names as grantee
+   *needs reference
+ *IF Assessment (claim) has been transferred to a Contractor & a 
+ Mechanics Lien   Contract has been established, please see Release
+ of Mechanics Lien (RE) for code & instructions.
+
+
+
+"
+REL,RELEASE OF ATTACHMENT LIEN (WRIT OF ATTACHMENT),O,signatory parties,party being released,N,
+RCS,RELEASE OF CHILD SUPPORT LIEN,O,signature (usually the State) & party owed support (Obligee - not the child) ,"being released, party who had to pay (Obligor)",N,
+REL,RELEASE OF COLLATERAL ASSIGNMENT/TRANSFER,O,signatory party ,released to,N,
+CAN,RELEASE OF CONTRACT OF SALE,O,party canceling (sig.),"party whose rights are canceled  Or ""PUBLIC""",N,"*If all sign & no definition made, index all as grantor/grantee"
+RE,RELEASE OF DEED OF TRUST,O,signature (lender),"being released  (use name in the ‘release statement’ if available, else, use the ‘Note-Deed of Trust executed by:’, ‘ borrower’)",N,
+REW,RELEASE OF EASEMENT,O,signatory party ,released to,N,
+EST,RELEASE OF ESTATE TAX LIEN,O,signatory party ,Estate released,O,
+RFT,RELEASE OF FEDERAL TAX LIEN,O,"government  (""U S A INTERNAL REVENUE SERVICE"")",taxpayer,O,
+RST,RELEASE OF FRANCHISE TAX LIEN,O,"government  (""TEXAS STATE OF"")",taxpayer,N,
+RHL,RELEASE OF HOSPITAL LIEN,O,signature  (Hospital),released (injured party),N,
+IT,RELEASE OF INHERITANCE TAX LIEN,O,government agency,Estate issued to (ESTATE after name),N,
+RJ,RELEASE OF JUDGMENT,O,party releasing (usually party who recovered judgment)  ,released  (recovered against) (see below),N,*Do not index from the signatory area.  Index only parties indicated above
+RLC,RELEASE OF LABOR LIEN,O,signatory party ,released (claimed against),N,"*IF Assessment (claim) has been transferred to a Contractor & a Mechanics Lien
+  Contract has been established, please see Release of Mechanics Lien (RE) 
+ for code & instructions."
+RLS,RELEASE OF LEASE,O,signatory party ,"being released   (released party is usually the lessor, land owner)",N,*if both parties sign use Lessee to Lessor
+RE,RELEASE OF LEIN (FOR IMPROVEMENT AGREEMENT)  ((between the City & Property Developer (owner)),O,all signatures,Subdivision Name,N,"***If this doc. involves other than a City & a Developer/Property Owner(s)
+      please check further before using this instruction.
+   ********THIS IS NOT THE SAME THING AS A “PARTIAL RELEASE of     CONTRACT FOR IMPROVEMENTS”BETWEEN AN OWNER & 
+   CONTRACTOR(ML), which would be a PR."
+RE,RELEASE OF LIEN    (FOR TAX LIEN CONTRACT),O,signature (tax lien holder),being released  (property owner),N,
+RE,"RELEASE OF LIEN    (voluntary liens-Deed of Trust, Mechanics Lien Contract, Lien)",O,signature (lender),"being released (use name in the ‘release statement’ if available, else, use the ‘Note-Deed of Trust executed by:’, ‘ borrower’)",N,
+RLC,RELEASE OF LIEN AFFIDAVIT,O,signature (claimed lien),released (parties claimed against),N,"*IF Assessment (claim) has been transferred to a Contractor & a Mechanics Lien
+  Contract has been established, please see Release of Mechanics Lien (RE) 
+ for code & instructions"
+BO,RELEASE OF LIEN BOND,O,principal & surety (being bonded & guaranteeing bond),bound unto,N,
+RLC,RELEASE OF LIEN CLAIMED,O,signature (claimed lien),released (parties claimed against),N,"*IF Assessment (claim) has been transferred to a Contractor & a Mechanics Lien
+  Contract has been established, please see Release of Mechanics Lien (RE) 
+ for code & instructions"
+RLF,RELEASE OF LIEN FOR FINE AND/OR RESTITUTION,O,U S A ,Defendant (party being released),N,
+RLC,RELEASE OF LIEN NOTICE,O,signature (claimed lien),released (parties claimed against),N,"*IF Assessment (claim) has been transferred to a Contractor & a Mechanics Lien
+  Contract has been established, please see Release of Mechanics Lien (RE) 
+ for code & instructions"
+RLP,RELEASE OF LIS PENDENS,O,signatory party (usually Plaintiff),released (usually Defendant),N,
+RLC,RELEASE OF MATERIALMAN’S LIEN (Claim),O,signature (claimed lien),released (parties claimed against),N,
+RLC,RELEASE OF MECHANCI’S & MATERIALMAN’S LIEN (Claim),O,signature (claimed lien),released (parties claimed against),N,
+RE,RELEASE OF MECHANIC’S & MATERIALMAN’S LIEN CONTRACT,O,signature (lender),"being released (use name in the ‘release statement’ if available, else, use the ‘Note-Deed of Trust executed by:’, ‘ borrower’)",N,
+RLC,RELEASE OF MECHANIC’S LIEN AFFIDAVIT (Claim),O,signature (claimed lien),released (parties claimed against),N,
+RE,RELEASE OF MECHANIC’S LIEN CONTRACT,O,signature (lender),"being released (use name in the ‘release statement’ if available, else, use the ‘Note-Deed of Trust executed by:’, ‘ borrower’)",N,
+RME,RELEASE OF MEDICAL LIEN,O,signatory party ,released (party claimed against),N,*Handles all types of Medical Liens Except Hospital liens
+RE,RELEASE OF MORTGAGE,O,signature (lender),"being released (use name in the ‘release statement’ if available, else, use the ‘Note-Mortgage executed by:’, ‘ borrower’)",N,
+RLC,RELEASE OF MOWING LIEN,O,signature (claimed lien),released (claimed against),N,"*IF Assessment (claim) has been transferred to a Contractor & a Mechanics Lien
+  Contract has been established, please see Release of Mechanics Lien (RE) 
+ for code & instructions."
+RLC,RELEASE OF MUNICIPAL UTILITY LIEN,O,signature (claimed lien),released (claimed against),N,"*IF Assessment (claim) has been transferred to a Contractor & a Mechanics Lien
+  Contract has been established, please see Release of Mechanics Lien (RE) 
+ for code & instructions."
+REL,RELEASE OF NOTICE OF DEMOLITION ORDER,O,signatory party (usually city),"property owner & other interested parties (if listed)  or  ""PUBLIC""",N,
+RLS,RELEASE OF OIL & GAS LEASE,O,signatory party ,being released ,N,*If both parties sign – Grantor– lessor    Grantee- lessee
+RLS,RELEASE OF OIL & GAS LEASE,O,signatory party ,"being released   (released party is usually the lessor, land owner)",N,*if both parties sign use Lessee to Lessor
+RPP,RELEASE OF OIL PAYMENT,O,signatory party ,being released ,N,
+RO,RELEASE OF OPTION,O,signatory party ,being released ,N,*If both parties sign – Grantor-optionee    Grantee-optionor
+RE,RELEASE OF PAVING CONTRACT,O,signatory party,"being released, party contract executed by (usually land owner)",N,
+RLC,RELEASE OF PAVING LIEN,O,signature (usually a City),"released (claimed against).  IF deals with Paving and  no claimed against party given, but does have street(s) that have been  paved, use street names as grantee",N,"*IF Assessment (claim) has been transferred to a Contractor & a Mechanics Lien
+  Contract has been established, please see Release of Mechanics Lien (RE) 
+ for code & instructions."
+RME,RELEASE OF PHYSICANS LIEN ,O,"signatory party, Physician",being released,N,
+RLC,RELEASE OF PRIVILEGED LIEN,O,signature (usually a City),"released (claimed against).  IF deals with Paving and  no claimed against party given, but does have street(s) that have been  paved, use street names as grantee",N,"*IF Assessment (claim) has been transferred to a Contractor & a Mechanics Lien
+  Contract has been established, please see Release of Mechanics Lien (RE) 
+ for code & instructions."
+RPP,RELEASE OF PRODUCTION PAYMENT,O,signatory party ,being released ,N,
+RE,"RELEASE OF PRODUCTION PAYMENT,  MORTGAGE, DEED OF TRUST & ASSIGNMENT",O,signatory party ,being released ,N,
+RR,RELEASE OF RESTRICTIIVE COVENANTS,O,signature ,"Property name & if dealing with reversion, party released to (usually owners)",N,
+RO,RELEASE OF RIGHT OF FIRST REFUSAL,O,signatory party ,being released ,N,
+RRR,RELEASE OF RIGHT OF REDEMPTION,O,signatory party ,being released ,N,
+PRR,RELEASE OF RIGHT OF REVERSION CONTAINED IN RESTRICTIONS,O,Company name(s),Company name(s),N,
+REW,RELEASE OF RIGHT OF WAY,O,signatory party ,being released ,N,
+REW,RELEASE OF RIGHT OF WAY EASEMENT,O,signatory party ,being released ,N,
+REL,RELEASE OF SEVERANCE AGREEMENT,O,signatory party ,being released ,N,
+RST,RELEASE OF STATE TAX LIEN,O,"government (""TEXAS STATE OF"")",taxpayer,N,
+RST,RELEASE OF STATE TAX LIEN FILED IN ERROR,O,"government (""TEXAS STATE OF"")",taxpayer,N,
+RJ,RELEASE OF TAX JUDGMENT,O,party releasing (usually party who recovered judgment)  ,released  (recovered against) (see below),N,*Do not index from the signatory area.  Index only parties indicated above
+RTX,RELEASE OF TAX LIEN,O,government agency,taxpayer,N,*use for other than State you are indexing & Federal Government
+RE,RELEASE OF TAX LIEN CONTRACT,O,signature (tax lien holder),being released  (property owner),N,
+REL,RELEASE OF WARRANT,O,signature,other party,N,
+RLC,RELEASE OF WATER/SEWER LIEN,O,signature (usually a City),released (claimed against),N,"*IF Assessment (claim) has been transferred to a Contractor & a Mechanics Lien
+  Contract has been established, please see Release of Mechanics Lien (RE) 
+ for code & instructions."
+REL,"RELEASE OF WORKING INTEREST (IN A LEASE, OIL&GAS etc. LEASE)",O,signatory parties,party being released,N,
+REL,RELEASE OF WRIT OF ATTACHMENT,O,signatory parties,party being released,N,
+RMV,REMOVAL  /  REMOVAL CERTIFICATE,O,signatory party ,other party,N,
+ROD,REMOVAL OF DISABILITIES (OF A MINOR ETC.)  (CERTIFIED COPY OF),O,person for whom Disabilities are to be removed,"""PUBLIC""",N,"*This covers Application, Judgment, Order & Petition dealing with removal"
+RMV,REMOVAL OF TRUSTEE,O,"signature & Borrower, if applies",being removed (show TRUSTEE after name),N,
+AT,REMOVAL OF TRUSTEE & APPOINTMENT OF SUBSTITUTE TRUSTEE,O,"signature & Borrower, if applies",being removed & being appointed (show TRUSTEE and SUB TRUSTEE respectively ,N,
+RN,RENEWAL,O,"Signatory party         (if lien, borrower)","Other party               (if lien, lender from sig. area)",N,
+RN,RENEWAL & EXTENSION AGREEMENT,O,"Signatory party         (if lien, signature, borrower)","Other party               (if lien, lender from sig. area)",N,
+RN,RENEWAL & EXTENSION OF LIEN,O,"Signatory party         (if lien, signature, borrower)","Other party               (if lien, lender from sig. area)",N,
+RN,RENEWAL AGREEMENT,O,"Signatory party         (if lien, borrower)","Other party               (if lien, lender from sig. area)",N,
+RN,RENEWAL EXTENSION & MODIFICATION OF LIEN,O,"Signatory party         (if lien, signature, borrower)","Other party               (if lien, lender from sig. area)",N,
+AJ,RENEWAL OF ABSTRACT OF JUDGMENT,O,party recovering Judgment,recovered Against,N,
+LS,RENEWAL OF LEASE,O,signatory party (Lessor) ,other party,N,"IF Lessor does not sign, change Type to = RN- Grantor-signature  Grantee- other party"
+RN,RENEWAL OF LIEN,O,"Signatory party         (if lien, signature, borrower)","Other party               (if lien, lender from sig. area)",N,
+OGL,"RENEWAL OF OIL, GAS & MINERAL LEASE",O,signatory party (Lessor) ,other party,N,"IF Lessor does not sign, change Type to = RN- Grantor-signature  Grantee- other party"
+RN,"RENEWAL, EXTENSION & MODIFICATION",O,"Signatory party         (if lien, signature, borrower)","Other party               (if lien, lender from sig. area)",N,
+DO,RENTAL DIVISION ORDER,O,signatory party ,"current lessee AND IF Change of Depository involved, also index Depository",N,
+DO,RENTAL DIVISION ORDER AND CHANGE OF DEPOSITORY,O,signatory party ,"current lessee AND IF Change of Depository involved, also index Depository",N,
+CAN,RENUNCIATION,O,signature,"other party OR ""PUBLIC""",N,
+M,REPORT,O,signatory party ,"other party Or ""PUBLIC""",N,"**Before coding as ‘M’, make sure doc is not dealing Bankruptcy, Divorce, Probate,  
+    Suit, etc. which would key under their individual code and Not under Report
+  *If suit involved show, Plaintiff & Defendant  =  grantor & grantee
+  *If single party suit show, Grantee = PUBLIC"
+NO,REPORT OF SALE OF IMPOUNDED STOCK,O,signatory party (usually the County Sheriff and the County itself),"purchaser, or if no purchaser named, ""PUBLIC""",N,
+REQ,REQUEST,O,signatory party ,"other party Or ""PUBLIC""",N,
+REQ,REQUEST FOR NOTICE    (Usually Dealing with Foreclosure),O,signatory party,"borrowers (if concerns default on debt), otherwise party requested of, or ""PUBLIC""",N,*needs reference if concerns default on debt
+RTP,REQUEST FOR TAX PAYMENT,O,signature & Taxpayer,party requested to pay,N,
+ TTL,REQUEST FOR TAX PAYMENT & TRANSFER OF TAX LIEN,O,signatures & Taxpayer,transferred to,N,*usually a two part document
+CAN,RESCISSION,O,party canceling (sig.),"party whose rights are canceled Or ""PUBLIC""",N,"*If all sign & no definition made, index all as grantor/grantee"
+CAN,RESCISSION OF ACCELERATION,O,signatory party  ,borrower (land reverting to),N,
+DIF,RESCISSION OF FORECLOSURE SALE,O,signatory party  ,borrower (land reverting to),N,
+DIF,RESCISSION OF FORECLOSURE SALE & CANCELLATION OF TRUSTEES DEED,O,signatory party  ,borrower (land reverting to),N,
+RES,RESIGNATION,O,"signature & Borrower, if applies ",resigned from,N,
+AG,RESIGNATION AND APPOINTMENT AGREEMENT,O,Current Lender & Agent & borrowers& guarantors(if any),New Lender & Agent,N,***this actually reads like an Assignment 
+RES,RESIGNATION OF TRUSTEE,O,"signature & Borrower, if applies ",resigned from,N,
+RES,RESIGNATION OF TRUSTEE & ACCEPTANCE OF SUCCESSOR TRUSTEE,O,signature (Resigning Trustee),resigning from And Sub Trustee Accepting position (show Sub Trustee after new Trustee’s Name),N,
+AT,RESIGNATION OF TRUSTEE & APPOINTMENT OF SUBSTITUTE TRUSTEE,O,signatures (both resigning trustee (show Trustee after name) & party appointing new trustee) & Borrower  (if applicable),being appointed (do Not show Trustee with name) ,N,*usually a two part document
+AT,RESIGNATION OF TRUSTEE & APPOINTMENT OF SUCCESSOR TRUSTEE,O,signatures (both resigning trustee (show Trustee after name) & party appointing new trustee) & Borrower  (if applicable),being appointed (do Not show Trustee with name) ,N,*usually a two part document
+RL,RESOLUTION,O,making resolution (usually a business or a City),"""PUBLIC""",N,
+RS,RESTRICTIONS AGREEMENT,O,Company name(s),Company name(s),N,
+RS,RESTRICTIONS AMENDMENT OR EXTENSION OR MODIFICATION,O,Company name(s),Company name(s),N,"*needs reference for Amd., Ext., Mod., or Renewal"
+RS,RESTRICTIONS RENEWAL,O,Company name(s),Company name(s),N,"*needs reference for Amd., Ext., Mod., or Renewal"
+RS,RESTRICTIVE COVENANTS,O,signature ,Property name,N,
+ML,"RETAIL INSTALLMENT CONTRACT, BUILDER AND MECHANIC LIEN WITH POWER OF SALE",O,signature (owner),contractor & assigned to party  (if assignment involved),N,"*IF parties are labeled ‘Seller’ and ‘Purchaser’, take a good look.  The purchaser is 
+ most likely the land ‘owner’ purchasing materials/labor from the ‘seller’. 
+ In which case the grantor- purchaser and grantee- seller & assigned to party if any"
+AG,RETENTION AGREEMENT,O,signature (purchaser),party granting subsidy (financial agency),N,
+REV,REVOCATION,O,signatory party ,party whose rights are revoked or what is revoked.,N,
+ABC,REVOCATION OF CONDOMINIUM,O,party abandoning (sig.) & Condominium ,"abandoned to Or ""PUBLIC""",N,
+RPA,REVOCATION OF POWER OF ATTORNEY,O,signatory party ,"party whose powers revoked Or, if not given, UNKNOWN",N,
+RRF,REVOCATION OF RELEASE OF FEDERAL TAX LIEN,O,"government (""U S A INTERNAL REVENUE SERVICE"")",taxpayer,N,
+RR,REVOCATION OF RESTRICTIVE COVENANTS,O,signature ,"Property name & if dealing with reversion, party released to (usually owners)",N,
+TT,REVOCATION OF TRUST,O,signatory party ,"Trust being revoked OR ""PUBLIC""",N,
+AT,REVOCATION OF TRUSTEE & APPOINTMENT OF SUBSTITUTE TRUSTEE,O,"signature & Borrowers, if applies",being revoked & being appointed (show TRUSTEE and SUB TRUSTEE respectively ,N,
+AT,REVOCATION OF TRUSTEE & APPOINTMENT OF SUCCESSOR TRUSTEE,O,"signature & Borrowers, if applies",being revoked & being appointed (show TRUSTEE and SUB TRUSTEE respectively ,N,
+ADD,RIDER,O,signatory party ,other party,N,
+OP,RIGHT OF FIRST REFUSAL,O,party granting option (sig.),party rights granted to,N,
+RW,RIGHT OF WAY,O,signatory party ,granted right of way,N,"*if all sign & no grantor/grantee definition is made, all parties will be shown as both"
+RW,RIGHT OF WAY AGREEMENT,O,signatory party ,granted right of way,N,"*if all sign & no grantor/grantee definition is made, all parties will be shown as both"
+RW,RIGHT OF WAY AND EASEMENT,O,signatory party ,granted right of way,N,"*if all sign & no grantor/grantee definition is made, all parties will be shown as both"
+RW,RIGHT OF WAY CONVEYANCE,O,signatory party ,granted right of way,N,"*if all sign & no grantor/grantee definition is made, all parties will be shown as both"
+RWD,RIGHT OF WAY DEED,O,signatory party ,purchaser,N,
+RWE,RIGHT OF WAY EASEMENT,O,signatory party ,party row easement granted unto,N,"*needs reference IF Only Property is Acres, Or If No Property shown"
+RW,RIGHT OF WAY GRANT,O,signatory party ,granted right of way,N,"*if all sign & no grantor/grantee definition is made, all parties will be shown as both"
+PR,RIGHT OF WAY LIEN RELEASE,O,signatory party,"being released, (Borrower & State if release statement is “do hereby release unto the State of Texas”)",N,
+POO,ROYALTY AGREEMENT     (this reads almost like a stipulation of interest) (deals with pooling),O,signatory party,parties who are listed with their portion of the royalties,N,
+RYD,ROYALTY AND MINERAL DEED,O,signatory party ,conveyed to,N,
+ROC,ROYALTY AWARD        (Usually the State will be Grantor on this title),O,signatory party ,conveyed to,N,
+RYC,ROYALTY CONTRACT,O,signatory party ,other party,N,"*if all sign & no grantor/grantee definition is made, all parties will be shown as both"
+ROC,ROYALTY CONVEYANCE,O,signatory party ,conveyed to,N,
+RYD,ROYALTY DEED,O,signatory party ,conveyed to,N,
+DO,ROYALTY DIVISION ORDER,O,signatory party ,current lessee,N,
+MC,"SALE, CONVEYANCE & ASSIGNMENT OF MINERAL & ROYALTY INTEREST",O,signatory party ,"conveyed, sold to",N,
+ROC,"SALE, CONVEYANCE & ASSIGNMENT OF ROYALTY INTEREST",O,signatory party ,"conveyed, sold to",N,
+AG,SALT WATER DISPOSAL AGREEMENT,O,signatory party,"party agreeing with  OR ""PUBLIC""",N,
+RE,SATISFACTION OF DEED OF TRUST,O,signature (lender),"being released  (use name in the ‘release statement’ if available, else, use the ‘Note-Deed of Trust executed by:’, ‘ borrower’)",N,
+RE,SATISFACTION OF LIEN,O,signature (lender),"being released  (use name in the ‘release statement’ if available, else, use the ‘Note-Deed of Trust executed by:’, ‘ borrower’)",N,
+SEC,SECURITY AGREEMENT &/WITH ASSIGNMENT,O,debtor,"lender & assigned to party, if applies",N,
+SEC,SECURITY AGREEMENT (YOU SHOULD EXPECT THIS TO BE SOMEWHAT LIKE  A FINANCING STATEMENT),O,debtor,"lender & assigned to party, if applies",N,
+AG,SEISMIC AGREEMENT,O,signature (owner),other party,N,
+SZS,SEIZURE & SALE,O,owner & party who seized property (use title after name),purchaser,N,
+AG,SERVITUDE AGREEMENT,O,"signatory party, owner",other party ,N,
+SET,SETTLEMENT AGREEMENT,O,signatory party & if Estate is involved also index primary deceased party ,other party,N,"*If all sign & no definition made, index all as grantor & grantee (do not include   deceased party as grantee unless they are being represented by someone)"
+SET,SETTLEMENT OF COMMUNITY PROPERTY,O,signatory party & if Estate is involved also index primary deceased party ,other party,N,"*If all sign & no definition made, index all as grantor & grantee (do not include   deceased party as grantee unless they are being represented by someone)"
+AG,SEVERANCE AGREEMENT,O,"signatory parties, (borrowers, lessee)",Lender,N,
+SS,SHERIFF’S BILL OF SALE,O,signature & County Name (show word SHERIFF after each) & defendant (owner),purchaser,N,(these documents are usually personal property)
+SS,SHERIFF’S CONVEYANCE,O,signature & County Name (show word SHERIFF after each) & defendant (owner),purchaser,N,(these documents are usually personal property)
+SD,SHERIFF’S DEED  (usually real property),O,signature & County Name (show word SHERIFF after each) & defendant (owner),purchaser,N,
+SS,SHERIFF’S SALE   ,O,signature & County Name (show word SHERIFF after each) & defendant (owner),purchaser,N,(these documents are usually personal property)
+SD,SHERIFF’S TAX DEED,O,signature & County Name (show word SHERIFF after each) & defendant (owner),purchaser,N,
+SD,SHERIFF’S TAX DEED (TAX RESALE)  ,O,signature & County Name (show word SHERIFF after each) & other taxing entities signing or being represented,purchaser,N,(Usually has already been sold to the Taxing  (handled by the Sheriff’s Office) to recoup their money). Entities at Sheriff’s Auction and now is being Resold by the Taxing Entities   -  **(Defendant is Not needed on this document)
+DT,SHORT FORM DEED OF TRUST,O,"signature (owner, borrower)","lender  (beneficiary, payable to the order of, justly indebted to)",N,*IF Short Form **needs reference to Master Deed of Trust if given
+DT,SHORT FORM DEED OF TRUST,O,"signature (owner, borrower)","lender  (beneficiary, payable to the order of, justly indebted to)",O,*needs reference to Master Deed of Trust if given
+WD,SPECIAL WARRANTY DEED,O,seller (sig.),"purchaser (grant, sell and convey unto; granted, sold and conveyed unto)",N,
+EM,SPECIAL WARRANTY EASEMENT,O,signatory party,party easement granted to,N,
+CTR,STANDARD FORM OF AGREEMENT BETWEEN CONTRACTOR & OWNER,O,owner,contractor,N,
+STL,STATE TAX LIEN,O,"government  (""TEXAS STATE OF"")",taxpayer,O,
+RST,STATE TAX LIEN RELEASE,O,"government   (""TEXAS STATE OF"")",taxpayer,N,
+AF,STATEMENT OF A LANDMAN,O,"signature & who signature represents, if any",parties affidavit is about,N,
+AF,STATEMENT OF FACT,O,,,N,**See A’s for various instructions on indexing Affidavits
+AF,STATEMENT OF OFFICER,O,signatory party,elected position ,N, Example:  HARRISON COUNTY SHERIFF
+SOL,STATEMENT OF OWNERSHIP & LOCATION,O,Government Body  (Texas Department of Housing and Community Affairs),Owners *This has to do with Mobile Homes,N,
+SI,STIPULATION OF INTEREST & CROSS CONVEYANCE OF INTEREST,O,signatory party ,"party stipulated to have interest  Or  ""PUBLIC""",N,
+SI,STIPULATION OF INTEREST (Agreement),O,signatory party ,"party stipulated to have interest  Or  ""PUBLIC""",N,
+DE,STREET DEED,O,seller,purchaser,N,
+LS,SUB LEASE,O,sub lessor & property owner,sub lessee,N,
+OGL,"SUB OIL, GAS & MINERAL LEASE",O,sub lessor & property owner,sub lessee,N,
+DT,SUBORDINATE DEED OF TRUST,O,"signature (owner, borrower)","lender  (beneficiary, payable to the order of, justly indebted to)",N,
+SUB,SUBORDINATION AGREEMENT,O,"subordinating, inferior party (sig.)  (giving up rights)",superior party (gaining rights),N,
+SUB,SUBORDINATION ESTOPPEL NON-DISTRUBANCE & ATTORNMENT AGMT.,O,"subordinating, inferior party (sig.)  (giving up rights)",superior party (gaining rights),N,
+SUB,SUBORDINATION OF DEED OF TRUST,O,"subordinating, inferior party (sig.)  (giving up rights)",superior party (gaining rights),N,
+SUB,SUBORDINATION OF LEASE,O,"subordinating, inferior party (sig.)  (giving up rights)",superior party (gaining rights),N,
+SUB,SUBORDINATION OF LIEN,O,"subordinating, inferior party (sig.)  (giving up rights)",superior party (gaining rights),N,
+SUB,SUBORDINATION TO A LEASE,O,"subordinating, inferior party (sig.)  (giving up rights)",superior party – the current lessee,N,
+SAG,SUBROGATION AGREEMENT,O,subrogor  (giving up),subrogee  (gaining),N,
+ALD,SUBSTITUTE TRUSTEE’S ASSESSMENT LIEN DEED,O,"sig., party sig. represents (if other than self) & party assessed against (owner)",purchaser,N,
+TD,"SUBSTITUTE TRUSTEE’S DEED (dealing with Foreclosure, otherwise see below)",O,Borrowers,"purchaser (struck off to; grant, sell and convey unto)",N,Trustee not needed.
+DE,SUBSTITUTE TRUSTEE’S DEED OF DISTRIBUTION ECT. (Not dealing with foreclosure),O,signature (show Trustee after name) & who trustee represents              ,granted unto  ,N,
+ADDT,SUBSTITUTION OF COLLATERAL ON DEED OF TRUST,O,"sig., Borrower",Lender,N,
+AT,SUBSTITUTION OF TRUSTEE,O,"signature & Borrower, if applies",being removed & being appointed (show TRUSTEE and SUB TRUSTEE respectively   after names)  ,N,
+RE,SUBSTITUTION OF TRUSTEE AND FULL RECONVEYANCE ,O,signature (lender),"being released  (use name in the ‘release statement’ if available, else, use the ‘Note- Deed of Trust executed by:’, ‘ borrower’)",N,
+RE,SUBSTITUTION OF TRUSTEE AND RELEASE OF DEED OF TRUST,O,signature (lender),"being released  (use name in the ‘release statement’ if available, else, use the ‘Note- Deed of Trust executed by:’, ‘ borrower’)",N,
+SU,SUIT   (CERTIFIED COPY OF),O,Plaintiff,Defendant,N,"*If single party suit, Grantee – PUBLIC
+*Use this Only when no other code fits the circumstance.
+*See Supervisor for Permission to Use"
+DT,SUPPLEMENT OF/TO DEED OF TRUST,O,signature,Lender,N,
+DT,SUPPLEMENTAL DEED OF TRUST,O,signature,Lender,N,
+EM,SUPPLEMENTAL EASEMENT,O,signature,granted easement,N,
+ID,SUPPLEMENTAL INDENTURE,O,signature,lender,N,
+LS,SURFACE LEASE,O,lessor (sig.),lessee,N,
+AG,SURFACE USE AGREEMENT,O,"signature, Property owner","other party, usually Operator",N,
+SP,SURVEY PLAT,O,"sig., usually the Surveyor (show title) & Property Owner (if given) and property name","sig., usually the Surveyor (show title) & Property Owner (if given) and property name",N,
+CT,SURVEYORS CERTIFICATE,O,signatory party,current property owner & property name,N,
+TTL,SWORN STATEMENT AUTHORIZING TRANSFER OF TAX LIEN,O,"signatory party & Taxpayer  & taxing authorities, if signing (check for taxing entities signatures among notaries)",transferred to,N," (index taxing entities as who is represented: EX. Tax Collector for the City of Greenville
+OR Betty Sue Smith, Tax Collector for the City of Greenville.  KEY:  Greenville City Of"
+AG,TAX AGREEMENT,O,signature,other party,N,
+CT,TAX CERTIFICATE (sometimes shown as TAX RECEIPT),O,taxing authorities,current property owner,N,
+TXD,TAX DEED ,O,Signature  (use title after  name) & property owner,purchaser,N,(usually real property)
+TXL,TAX LIEN,O,government,taxpayer,N,*Do NOT use for Federal Tax Lien or Tax Lien by State in which you are indexing
+CTR,TAX LIEN CONTRACT (pursuant to Section 32.065 of Texas Tax Code),O,signatory parties  (property owners),tax lien holder,N,
+RED,TAX REDEMPTION,O,signature (party redeeming),redeemed from,N,
+TXD,TAX RESALE DEED,O,"signatory party, (seller)",purchaser,N,"(Usually has already been sold to the Taxing Entities at Sheriff’s 
+Auction and now is being Resold by the Taxing Entities to recoup their money).
+**(Defendant, if shown, is Not needed on this document)"
+TXS,TAX SALE,O,government & Taxpayer,purchaser,N,(this is usually dealing with personal property)
+ASL,TERM ASSIGNMENT  ,O,party assigning (sig.),assigned to,N,
+ASL,TERM ASSIGNMENT  ,O,party assigning (sig.),assigned to,N,
+TRM,TERMINATION,O,signatory party ,party terminated,N,
+TRM,TERMINATION OF ARCHITECTURAL CONTROL COMMITTEE,O,signatory party ,Committee or Association Name ,N,"Grantee (ex. Architectural Control Committee of Restful Shores;
+Homeowners Association of Willow Bend, or Willow Bend
+Homeowners Association)"
+REA,TERMINATION OF ASSIGNMENT OF CHILD SUPPORT LIEN (Certificate or Notice of),O,signature (usually the State) & party claimed against (Obligor),party support payable to (Obligee) (Not the child),N,
+REA,TERMINATION OF ASSIGNMENT OR TRANSFER,O,signatory party,party being assigned/transferred unto,N,
+TRM,TERMINATION OF HOMEOWNERS ASSOCIATION,O,signatory party ,Committee or Association Name ,N,"Grantee (ex. Architectural Control Committee of Restful Shores;
+Homeowners Association of Willow Bend, or Willow Bend
+Homeowners Association)"
+TLS,TERMINATION OF LEASE,O,signatory party ,party terminated,N,
+RR,TERMINATION OF RESTRICTIVE COVENANTS,O,signature ,"Property name & if dealing with reversion, party released to (usually owners)",N,
+TT,TERMINATION OF TRUST,O,signature ,"Trust Name or ""PUBLIC""",N,
+AF,TEXAS HOME EQUITY AFFIDAVIT & AGREEMENT,O,signature (borrower),"""PUBLIC""",N,
+AF,TEXAS HOME EQUITY AFFIDAVIT AND AGREEMENT,O,signatory party (purchaser),"""PUBLIC""",N,
+DT,TEXAS HOME EQUITY DEED OF TRUST,O,"signature (owner, borrower)","lender  (beneficiary, payable to the order of, justly indebted to))",N,
+DT,TEXAS HOME EQUITY SECURITY INSTRUMENT (LEIN),O,"signature (owner, borrower)","lender  (beneficiary, payable to the order of, justly indebted to))",N,
+ML,TEXAS RESIDENTIAL CONSTRUCTION CONTRACT (WITH OR WITHOUT TRANSFER OR ASSIGNMENT OF LIEN),O,signature (owner)                                        ,"contractor & assigned to party, if assignment (transfer) involved",N,
+NO,TEXAS WATER RIGHTS CLAIM,O,signature,"""TEXAS WATER COMMISSION""",N,
+NO,TEXAS WATER RIGHTS CLAIM,O,signature,TEXAS WATER COMMISSION,N,
+AG,THIRD PARTY LENDER AGREEMENT,O,third party lender  (signature),other lenders (signature) and assigned to party at signature ,N,Grantee - (usually USA Small Business Administration) and Borrowers
+CTR,TIMBER CONTRACT,O,signatory party (seller) ,purchaser,N,
+TBD,TIMBER DEED,O,signatory party (seller) ,purchaser,N,
+M,TRADE NAME,O,signature,"Trade Name  Or ""PUBLIC""",N,
+CC,"TRADE NAME, CERTIFIED COPY OF",O,signature,"Trade Name  Or ""PUBLIC""",N,
+AJ,TRANSCRIPT OF JUDGMENT,O,party recovering,party recovered against,N,
+TF,TRANSFER,O,"signature & Borrower, if applies",transferred to,N,"*If multiple transfers with more than 8 borrowers, do not index any borrowers
+ALL COUNTIES – IF “TRANSFER” IS THE TITLE, USE THIS CODE (TF) .  YOU DO NOT HAVE
+TO READ  INTO THE DOCUMENT TO SEE IF WHAT IS BEING TRANSFERED.  HOWEVER, IF
+THIS TITLE HAS OTHER COMPONENTS THE COMPLETE TITLE SHOULD BE CONSIDERED
+IF NO TITLE YOU MUST READ TO DETERMINE WHAT IS BEING TRANSFERRED AND CODE
+APPROPRIATELY.
+"
+TF,TRANSFER & ASSIGNMENT,O,"signature & Borrower, if applies",transferred to,N,"*If multiple transfers with more than 8 borrowers, do not index any borrowers
+ALL COUNTIES – IF “TRANSFER” IS THE TITLE, USE THIS CODE (TF) .  YOU DO NOT HAVE
+TO READ  INTO THE DOCUMENT TO SEE IF WHAT IS BEING TRANSFERED.  HOWEVER, IF
+THIS TITLE HAS OTHER COMPONENTS THE COMPLETE TITLE SHOULD BE CONSIDERED
+IF NO TITLE YOU MUST READ TO DETERMINE WHAT IS BEING TRANSFERRED AND CODE
+APPROPRIATELY.
+"
+TL,TRANSFER & ASSIGNMENT OF LIEN,O,signatory party  & Borrower,transferred to,N,"*If multiple transfers with more than 8 borrowers, do not index any borrowers"
+TF,TRANSFER & CONVEYANCE,O,"signature & Borrower, if applies",transferred to,N,"*If multiple transfers with more than 8 borrowers, do not index any borrowers
+ALL COUNTIES – IF “TRANSFER” IS THE TITLE, USE THIS CODE (TF) .  YOU DO NOT HAVE
+TO READ  INTO THE DOCUMENT TO SEE IF WHAT IS BEING TRANSFERED.  HOWEVER, IF
+THIS TITLE HAS OTHER COMPONENTS THE COMPLETE TITLE SHOULD BE CONSIDERED
+IF NO TITLE YOU MUST READ TO DETERMINE WHAT IS BEING TRANSFERRED AND CODE
+APPROPRIATELY.
+"
+EST,TRANSFER CERTIFICATE,O,signature (usually government),decedent,N,
+ASJ,TRANSFER OF ABSTRACT OF JUDGMENT,O,party transfering (sig.) & debtor (recovered against),assigned to,N,
+TL,TRANSFER OF ANY OF THE “LC” LIEN AFFIDAVIT/CLAIM/NOTICE DOCUMENTS,O,signatory party & party claimed against,transferred to,N,
+ASJ,TRANSFER OF JUDGMENT,O,party transfering (sig.) & debtor (recovered against),assigned to,N,
+TFL,TRANSFER OF LEASE,O,signatory party ,transferred to,N,
+TL,TRANSFER OF LIEN,O,signatory party  & Borrower,transferred to,N,"*If multiple transfers with more than 8 borrowers, do not index any borrowers"
+ASM,TRANSFER OF MINERAL AND ROYALTY INTEREST,O,party assigning (sig.),assigned to,N,
+ASM,TRANSFER OF MINERAL INTEREST,O,party assigning (sig.),assigned to,N,
+TF,TRANSFER OF NET PROFITS ,O,party assigning (sig.),assigned to,N,
+TF,TRANSFER OF OPTION,O,party assigning (sig.),assigned to,N,
+ASR,TRANSFER OF OVERRIDING ROYALTY (ROYALTIES),O,party assigning (sig.),assigned to,N,
+TF,TRANSFER OF PRODUCTION PAYMENT,O,party assigning (sig.),assigned to,N,
+ASM,TRANSFER OF ROYALTY AND MINERAL INTEREST,O,party assigning (sig.),assigned to,N,
+ASR,TRANSFER OF ROYALTY INTEREST,O,party assigning (sig.),assigned to,N,
+ASR,TRANSFER OF ROYALTY INTEREST OVERRIDING,O,party assigning (sig.),assigned to,N,
+TTL,TRANSFER OF TAX LIEN,O,"signatory party & Taxpayer  & taxing authorities,",transferred to,N,"Grantor- if signing (check for taxing entities signatures among notaries)
+ (index taxing entities as who is represented: EX. Tax Collector for the City of Greenville
+OR Betty Sue Smith, Tax Collector for the City of Greenville.  KEY:  Greenville City Of"
+TUA,TRUST AGREEMENT,O,signatory party ,Trust Name & trustee appointed (use trustee after name),N,"*If all sign & no definition made, index all as Grantor/Grantee
+*Do not need to index successor or alternate trustees from within document"
+TUA,TRUST DECLARATION,O,signatory party ,Trust Name & trustee appointed (use trustee after name),N,"*If all sign & no definition made, index all as Grantor/Grantee
+*Do not need to index successor or alternate trustees from within document"
+TUA,TRUST INDENTURE,O,signatory party ,Trust Name & trustee appointed (use trustee after name),N,"*If all sign & no definition made, index all as Grantor/Grantee
+*Do not need to index successor or alternate trustees from within document"
+ALD,TRUSTEE’S ASSESSMENT LIEN DEED,O,"sig., party sig. represents (if other than self) & party assessed against (owner)",purchaser,N,
+TD,"TRUSTEE’S DEED   (dealing with Foreclosure, otherwise see listing above)",O,Borrowers,purchaser  (struck off to),N,Trustee not needed.
+TD,TRUSTEE’S DEED BY SUBSTITUTE TRUSTEE,O,Borrowers,purchaser  (struck off to),N,Trustee not needed.
+DE,TRUSTEE’S DEED OF DISTRIBUTION ECT.  (NOT dealing with FORECLOSURE),O,signature (show Trustee after name) & who trustee represents        ,granted unto  ,N,
+MD,TRUSTEE’S MINERAL DEED,O,signature (show Trustee after name) & who trustee represents,purchaser,N,
+UAB,UNIT ABANDONMENT ,O,"signature- usually property owner, mineral owner, or royalty owner.
+IF Lessee or Operator also sign, index as additional Grantees not Grantors  
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME*** 
+Grantor- Lessee","Unit name  OR if no Unit Name index LESSEE (Current Lessee) 
+(IF Title shows  Lease Being Ratified, Index both Unit Name & Current Lessee, if both given.
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME***
+ Grantee- ""PUBLIC""",N,"
+
+UNIT NAME INFORMATION
+Unit names using double names index as shown in the examples below
+Example:  Standard Oil - John T. Joseph Gas Unit #1
+Index:    STANDARD OIL JOHN T JOSEPH GAS UNIT #1
+Example: H. L. Hunt – Lester E. Ewing Unit #4
+Index:   HUNT H L LESTER E EWING UNIT #4
+Example:  Barnwell Oil Unit No. 75, Well No. 1 (Jacob Bell, et al, Fee)
+Index:  BARNWELL OIL UNIT #75 WELL #1 JACOB BELL ET AL FEE
+Example:  Bethany (4300’ Glen Rose) North Unit
+Index:  BETHANY 4300’ GLEN ROSE NORTH UNIT
+"
+UA,UNIT AGREEMENT,O,"signature- usually property owner, mineral owner, or royalty owner.
+IF Lessee or Operator also sign, index as additional Grantees not Grantors  
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME*** 
+Grantor- Lessee","Unit name  OR if no Unit Name index LESSEE (Current Lessee) 
+(IF Title shows  Lease Being Ratified, Index both Unit Name & Current Lessee, if both given.
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME***
+ Grantee- ""PUBLIC""",N,"
+
+UNIT NAME INFORMATION
+Unit names using double names index as shown in the examples below
+Example:  Standard Oil - John T. Joseph Gas Unit #1
+Index:    STANDARD OIL JOHN T JOSEPH GAS UNIT #1
+Example: H. L. Hunt – Lester E. Ewing Unit #4
+Index:   HUNT H L LESTER E EWING UNIT #4
+Example:  Barnwell Oil Unit No. 75, Well No. 1 (Jacob Bell, et al, Fee)
+Index:  BARNWELL OIL UNIT #75 WELL #1 JACOB BELL ET AL FEE
+Example:  Bethany (4300’ Glen Rose) North Unit
+Index:  BETHANY 4300’ GLEN ROSE NORTH UNIT
+"
+UA,UNIT DECLARATION,O,"signature- usually property owner, mineral owner, or royalty owner.
+IF Lessee or Operator also sign, index as additional Grantees not Grantors  
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME*** 
+Grantor- Lessee","Unit name  OR if no Unit Name index LESSEE (Current Lessee) 
+(IF Title shows  Lease Being Ratified, Index both Unit Name & Current Lessee, if both given.
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME***
+ Grantee- ""PUBLIC""",N,UNIT NAME INFORMATION
+UA,UNIT DESIGNATION,O,"signature- usually property owner, mineral owner, or royalty owner.
+IF Lessee or Operator also sign, index as additional Grantees not Grantors  
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME*** 
+Grantor- Lessee","Unit name  OR if no Unit Name index LESSEE (Current Lessee) 
+(IF Title shows  Lease Being Ratified, Index both Unit Name & Current Lessee, if both given.
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME***
+ Grantee- ""PUBLIC""",N,UNIT NAME INFORMATION
+UAB,UNIT DISSOLUTION,O,"signature- usually property owner, mineral owner, or royalty owner.
+IF Lessee or Operator also sign, index as additional Grantees not Grantors  
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME*** 
+Grantor- Lessee","Unit name  OR if no Unit Name index LESSEE (Current Lessee) 
+(IF Title shows  Lease Being Ratified, Index both Unit Name & Current Lessee, if both given.
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME***
+ Grantee- ""PUBLIC""",N,UNIT NAME INFORMATION
+URA,UNIT RATIFICATION ,O,"signature- usually property owner, mineral owner, or royalty owner.
+IF Lessee or Operator also sign, index as additional Grantees not Grantors  
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME*** 
+Grantor- Lessee","Unit name  OR if no Unit Name index LESSEE (Current Lessee) 
+(IF Title shows  Lease Being Ratified, Index both Unit Name & Current Lessee, if both given.
+***IF ONLY THE LESSEE SIGNS & THERE IS NO UNIT NAME***
+ Grantee- ""PUBLIC""",N,UNIT NAME INFORMATION
+MC,"UNIVERSAL, COUNTY WIDE, SALE, CONVEYANCE & ASSIGNMENT OF MINERAL & ROYALTY INTEREST",O,signatory party  ,"conveyed, sold to",N,
+ROC,"UNIVERSAL, COUNTY WIDE, SALE, CONVEYANCE & ASSIGNMENT OF ROYALTY  INTEREST",O,signatory party  ,"conveyed, sold to",N,
+DE,UNTITLED DEED,O,,,N,"Unless this is a specific kind of Deed, ie; Mineral Deed, Sheriffs Deed, Trustees Deed etc., you will just title the document as a Deed.  You do not have to read into the fine print to see if there  is a warrant clause, a special warrant or general warrant clause.  You will just title the document as a DEED. Specific kinds of Deeds are recognizable because of what is being conveyed or who is conveying."
+VV,Unused File Number,O,"""UFN\""","""UFN\""",N,
+VP,VACATION OF PLAT,O,"sig., usually the Surveyor (show title) & Property Owner (if given) and property name","sig., usually the Surveyor (show title) & Property Owner (if given) and property name",N,"*At this time Index Only Property being vacated, not reversion property"
+VAR,VARIANCE,O,granting  (sig.),granted to,N,
+VV,VOID,O,DO NOT INDEX      (OR IN SOME CASES)  --   UNUSED FILE NUMBER,DO NOT INDEX      (OR IN SOME CASES)  --   UNUSED FILE NUMBER,N,"*This is for a document initially accepted for filing, issued document # etc., then 
+   either refused or withdrawn before completion of filing.  Key document # and
+   book, volume & page (if given), Grantor/ Grantee as shown above and 
+   Filed Date (if no date use from the previous document).
+
+
+
+
+
+
+
+"
+WAV,WAIVER,O,signatory party ,"other party  Or ""PUBLIC""",N,
+WO,WAIVER AND RELEASE OF RIGHT OF FIRST REFUSAL,O,signatory party (party waiving rights),party rights waived unto,N,
+WAV,WAIVER OF LIEN,O,signatory party ,"other party  Or ""PUBLIC""",N,
+REL,WAIVER OF LIENS AND FULL RELEASE,O,signatory party (Contractor so far),other parties (borrower (owner) & lender (so far this is true),N,"This doc. is dealing with owner who can’t pay mortgage, facing foreclosure and
+ Contractor is taking deal and releasing anything they might be owed.  There is 
+usually a lot of property shown on document.  Property to index, if any, is property
+that is effected by this document, so far it has been on Exhibit “C” only. 
+ Property on Exhibit C is not always for your County, be sure to check.
+
+
+
+
+
+
+
+"
+WO,WAIVER OF OPTION,O,signatory party (party waiving rights),party rights waived unto,N,
+WAV,WAIVER OF PRIORITY OF DEED OF TRUST,O,"signature, holder of lien","other party, borrower",N,
+WR,WAIVER OF RESTRICTIVE COVENANTS,O,signature ,other party & Property name,N,
+WO,WAIVER OF RIGHT OF FIRST REFUSAL,O,signatory party (party waiving rights),party rights waived unto,N,
+WRR,WAIVER OF RIGHT OF REDEMPTION,O,signatory party ,Seller & Purchaser (if any purchaser shown),N,
+ WD,WARRANTY DEED,O,Seller (signature),"Purchaser  (Grant, Sell & Convey unto)",N,
+ WD,WARRANTY DEED WITH VENDORS LIEN,O,Seller (signature),"Purchaser  (Grant, Sell & Convey unto)",N,
+WAS,WASTE DISPOSAL SITE,O,"signatory party (usually owner) index all owners named in document, even if not signing","""""PUBLIC""""",N,
+NO,WATER & SEWER SERVICE NOTICE,O,signature,"other party  Or  ""PUBLIC""",N,
+PE,WATER PERMIT,O,signatory party ,granted permit,N,
+NO,WATER RIGHTS CLAIM,O,signature,TEXAS WATER COMMISSION,N,
+LC,WATER/SEWER LIEN     (ASSESSMENT),O,signature  (usually a City),claimed against,N,
+APL,WELL APPLICATION,O,signatory party ,applied to  ,N,
+WIL,WILL (CERTIFIED COPY OF),O,signature  (person making will),"""PUBLIC""",N,"*If combined with other documents go to PROBATE for instructions. Do not need to included ""deceased"" designation if given on document for party name(s)"
+WW,WITHDRAWAL,O,signature,other party,N,
+NFT,WITHDRAWAL OF NOTICE OF FEDERAL TAX LIEN,O,"government  (""U S A INTERNAL REVENUE SERVICE"")",taxpayer,O,
+WAN,WITHDRAWAL or ABANDONMENT OF ASSUMED NAME,O,signatory party ,Business name withdrawn from,N,"*(Do not abbreviate, spell out all words in new name)
+*IF the Business name starts with “The” you will need to key 2 times. 
+ Example:  The Learning Tree Nursery  -key as shown and again as:
+                    Learning Tree Nursery
+*IF the Business name involves a Human Name you will need to key 2 times.
+Example:  Sarah K. Riley’s Swap Shop  -key folowing usual rules
+                        RILEYS SARAH K SWAP SHOW     
+  AND again as: SARAH K RILEYS SWAP SHOP   (straight-forward)
+
+
+
+
+"
+WT,WRIT,O,signatory party,party issued for                       ,N," *If this is 2 party suit 
+Grantor- Plaintiff 
+Grantee- Defendant
+
+*If this is 1 party suit
+Grantor-Plaintiff
+Grantee- PUBLIC"
+WT,WRIT OF ATTACHMENT,O,signatory party,party issued for                       ,N," *If this is 2 party suit 
+Grantor- Plaintiff 
+Grantee- Defendant
+
+*If this is 1 party suit
+Grantor-Plaintiff
+Grantee- PUBLIC"
+SOA,STATEMENT OF APPOINTED OFFICER,N,FIRST PARTY,SECOND PARTY,N,

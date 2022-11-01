@@ -217,7 +217,7 @@ const validate_alphanum =(evt)=>{
 }
 
 const matrix =(table)=>{
-
+    
     $.ajax({
         url:'datatable.php',
         type: 'POST',
@@ -226,14 +226,11 @@ const matrix =(table)=>{
             method:'fetch_matrix',
             table:table
         },success:function(response){
-            // console.log(response);
+            console.log(response);
             
             $('datalist#matrix').html(response);
+            // $('select#matrix').html(response);
         }
     })
 }
 
-
-const dt_select =(param)=>{
-    console.log(param); 
-}

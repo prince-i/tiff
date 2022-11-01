@@ -120,9 +120,10 @@ if($method == 'fetch_form'){
                     echo '<span class="fieldID" style="display:none;">'.$FIELD_ID.'</span>';
                     echo '<input list="'.$DATALISTID.'" type="'.$TYPE.'" class="keyedData" pattern="[A-Za-z0-9]" value="" id="'.$FIELD_ID.'" maxlength="'.$FIELD_LENGTH.'" name="'.$FIELD_ID.'" '.$DISABLE.' onkeypress="validate_alphanum(event)" onclick="'.$AK_FUNC.'"/>';
                     echo  '<label class="fieldName">'.$FIELD_NAME.'</label>';
-                    echo '<datalist id="'.$DATALISTID.'")">';
+                    echo '<datalist id="'.$DATALISTID.'">';
                     echo '</datalist>';
                     echo '</div>';
+                
                 }else{
                     echo '<div class="input-field col s12">';
                     echo '<span class="fieldID" style="display:none;">'.$FIELD_ID.'</span>';
